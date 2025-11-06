@@ -1,0 +1,42 @@
+{
+  "name": "cartes.gouv.fr-edito",
+  "version": "1.0.0",
+  "description": "Site statique pour la partie éditoriale de cartes.gouv.fr",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "postbuild": "npx pagefind --site _site/ --output-subdir \"_pagefind\"",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IGNF/cartes.gouv.fr-edito.git"
+  },
+  "author": {
+    "name": "Institut National de l'Information Géographique et Forestière (IGN)",
+        "email": "geoplateforme@ign.fr",
+        "url": "https://www.ign.fr"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^4.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-bundle": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@codegouvfr/eleventy-plugin-calendar": "^3.0.5",
+    "@gouvfr/dsfr": "^1.14.0",
+    "ics": "^3.8.1",
+    "luxon": "^3.5.0",
+    "markdown-it-anchor": "^9.0.0",
+    "markdown-it-attrs": "^4.2.0",
+    "markdown-it-container": "^4.0.0",
+    "pagefind": "^1.2.0"
+  }
+}

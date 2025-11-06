@@ -1,0 +1,51 @@
+{% if not tile %}
+    {% set tile = params %}
+{% endif %}
+<div class="fr-tile {% if tile.small %} fr-tile--sm {% endif %} {% if tile.enlarge_link %} fr-enlarge-link {% endif %} fr-tile--vertical">
+    <div class="fr-tile__body">
+        <div class="fr-tile__content">
+            {% if tile.url is string %}
+                {% set tileUrl = tile.url %}
+            {% else %}
+                {% set tileUrl = tile.externalUrl %}
+            {% endif %}
+            {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
+            
+            <h3 class="fr-tile__title">
+              {% if tile.enlarge_link %}
+                <a class="fr-tile__link"
+                   href="{{ tileUrl }}"
+                   title="{{ urlDescription }}"
+                   {% if tile.externalUrl %}target="_blank" rel="noopener"{% endif %}>{{ tile.title }}
+                </a>
+              {% else %}
+                {{urlDescription}}
+              {% endif %}
+            </h3>
+            <div class="fr-tile__start"><p class="fr-badge {% if tile.beta %} fr-badge--success {% else %} fr-badge--info {% endif %}fr-badge--no-icon">{{ tile.badge }}</p></div>
+            <p class="fr-tile__desc">{{ tile.description }}</p>
+            {% if tile.href %}
+              <div class="fr-tile__detail">
+                {% set detailUrl = "https://" + tile.href %}
+                <span class="frx-text--center"> Aujourd'hui disponible sur <a href={{ detailUrl }} rel="noreferrer">{{ tile.href }}</a></span>
+              </div>
+            {% endif %}
+        </div>
+    </div>
+    {% if tile.pictogram %}
+        <div class="fr-tile__header">
+            <div class="fr-tile__pictogram">
+                {% set pictogramUrl = "/artwork/pictograms/" + tile.pictogram %}
+                <svg aria-hidden="true"
+                     class="fr-artwork"
+                     viewBox="0 0 80 80"
+                     width="80px"
+                     height="80px">
+                    <use class="fr-artwork-decorative" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-decorative"></use>
+                    <use class="fr-artwork-minor" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-minor"></use>
+                    <use class="fr-artwork-major" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-major"></use>
+                </svg>
+            </div>
+        </div>
+    {% endif %}
+</div>

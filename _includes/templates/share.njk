@@ -1,0 +1,17 @@
+<div class="fr-share">
+  <ul class="fr-share__group">
+    <li>
+      <a class="fr-share__link fr-share__link--mail"
+         href="mailto:?subject={{ "share_link_on" }} {{ metadata.url }}&body={{ title }} {{ page.url | url }}"
+         title="{{ "share_by_email" }}" target="_blank" rel="noopener">
+        {{ "share_by_email" }}
+      </a>
+    </li>
+    <li>
+      <button class="fr-share__link fr-share__link--copy" title="Copier dans le presse-papier"
+              onclick="navigator.clipboard.writeText(window.location);alert('{{ "copied" }}');">
+        {{ "copy" }}
+      </button>
+    </li>
+  </ul>
+</div>
