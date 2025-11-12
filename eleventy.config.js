@@ -50,6 +50,7 @@ module.exports = function (eleventyConfig) {
      });
     eleventyConfig.addPlugin(pluginNavigation);
     eleventyConfig.addBundle("js");
+    eleventyConfig.addBundle("css");
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(pluginCalendar);
 
