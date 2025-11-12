@@ -16,27 +16,27 @@
   },
   "author": {
     "name": "Institut National de l'Information Géographique et Forestière (IGN)",
-        "email": "geoplateforme@ign.fr",
-        "url": "https://www.ign.fr"
+    "email": "geoplateforme@ign.fr",
+    "url": "https://www.ign.fr"
   },
   "license": "MIT",
   "engines": {
     "node": ">=22.14.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^4.0.0",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-bundle": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/eleventy-plugin-bundle": "^3.0.7",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@codegouvfr/eleventy-plugin-calendar": "^3.0.5",
     "@gouvfr/dsfr": "^1.14.0",
     "ics": "^3.8.1",
-    "luxon": "^3.5.0",
+    "luxon": "^3.7.2",
     "markdown-it-anchor": "^9.0.0",
     "markdown-it-attrs": "^4.2.0",
     "markdown-it-container": "^4.0.0",
-    "pagefind": "^1.2.0"
+    "pagefind": "^1.4.0"
   }
 }

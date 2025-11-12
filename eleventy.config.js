@@ -7,10 +7,13 @@ const markdownItContainer = require("markdown-it-container");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 const pluginCalendar = require("@codegouvfr/eleventy-plugin-calendar");
+
+const configDrafts =  require("./eleventy.config.drafts.js");
+const configImages =  require("./eleventy.config.images.js");
+const configPagination =  require("./eleventy.config.pagination.js");
 
 const customMarkdownContainers = require("./markdown-custom-containers");
 
@@ -36,17 +39,17 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
     // App plugins
-    eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
-    eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
-    eleventyConfig.addPlugin(require("./eleventy.config.pagination.js"));
+    eleventyConfig.addPlugin(configDrafts);
+    eleventyConfig.addPlugin(configImages);
+    eleventyConfig.addPlugin(configPagination);
 
     // Official plugins
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight, {
-        preAttributes: {tabindex: 0}
-    });
+         preAttributes: {tabindex: 0}
+     });
     eleventyConfig.addPlugin(pluginNavigation);
-    eleventyConfig.addPlugin(pluginBundle);
+    eleventyConfig.addBundle("js");
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(pluginCalendar);
 
