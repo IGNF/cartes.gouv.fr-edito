@@ -9,7 +9,7 @@
   </button>
   <div class="fr-collapse" id="breadcrumb-1">
     <ol class="fr-breadcrumb__list">
-      <li><a class="fr-breadcrumb__link" href="{{ "/" }}">{{ "Accueil" }}</a></li>
+      <li><a class="fr-breadcrumb__link" href="{{ "/decouvrir" }}">{{ "Accueil" }}</a></li>
       {% for segment in segments %}
         {%if segment.title != "Assistance" and segment.title != "Commencer avec cartes.gouv"%}
           <li><a class="fr-breadcrumb__link" href="{{ segment.url }}">{{ segment.title }}</a></li>
