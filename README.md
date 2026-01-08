@@ -1,4 +1,4 @@
-# cartes.gouv.fr-dedito
+# cartes.gouv.fr-edito
 
 Ce dépôt constitue un site statique associé à [cartes.gouv.fr](https://cartes.gouv.fr/) et aux services de la Géoplateforme.
 
