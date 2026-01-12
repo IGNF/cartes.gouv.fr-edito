@@ -1,11 +1,11 @@
 ---
-title: Offre
+title: Offres
 layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
     key: Offres
     order: 2
-    permalink: "/offre"
+    permalink: "/offres"
     nav: main
 ---
 
