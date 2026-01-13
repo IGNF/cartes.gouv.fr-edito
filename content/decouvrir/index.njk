@@ -1,6 +1,6 @@
 ---
 title: Découvrir cartes.gouv.fr
-layout: layouts/page.njk
+layout: layouts/home.njk
 showBreadcrumb: true
 eleventyNavigation:
     key: Découvrir cartes.gouv.fr
@@ -11,144 +11,362 @@ eleventyNavigation:
 
 {% from "components/component.njk" import component with context %}
 
-<div class="fr-mb-4v"></div>
-<div className="c-section">
-  <div class="fr-container--fluid">
-    <div class="fr-grid-row fr-grid-row--gutters">
-      <div class="fr-col-12 fr-col-lg-7">
-        <p class="fr-mt-4w fr-mt-md-7w frx-display--xxs">{{ title }}</p>
-        <p class="fr-text--lg fr-pr-10v">Déposez et diffusez vos données géographiques en toute autonomie, c’est simple grâce aux outils de cartes.gouv.fr</p>
-        <ul>
-          <li>Je dépose ma donnée et configure mon service</li>
-          <li>Je publie dans le catalogue</li>
-          <li>Je visualise sur une carte</li>
-        </ul>
-        <ul id="fr-btns-group-:rr:" class="fr-btns-group fr-btns-group--inline fr-btns-group--equisized fr-btns-group--left fr-btns-group--icon-left fr-mt-2w" data-fr-js-equisizeds-group="true" style="--equisized-width: 221.5166778564453px;">
-          <li>
-            <a href="https://cartes.gouv.fr/tableau-de-bord" id="fr-button-:rs:" class="fr-btn fr-icon-cursor-line fr-btn--icon-left" data-fr-js-equisized="true" data-fr-js-button-actionee="true">Je dépose ma donnée</a>
-          </li>
-          <li>
-            <a href="https://cartes.gouv.fr/catalogue" id="fr-button-:rt:" class="fr-btn fr-btn--secondary fr-icon-file-download-line fr-btn--icon-left" data-fr-js-equisized="true" data-fr-js-button-actionee="true">J’accède au catalogue</a>
-          </li>
-        </ul>
+<section class="fr-container _heroSection_wtqk4_1">
+  <div>
+    <h1>Découvrir<br><strong>cartes.gouv.fr</strong></h1>
+    <p>Des cartes, des données, des outils pour explorer, comprendre et approfondir la connaissance du territoire.</p>
+  </div>
+  <img srcset="/img/accueil/hero-xZAR6bOb.webp 400w, /img/accueil/hero-B6ZlHKhV.png 400w, /img/accueil/hero-DBCEx1Jx.webp 800w, /img/accueil/hero-P_Zs19so.png 800w, /img/accueil/hero-DFl8q0Xw.webp 1200w, /img/accueil/hero-BqOusFPq.png 1200w" alt="">
+</section>
+
+<section class="_section_wtqk4_43 _bgAltGrey_wtqk4_62">
+  <div class="_featureCardsWrapper_wtqk4_82">
+    <div class="_container_j88mm_1">
+      <img srcset="/img/accueil/service-explorer-DAM1FBfZ.webp 400w, /img/accueil/service-explorer-ClKWQAER.png 400w, /img/accueil/service-explorer-CBkPwKg6.webp 600w, /img/accueil/service-explorer-BLWau8Dq.png 600w, /img/accueil/service-explorer-CjKzMqlr.webp 800w, /img/accueil/service-explorer-CIcScHdn.png 800w" class="_illustration_j88mm_18">
+      <div class="_body_j88mm_11">
+        <img src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40%2020C40%2031.0457%2031.0457%2040%2020%2040C8.9543%2040%200%2031.0457%200%2020C0%208.9543%208.9543%200%2020%200C31.0457%200%2040%208.9543%2040%2020Z'%20fill='%23FEE9E7'/%3e%3cpath%20d='M12%2013.6423V26.4663L17.065%2024.2963L23.065%2027.2963L28%2025.1793V12.3563L29.303%2011.7983C29.3791%2011.7657%2029.4621%2011.7525%2029.5445%2011.7598C29.627%2011.7672%2029.7063%2011.7949%2029.7754%2011.8405C29.8445%2011.8861%2029.9012%2011.9482%2029.9404%2012.0211C29.9796%2012.094%2030.0001%2012.1755%2030%2012.2583V26.4993L23%2029.4993L17%2026.4993L10.697%2029.2003C10.6209%2029.2329%2010.5379%2029.2461%2010.4555%2029.2387C10.373%2029.2314%2010.2937%2029.2036%2010.2246%2029.158C10.1555%2029.1124%2010.0988%2029.0504%2010.0596%2028.9775C10.0204%2028.9046%209.99993%2028.8231%2010%2028.7403V14.4993L12%2013.6423ZM24.243%2018.7423L20%2022.9843L15.757%2018.7423C14.918%2017.9031%2014.3466%2016.834%2014.1152%2015.6702C13.8838%2014.5063%2014.0027%2013.3%2014.4568%2012.2037C14.911%2011.1074%2015.68%2010.1704%2016.6667%209.51111C17.6534%208.85187%2018.8134%208.5%2020%208.5C21.1866%208.5%2022.3466%208.85187%2023.3333%209.51111C24.32%2010.1704%2025.089%2011.1074%2025.5432%2012.2037C25.9973%2013.3%2026.1162%2014.5063%2025.8848%2015.6702C25.6534%2016.834%2025.082%2017.9031%2024.243%2018.7423ZM20%2020.1563L22.828%2017.3273C23.3875%2016.7679%2023.7686%2016.0552%2023.9231%2015.2792C24.0775%2014.5033%2023.9983%2013.6989%2023.6956%2012.968C23.3929%2012.237%2022.8802%2011.6122%2022.2224%2011.1726C21.5646%2010.7331%2020.7912%2010.4984%2020%2010.4984C19.2088%2010.4984%2018.4354%2010.7331%2017.7776%2011.1726C17.1198%2011.6122%2016.6071%2012.237%2016.3044%2012.968C16.0017%2013.6989%2015.9225%2014.5033%2016.0769%2015.2792C16.2314%2016.0552%2016.6125%2016.7679%2017.172%2017.3273L20%2020.1563Z'%20fill='%23161616'/%3e%3c/svg%3e" alt="" class="_picto_j88mm_23">
+        <div>
+          <h3 class="_title_j88mm_29">Explorer les cartes</h3>
+          <p class="_desc_j88mm_41"><strong>Découvrez des cartes thématiques et de référence</strong>&nbsp;dont les fonds IGN sur l’ensemble du territoire français.</p>
+        </div>
+        <div class="_footer_j88mm_61">
+          <a href="/decouvrir/explorer-les-cartes" class="fr-link" data-fr-js-link-actionee="true">En savoir plus</a>
+          <a href="https://cartes.gouv.fr/explorer-les-cartes" id="fr-button-:r20:" class="fr-btn" data-fr-js-button-actionee="true">Explorer</a>
+        </div>
       </div>
-      <div class="fr-col-12 fr-col-lg-5 fr-pb-4w fr-pl-md-8w fr-pr-md-2w fr-mt-4w">
-        <figure
-            class="fr-content-media fr-mt-0 fr-mb-0"
-            role="group"
-            aria-label="Carte des grandes régions écologiques (GRECO), IGN - 2023"
-        >
-          <div class="fr-content-media__img">
-              <img
-                  class="fr-responsive-img fr-ratio-1x1"
-                  src="/img/accueil/home-GjBRcItg.png"
-                  alt=""
-                  role="presentation"
-                  data-fr-js-ratio="true"
-              />
+    </div>
+    <div class="_container_j88mm_1 _illustrationRight_j88mm_271">
+      <img srcset="/img/accueil/service-rechercher-BDoPnBI5.webp 400w, /img/accueil/service-rechercher-0_ZkkyP4.png 400w, /img/accueil/service-rechercher-BrztIbOs.webp 600w, /img/accueil/service-rechercher-BOU3zFuH.png 600w, /img/accueil/service-rechercher-D408Goa8.webp 800w, /img/accueil/service-rechercher-ITMvv7Xv.png 800w" class="_illustration_j88mm_18">
+      <div class="_body_j88mm_11">
+        <img src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40%2020C40%2031.0457%2031.0457%2040%2020%2040C8.9543%2040%200%2031.0457%200%2020C0%208.9543%208.9543%200%2020%200C31.0457%200%2040%208.9543%2040%2020Z'%20fill='%23DAE6FD'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M26.031%2024.617L30.314%2028.899L28.899%2030.314L24.617%2026.031C23.0237%2027.3082%2021.042%2028.0029%2019%2028C14.032%2028%2010%2023.968%2010%2019C10%2014.032%2014.032%2010%2019%2010C23.968%2010%2028%2014.032%2028%2019C28.0029%2021.042%2027.3082%2023.0237%2026.031%2024.617ZM24.025%2023.875C25.2941%2022.5699%2026.0029%2020.8204%2026%2019C26%2015.132%2022.867%2012%2019%2012C15.132%2012%2012%2015.132%2012%2019C12%2022.867%2015.132%2026%2019%2026C20.8204%2026.0029%2022.5699%2025.2941%2023.875%2024.025L24.025%2023.875Z'%20fill='%23161616'/%3e%3c/svg%3e" alt="" class="_picto_j88mm_23">
+        <div>
+          <h3 class="_title_j88mm_29">Rechercher une donnée</h3>
+          <p class="_desc_j88mm_41">Accédez rapidement à la donnée dont vous avez besoin,&nbsp;<strong>téléchargez-la, utilisez ses flux et mobilisez des APIs.</strong></p>
+        </div>
+        <div class="_footer_j88mm_61">
+          <a href="/decouvrir/rechercher-une-donnee" class="fr-link" data-fr-js-link-actionee="true">En savoir plus</a>
+          <a href="https://cartes.gouv.fr/rechercher-une-donnee" id="fr-button-:r21:" class="fr-btn" data-fr-js-button-actionee="true">Rechercher</a>
+        </div>
+      </div>
+    </div>
+    <div class="fr-grid-row _featureCardsRow_wtqk4_91">
+      <div class="fr-col">
+        <div class="_container_j88mm_1 _noIllustration_j88mm_68">
+          <div class="_body_j88mm_11">
+            <img src="data:image/svg+xml,%3csvg%20width='80px'%20height='80px'%20viewBox='0%200%2080%2080'%20xmlns='http://www.w3.org/2000/svg'%3e%3csymbol%20id='artwork-minor'%3e%3cpath%20fill='%23C7F6FC'%20d='M80%2040C80%2062.0914%2062.0914%2080%2040%2080C17.9086%2080%200%2062.0914%200%2040C0%2017.9086%2017.9086%200%2040%200C62.0914%200%2080%2017.9086%2080%2040Z'%20/%3e%3c/symbol%3e%3csymbol%20id='artwork-major'%3e%3cpath%20fill='%23161616'%20d='M58%2022C59.1046%2022%2060%2022.8954%2060%2024V56C60%2057.1046%2059.1046%2058%2058%2058H22C20.8954%2058%2020%2057.1046%2020%2056V32C20%2030.8954%2020.8954%2030%2022%2030H38V24C38%2022.8954%2038.8954%2022%2040%2022H58ZM38%2034H24V54H38V34ZM56%2026H42V54H56V26ZM36%2048V52H26V48H36ZM54%2048V52H44V48H54ZM54%2042V46H44V42H54ZM36%2042V46H26V42H36ZM54%2036V40H44V36H54Z'%20/%3e%3c/symbol%3e%3cuse%20href='%23artwork-minor'%20/%3e%3cuse%20href='%23artwork-major'%20/%3e%3c/svg%3e" alt="" class="_picto_j88mm_23">
+            <div>
+              <h3 class="_title_j88mm_29">Publier une donnée</h3>
+              <p class="_desc_j88mm_41">Grâce à la Géoplateforme, infrastructure ouverte et souveraine,&nbsp;<strong>hébergez, actualisez et partagez vos données en toute autonomie.</strong></p>
+            </div>
+            <div class="_footer_j88mm_61">
+              <a href="/decouvrir/publier-une-donnee" class="fr-link" data-fr-js-link-actionee="true">En savoir plus</a>
+              <a href="https://cartes.gouv.fr/publier-une-donnee" id="fr-button-:r22:" class="fr-btn" data-fr-js-button-actionee="true">Publier</a>
+            </div>
           </div>
-          <figcaption class="fr-content-media__caption">
-              Source : Carte des grandes régions écologiques (GRECO), IGN - 2023
-          </figcaption>
-        </figure>
+        </div>
       </div>
-    </div>
-    <div class="fr-grid-row fr-grid-row--center fr-mt-2w">
-      <div class="fr-col-10">
-        <div id="fr-callout-:ru" class="fr-callout fr-callout--blue-cumulus">
-          <p class="fr-callout__text">Le site ne cesse de s’enrichir de nouveaux services en s’appuyant sur les besoins et attentes des utilisateurs, n’hésitez pas à nous faire part de vos retours d’expérience en rejoignant <a href="https://www.ign.fr/geoplateforme/rejoindre-la-communaute" target="_blank" rel="noreferrer" title="Rejoindre la communauté Géoplateforme - ouvre une nouvelle fenêtre">la communauté Géoplateforme</a></p>
+      <div class="fr-col">
+        <div class="_container_j88mm_1 _noIllustration_j88mm_68">
+          <div class="_body_j88mm_11">
+            <img src="data:image/svg+xml,%3csvg%20width='80'%20height='80'%20viewBox='0%200%2080%2080'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M80%2040C80%2062.0914%2062.0914%2080%2040%2080C17.9086%2080%200%2062.0914%200%2040C0%2017.9086%2017.9086%200%2040%200C62.0914%200%2080%2017.9086%2080%2040Z'%20fill='%23C9FCAC'%20/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M58%2021C59.1046%2021%2060%2021.8954%2060%2023V51C60%2052.1046%2059.1046%2053%2058%2053H28.91L20%2060V23C20%2021.8954%2020.8954%2021%2022%2021H58ZM56%2025H24V51.77L27.526%2049H56V25ZM42%2035V39H38V35H42ZM34%2035V39H30V35H34ZM50%2035V39H46V35H50Z'%20fill='%23161616'%20/%3e%3c/svg%3e" alt="" class="_picto_j88mm_23">
+            <div>
+              <h3 class="_title_j88mm_29">Collaborer sur des données</h3>
+              <p class="_desc_j88mm_41"><strong>Créez des signalements, enrichissez des bases de données</strong>&nbsp;et animez vos communautés de contributeurs.</p>
+            </div>
+            <div class="_footer_j88mm_61">
+              <p class="fr-badge fr-badge--new" id="fr-badge-:r23:">À venir</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fr-col">
+        <div class="_container_j88mm_1 _noIllustration_j88mm_68">
+          <div class="_body_j88mm_11">
+            <img src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40%2020C40%2031.0457%2031.0457%2040%2020%2040C8.9543%2040%200%2031.0457%200%2020C0%208.9543%208.9543%200%2020%200C31.0457%200%2040%208.9543%2040%2020Z'%20fill='%23FDE39C'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M27.549%2010.7923L30.544%2013.7863C30.9005%2014.143%2030.9357%2014.7093%2030.626%2015.1073L26.786%2020.0453C27.3346%2022.283%2026.825%2024.6487%2025.4037%2026.462C23.9824%2028.2754%2021.807%2029.3354%2019.503%2029.3373C16%2029.3373%2011.5%2027.8353%209%2026.3353C11.8302%2024.202%2012.176%2022.6704%2012.3025%2021.3558L12.3242%2021.1118C12.3614%2020.6687%2012.3893%2020.2484%2012.5%2019.8353C13.558%2015.8853%2017.342%2013.5783%2021.289%2014.5513H21.29L26.229%2010.7103C26.6268%2010.4012%2027.1925%2010.4364%2027.549%2010.7923ZM14.432%2020.3523C14.389%2020.5123%2014.366%2020.6923%2014.328%2021.1433C14.174%2023.0133%2013.734%2024.4083%2012.528%2025.8233C14.788%2026.7113%2017.466%2027.3373%2019.502%2027.3373C21.9902%2027.3342%2024.167%2025.6625%2024.812%2023.2593C25.3131%2021.3939%2024.7983%2019.4023%2023.456%2018.0133L23.314%2017.8713C22.6448%2017.226%2021.8223%2016.7618%2020.924%2016.5223C18.017%2015.7443%2015.225%2017.3913%2014.432%2020.3523ZM26.76%2012.8303L23.578%2015.3053L24.703%2016.4303C24.768%2016.4933%2024.833%2016.5583%2024.896%2016.6243L26.031%2017.7583L28.506%2014.5763L26.76%2012.8303Z'%20fill='%23161616'/%3e%3c/svg%3e" alt="" class="_picto_j88mm_23">
+            <div>
+              <h3 class="_title_j88mm_29">Créer des cartes</h3>
+              <p class="_desc_j88mm_41">Mobilisez les données de cartes.gouv.fr et&nbsp;<strong>transformez vos données en cartes personnalisées</strong>, interactives et prêtes à être partagées.</p>
+            </div>
+            <div class="_footer_j88mm_61">
+              <p class="fr-badge fr-badge--new" id="fr-badge-:r24:">À venir</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="fr-container--fluid fr-mt-8v fr-pb-3v fr-mt-md-10v fr-mb-2v fr-mb-md-8v">
-  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-px-md-8w">
-    <div class="fr-col-12">
-      <h2 class="fr-my-5w frx-text--center">Ce que vous pouvez faire avec cartes.gouv.fr</h2>
-      <p class="fr-my-5w frx-text--center">
-        La première bêta publique de <strong>cartes.gouv.fr</strong> est désormais disponible. En tant que premiers utilisateurs, vous
-        pouvez participer à l’amélioration des fonctionnalités (catalogue, alimentation/diffusion) en testant les pré-versions et en nous
-        transmettant vos commentaires.
-      </p>
-    </div>
-  </div>
-  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
-    <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
-        {{ component("tile", {
-            url: "https://cartes.gouv.fr/tableau-de-bord",
-            title: "Stockez, traitez et partagez vos données",
-            beta: true,
-            badge: "DISPONIBLE EN BÊTA",
-            description: "En toute autonomie, selon la diffusion de votre choix depuis cartes.gouv.fr et sur vos sites et applis.",
-            pictogram: "system.svg",
-            enlarge_link: true
-        }) }}
-    </div>
-    <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
-        {{ component("tile", {
-            url: "https://cartes.gouv.fr/catalogue",
-            title: "Consultez et utilisez des géodonnées",
-            beta: true,
-            badge: "DISPONIBLE EN BÊTA",
-            description: "Grâce au catalogue et aux cartes en ligne, grâce aux services et données de la communauté Géoplateforme.",
-            pictogram: "map.svg",
-            enlarge_link: true
-        }) }}
-    </div>
-    <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
-        {{ component("tile", {
-            title: "Gérez et animez vos communautés",
-            beta: false,
-            badge: "INTÉGRÉ EN 2025",
-            description: "Via des guichets collaboratifs pour entretenir et enrichir les données.",
-            pictogram: "human-cooperation.svg",
-            href: "espacecollaboratif.ign.fr"
-        }) }}
-    </div>
-    <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
-        {{ component("tile", {
-            title: "Créez des cartes",
-            beta: false,
-            badge: "INTÉGRÉ EN 2025",
-            description: "Grâce aux outils de traitement, de datavisualisation, de création et habillage de cartes et, à terme de création et habillage de portails cartographiques personnalisés.",
-            pictogram: "location-france.svg",
-            href: "macarte.ign.fr"
-        }) }}
-    </div>
-    <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
-        {{ component("tile", {
-            title: "Ajoutez de nouvelles fonctionnalités",
-            beta: false,
-            badge: "INTÉGRÉ EN 2025",
-            description: "Grâce aux outils mis à disposition et en appui sur l’usine logicielle de la Géoplateforme, enrichissez l’offre de service de la Géoplateforme.",
-            pictogram: "data-visualization.svg"
-        }) }}
-    </div>
-    <div class="fr-col-12 fr-col-md-6 fr-col-lg-4">
-        {{ component("tile", {
-            title: "Partagez des fonds de carte facilement",
-            beta: false,
-            badge: "INTÉGRÉ EN 2025",
-            description: "Grâce à cette fonctionnalité, les développeurs peuvent partager facilement des fonds de carte, simplifiant ainsi la collaboration et l’accès aux données cartographiques.",
-            pictogram: "location-france.svg"
-        }) }}
-    </div>
-  </div>
-</div>
-
-<div class="c-section c-section--gray fr-py-5w">
-  <div class="fr-container--fluid">
-    <div class="fr-container">
-      <div class="fr-grid-row fr-grid-row--gutters">
-        <div class="fr-col-12 fr-px-0 fr-px-md-14v">
-          <p class="fr-text--lg">Avec cette version bêta, <strong>cartes.gouv.fr</strong> reprend de premières fonctionnalités des sites Géoservices et Géoportail ainsi que de premiers outils pour la gestion des données par les acteurs publics. Il s’enrichira progressivement de fonctionnalités nouvelles au bénéfice de tous.</p>
-          <p class="fr-text--lg"><strong>Cartes.gouv.fr</strong> s’appuie sur une nouvelle infrastructure ouverte et collaborative, la Géoplateforme, soutenue par le Ministère de la Transition écologique et de la Cohésion des territoires ainsi que par le Fonds de transformation de l’action publique.</p>
-          <p class="fr-text--lg"><a href="https://geoservices.ign.fr" target="_blank" rel="noreferrer" title="geoservices.ign.fr - ouvre une nouvelle fenêtre">Géoservices</a> et <a href="https://www.geoportail.gouv.fr" target="_blank" rel="noreferrer" title="geoportail.gouv.fr - ouvre une nouvelle fenêtre"> Géoportail</a> restent en activité le temps que leurs fonctionnalités soient reprises dans cartes.gouv.fr.</p>
-          <p class="fr-text--lg">Pour en savoir + sur <strong>cartes.gouv.fr</strong>, <a href="https://www.ign.fr/geoplateforme/rejoindre-la-communaute" target="_blank" rel="noreferrer" title="Rejoindre la communauté Géoplateforme - ouvre une nouvelle fenêtre"> rejoignez la communauté Géoplateforme</a>.</p>
-        </div>
+<section class="_section_wtqk4_43">
+  <div class="_featureCardsWrapper_wtqk4_82">
+    <h2 class="_sectionTitle_wtqk4_53">Des données utiles, fiables et souveraines sur l’ensemble du territoire</h2>
+    <div class="fr-grid-row fr-grid-row--gutters">
+      <div class="fr-col-12 fr-col-md-3">
+        {{ component("card", {
+            addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+            addClass: "fr-enlarge-link fr-card--sm",
+            url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_BD-ORTHO",
+            title: "Prises de vues aériennes (BD ORTHO)",
+            detail: "IGN",
+            image: {
+                path: "/img/accueil/bd-ortho-BcmWvCrN.png"
+              }
+          })
+        }}
+      </div>
+      <div class="fr-col-12 fr-col-md-3">
+        {{ component("card", {
+          addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+          addClass: "fr-enlarge-link fr-card--sm",
+          url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_SCAN-25",
+          title: "SCAN 25",
+          detail: "IGN",
+          image: {
+              path: "/img/accueil/scan25-BbLlTR9x.png"
+            }
+          })
+        }}
+      </div>
+      <div class="fr-col-12 fr-col-md-3">
+        {{ component("card", {
+          addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+          addClass: "fr-enlarge-link fr-card--sm",
+          url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/INSEE_DONNEES",
+          title: "Données Statistiques Publiques",
+          detail: "INSEE",
+          image: {
+              path: "/img/accueil/donnees-stats-pub-C3IENzEQ.png"
+            }
+          })
+        }}
+      </div>
+      <div class="fr-col-12 fr-col-md-3">
+        {{ component("card", {
+          addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+          addClass: "fr-enlarge-link fr-card--sm",
+          url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/ONF_FORETS-PUBLIQUES",
+          title: "Forêts Publiques",
+          detail: "ONF",
+          image: {
+              path: "/img/accueil/forets-pub-CCdQPz71.svg"
+            }
+          })
+        }}
+      </div>
+      <div class="fr-col-12 fr-col-md-3 hidden" name="second-row-cards">
+        {{ component("card", {
+          addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+          addClass: "fr-enlarge-link fr-card--sm",
+          url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_INPE",
+          title: "Occupation du Sol à grande Échelle (OCS GE)",
+          detail: "DGALN, IGN, MTE",
+          image: {
+              path: "/img/accueil/ocsge-COjJhPC5.svg"
+            }
+          })
+        }}
+      </div>
+      <div class="fr-col-12 fr-col-md-3 hidden" name="second-row-cards">
+        {{ component("card", {
+          addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+          addClass: "fr-enlarge-link fr-card--sm",
+          url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_RPG",
+          title: "Registre Parcellaire Graphique (RPG)",
+          detail: "IGN",
+          image: {
+              path: "/img/accueil/rpg-Db637QLV.png"
+            }
+          })
+        }}
+      </div>
+      <div class="fr-col-12 fr-col-md-3 hidden" name="second-row-cards">
+        {{ component("card", {
+          addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+          addClass: "fr-enlarge-link fr-card--sm",
+          url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_Plan_d_Exposition_au_Bruit_PEB",
+          title: "Plan d'Exposition au Bruit (PEB)",
+          detail: "DGAC",
+          image: {
+              path: "/img/accueil/peb-DxmquxlY.png"
+            }
+          })
+        }}
+      </div>
+      <div class="fr-col-12 fr-col-md-3 hidden" name="second-row-cards">
+        {{ component("card", {
+          addBodyClass: "_bgAltBlueFrance_wtqk4_70",
+          addClass: "fr-enlarge-link fr-card--sm",
+          url: "https://cartes.gouv.fr/rechercher-une-donnee/dataset/f1a74532-5e5a-4756-b100-b6524f9a1805",
+          title: "Projets de zones d'accélération des énergies renouvelables",
+          detail: "DTT 51",
+          image: {
+              path: "/img/accueil/projets-zaer-CoA8Yfl7.svg"
+            }
+          })
+        }}
       </div>
     </div>
+    <button id="fr-button-:r29:" class="fr-btn fr-btn--secondary fr-icon-add-line fr-btn--icon-right" data-fr-js-button-actionee="true" onclick="setCardsView()">Afficher plus</button>
   </div>
-</div>
+</section>
+
+<section class="_section_wtqk4_43 _bgAltGrey_wtqk4_62">
+  <div class="_featureCardsWrapper_wtqk4_82">
+    <h2 class="_sectionTitle_wtqk4_53">Des fonctionnalités clés pour cartographier et analyser son territoire</h2>
+    {{ component("accordionsgroup", {
+        items : [
+          {
+            title : "Géocoder des fichiers d'adresse",
+            content: '<div class="_accordionBody_wtqk4_104">
+                        <img src="/img/accueil/geocoding-B0YIemHP.svg" alt="">
+                        <div>
+                          <p class="fr-m-0 fr-mb-4v">Téléversez votre fichier d’adresses, obtenez instantanément leur position géographique et générez des cartes pour visualiser vos équipements et services.</p>
+                          <div class="_accordionButtons_wtqk4_118">
+                            <a href="https://cartes.gouv.fr/aide/fr/guides-utilisateur/acceder-aux-geodonnees/geocodage/" class="fr-link" target="_blank" data-fr-js-link-actionee="true">En savoir plus</a>
+                          </div>
+                        </div>
+                      </div>'           
+          },
+          {
+            title : "Télécharger et analyser les données Lidar HD",
+            content: '<div class="_accordionBody_wtqk4_104">
+                        <img src="/img/accueil/lidarhd-BxTNcfLK.svg" alt="">
+                        <div>
+                          <p class="fr-m-0 fr-mb-4v">Accédez aux données LiDAR HD produites par l’IGN pour visualiser finement le relief, la végétation ou les infrastructures. Téléchargez les données brutes ou parcourez-les directement dans le visualiseur intégré pour faciliter l’exploration, les mesures et l’analyse du modèle numérique du territoire.</p>
+                          <div class="_accordionButtons_wtqk4_118">
+                            <a href="https://cartes.gouv.fr/telechargement/IGNF_MNT-LIDAR-HD" class="fr-link" target="_blank" data-fr-js-link-actionee="true">Consulter</a>
+                            <a href="https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_MNT-LIDAR-HD" class="fr-link" target="_blank" data-fr-js-link-actionee="true">Accéder à la fiche du LIDAR HD MNT</a>
+                          </div>
+                        </div>
+                      </div>'           
+          },
+          {
+            title : "Mobiliser les APIs de la Géoplateforme",
+            content: '<div class="_accordionBody_wtqk4_104">
+                        <img src="data:image/svg+xml,%3csvg%20width=\'112\'%20height=\'112\'%20viewBox=\'0%200%20112%20112\'%20fill=\'none\'%20xmlns=\'http://www.w3.org/2000/svg\'%20xmlns:xlink=\'http://www.w3.org/1999/xlink\'%3e%3crect%20width=\'112\'%20height=\'112\'%20rx=\'4\'%20fill=\'url(%23pattern0_3473_72256)\'/%3e%3cdefs%3e%3cpattern%20id=\'pattern0_3473_72256\'%20patternUnits=\'userSpaceOnUse\'%20patternTransform=\'matrix(115%200%200%20115%20-1.5%20-1.5)\'%20preserveAspectRatio=\'none\'%20viewBox=\'0%200%20500%20500\'%20width=\'1\'%20height=\'1\'%3e%3cg%20id=\'pattern0_3473_72256_inner\'%3e%3cg%20clip-path=\'url(%23clip0_3473_72256)\'%3e%3crect%20width=\'500\'%20height=\'500\'%20fill=\'%23F5F5FE\'/%3e%3crect%20x=\'222\'%20y=\'87\'%20width=\'152\'%20height=\'152\'%20rx=\'11.1429\'%20fill=\'white\'/%3e%3cpath%20d=\'M298%20189.699L312.849%20174.849C321.05%20166.648%20321.05%20153.352%20312.849%20145.151C304.648%20136.95%20291.352%20136.95%20283.151%20145.151C274.95%20153.352%20274.95%20166.648%20283.151%20174.849L298%20189.699ZM298%20198.184L278.908%20179.092C268.364%20168.548%20268.364%20151.452%20278.908%20140.908C289.452%20130.364%20306.548%20130.364%20317.092%20140.908C327.636%20151.452%20327.636%20168.548%20317.092%20179.092L298%20198.184ZM295%20157V148H301V157H310V163H301V172H295V163H286V157H295Z\'%20fill=\'%23000091\'/%3e%3crect%20x=\'222\'%20y=\'279\'%20width=\'152\'%20height=\'152\'%20rx=\'11.1429\'%20fill=\'white\'/%3e%3cpath%20d=\'M274%20364V344.5C274%20337.044%20280.044%20331%20287.5%20331C294.956%20331%20301%20337.044%20301%20344.5V365.5C301%20369.642%20304.358%20373%20308.5%20373C312.642%20373%20316%20369.642%20316%20365.5V345.488C312.504%20344.252%20310%20340.919%20310%20337C310%20332.029%20314.029%20328%20319%20328C323.971%20328%20328%20332.029%20328%20337C328%20340.919%20325.496%20344.252%20322%20345.488V365.5C322%20372.956%20315.956%20379%20308.5%20379C301.044%20379%20295%20372.956%20295%20365.5V344.5C295%20340.358%20291.642%20337%20287.5%20337C283.358%20337%20280%20340.358%20280%20344.5V364H289L277%20379L265%20364H274Z\'%20fill=\'%23000091\'/%3e%3crect%20x=\'38\'%20y=\'279\'%20width=\'152\'%20height=\'152\'%20rx=\'11.1429\'%20fill=\'white\'/%3e%3cpath%20d=\'M93%20328V376H141V382H87V328H93ZM137.82%20336.82L144.18%20343.18L126%20361.366L117%20352.366L105.18%20364.186L98.82%20357.82L117%20339.64L126%20348.64L137.82%20336.82Z\'%20fill=\'%23000091\'/%3e%3crect%20x=\'406\'%20y=\'87\'%20width=\'152\'%20height=\'152\'%20rx=\'11.1429\'%20fill=\'white\'/%3e%3cpath%20d=\'M488%20157H476V169H488V157ZM494%20157V169H503V157H494ZM488%20184V175H476V184H488ZM494%20184H503V175H494V184ZM488%20142H476V151H488V142ZM494%20142V151H503V142H494ZM470%20157H461V169H470V157ZM470%20184V175H461V184H470ZM470%20142H461V151H470V142ZM458%20136H506C507.657%20136%20509%20137.343%20509%20139V187C509%20188.657%20507.657%20190%20506%20190H458C456.343%20190%20455%20188.657%20455%20187V139C455%20137.343%20456.343%20136%20458%20136Z\'%20fill=\'%23000091\'/%3e%3crect%20x=\'406\'%20y=\'279\'%20width=\'152\'%20height=\'152\'%20rx=\'11.1429\'%20fill=\'white\'/%3e%3cpath%20fill-rule=\'evenodd\'%20clip-rule=\'evenodd\'%20d=\'M518%20355L501.029%20371.971L496.787%20367.729L509.516%20355L496.787%20342.271L501.029%20338.029L518%20355ZM454.484%20355L467.213%20367.729L462.971%20371.971L446%20355L462.971%20338.029L467.21%20342.271L454.484%20355ZM475.364%20382H468.98L488.636%20328H495.02L475.364%20382Z\'%20fill=\'%23000091\'/%3e%3crect%20x=\'38\'%20y=\'87\'%20width=\'152\'%20height=\'152\'%20rx=\'11.1429\'%20fill=\'%23000091\'/%3e%3cpath%20d=\'M84%20142L105%20133L123%20142L141.909%20133.896C142.671%20133.57%20143.552%20133.922%20143.879%20134.684C143.959%20134.871%20144%20135.072%20144%20135.275V184L123%20193L105%20184L86.0909%20192.104C85.3294%20192.43%2084.4476%20192.077%2084.1213%20191.316C84.0413%20191.129%2084%20190.928%2084%20190.725V142ZM126%20185.187L138%20180.044V142.099L126%20147.242V185.187ZM120%20184.792V147.208L108%20141.208V178.792L120%20184.792ZM102%20178.758V140.814L90%20145.956V183.901L102%20178.758Z\'%20fill=\'white\'/%3e%3c/g%3e%3c/g%3e%3c/pattern%3e%3cclipPath%20id=\'clip0_3473_72256\'%3e%3crect%20width=\'500\'%20height=\'500\'%20fill=\'white\'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="">
+                        <div>
+                          <p class="fr-m-0 fr-mb-4v">Accédez aux APIs mises à disposition par la Géoplateforme : géocodage, calcul d’itinéraires, altimétrie, recherche de données, génération de tuiles… Ces APIs sécurisées, opérationnelles et documentées permettent d’intégrer facilement des services géographiques dans vos applications, sans dépendre de solutions externes.</p>
+                          <div class="_accordionButtons_wtqk4_118">
+                            <a href="https://cartes.gouv.fr/aide/fr/guides-utilisateur/acceder-aux-geodonnees/" class="fr-link" target="_blank" data-fr-js-link-actionee="true">En savoir plus</a>
+                          </div>
+                        </div>
+                      </div>'           
+          },
+          {
+            title : "Intégrer facilement les flux géographiques dans vos applications",
+            content: '<div class="_accordionBody_wtqk4_104"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEyIiBoZWlnaHQ9IjExMiIgdmlld0JveD0iMCAwIDExMiAxMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8cmVjdCB3aWR0aD0iMTEyIiBoZWlnaHQ9IjExMiIgcng9IjQiIGZpbGw9InVybCgjcGF0dGVybjBfMzQ3M183MjI4MSkiLz4KPGRlZnM+CjxwYXR0ZXJuIGlkPSJwYXR0ZXJuMF8zNDczXzcyMjgxIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBwYXR0ZXJuVHJhbnNmb3JtPSJtYXRyaXgoMTE1IDAgMCAxMTUgMCAtMS41KSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPgo8ZyBpZD0icGF0dGVybjBfMzQ3M183MjI4MV9pbm5lciI+CjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRjVGNUZFIi8+CjxyZWN0IHg9IjYwIiB5PSI2NSIgd2lkdGg9IjM3OSIgaGVpZ2h0PSIzNjkuNDM4IiByeD0iMTAuNDMxMiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTYwIDc1LjQzMTJDNjAgNjkuNjcwMiA2NC42NzAyIDY1IDcwLjQzMTIgNjVINDI4LjU2OUM0MzQuMzMgNjUgNDM5IDY5LjY3MDIgNDM5IDc1LjQzMTJWMTI5LjMyNkg2MFY3NS40MzEyWiIgZmlsbD0iIzdEQTcyNyIvPgo8cmVjdCB4PSIxMDEuNzYxIiB5PSIyMTUiIHdpZHRoPSIyOTIiIGhlaWdodD0iODQiIHJ4PSI0MiIgZmlsbD0iI0RBRTZGRCIvPgo8dGV4dCBmaWxsPSIjMDAwMDkxIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0id2hpdGUtc3BhY2U6IHByZSIgZm9udC1mYW1pbHk9Ik1hcmlhbm5lIiBmb250LXNpemU9IjMxLjI5MzYiIGZvbnQtd2VpZ2h0PSJib2xkIiBsZXR0ZXItc3BhY2luZz0iMGVtIj48dHNwYW4geD0iMTI2IiB5PSIyNjYuMTkxIj5odHRwczovL2RhdGEuZ2VvPC90c3Bhbj48L3RleHQ+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNODkuNSAzMzMuMjVDMTI2LjA5IDMzMy4yNSAxNTUuNzUgMzYyLjkxIDE1NS43NSAzOTkuNUMxNTUuNzUgNDM2LjA5IDEyNi4wOSA0NjUuNzUgODkuNSA0NjUuNzVDNTIuOTEwMSA0NjUuNzUgMjMuMjUgNDM2LjA5IDIzLjI1IDM5OS41QzIzLjI1IDM2Mi45MSA1Mi45MTAxIDMzMy4yNSA4OS41IDMzMy4yNVpNMTAyLjU1MSA0MDYuMTI1SDc2LjQ0ODdDNzcuNDQ5MSA0MjIuMjgzIDgyLjA2NjcgNDM3LjQ2MSA4OS41IDQ1MC44NTdDOTcuMTM0MSA0MzcuMTA3IDEwMS41OTQgNDIxLjgyMyAxMDIuNTUxIDQwNi4xMjVaTTYzLjE3ODkgNDA2LjEyNUgzNi45MTA3QzM5LjU0NDYgNDI2Ljk1NSA1NC4yMTQ5IDQ0NC4yNzIgNzQuMzI4OCA0NTAuMjk0QzY3Ljc5MjYgNDM2LjQzIDY0LjAwNjEgNDIxLjQzIDYzLjE3ODkgNDA2LjEyNVpNMTQyLjA4OSA0MDYuMTI1SDExNS44MjFDMTE0Ljk5NCA0MjEuNDMgMTExLjIwNyA0MzYuNDMgMTA0LjY3MSA0NTAuMjk0QzEyNC43ODUgNDQ0LjI3MiAxMzkuNDU1IDQyNi45NTUgMTQyLjA4OSA0MDYuMTI1Wk04OS41IDM0OC4xNDNDODEuODY1OSAzNjEuODkzIDc3LjQwNjQgMzc3LjE3NyA3Ni40NDg3IDM5Mi44NzVIMTAyLjU0NUMxMDEuNTg5IDM3Ny4xNzggOTcuMTMxOCAzNjEuODkzIDg5LjUgMzQ4LjE0M1pNNzQuMzI4OCAzNDguNzA2QzU0LjIxNDkgMzU0LjcyOCAzOS41NDQ2IDM3Mi4wNDUgMzYuOTEwNyAzOTIuODc1SDYzLjE3ODlDNjQuMDA2MSAzNzcuNTcgNjcuNzkyNiAzNjIuNTcgNzQuMzI4OCAzNDguNzA2Wk0xMDQuNjcxIDM0OC43MDZDMTExLjIwNyAzNjIuNTcgMTE0Ljk5NCAzNzcuNTcgMTE1LjgyMSAzOTIuODc1SDE0Mi4wODlDMTM5LjQ1NSAzNzIuMDQ1IDEyNC43ODUgMzU0LjcyOCAxMDQuNjcxIDM0OC43MDZaIiBmaWxsPSIjMDAwMDkxIi8+CjwvZz4KPC9wYXR0ZXJuPjwvZGVmcz4KPC9zdmc+Cg==" alt="">
+                        <div>
+                          <p class="fr-m-0 fr-mb-4v">Exploitez les flux publics (WMS, WMTS, WFS) de cartes.gouv.fr dans vos sites, applications, tableaux de bord ou SIG. Les développeurs disposent d’URL directes, de scripts d’intégration et de ressources techniques pour connecter rapidement les données officielles du territoire à leurs projets numériques.</p>
+                          <div class="_accordionButtons_wtqk4_118">
+                            <a href="https://cartes.gouv.fr/aide/fr/guides-utilisateur/utiliser-les-services-de-la-geoplateforme/tutoriels/" class="fr-link" target="_blank" title="Ouvre une nouvelle fenêtre" data-fr-js-link-actionee="true">En savoir plus</a>
+                            <a href="https://fab-geocommuns.github.io/carte-facile-site/" class="fr-link" target="_blank" data-fr-js-link-actionee="true">Intégrer dans un site en maplibre</a>
+                          </div>
+                        </div>
+                      </div>'           
+          },
+          {
+            title : "Héberger et diffuser des données sensibles en toute sécurité",
+            content: '<div class="_accordionBody_wtqk4_104">
+                        <img src="/img/accueil/hosting-sharing-sensitive-data-Dga3q0tx.svg" alt="">
+                        <div>
+                          <p class="fr-m-0 fr-mb-4v">Stockez vos données sensibles ou stratégiques au sein d’une infrastructure souveraine opérée par l’État. Définissez les droits d’accès, créez des flux privés ou restreints et maîtrisez totalement la diffusion de vos données. Une solution conçue pour les collectivités, opérateurs publics et services métiers manipulant des données critiques.</p>
+                          <div class="_accordionButtons_wtqk4_118">
+                            <a href="https://cartes.gouv.fr/aide/fr/guides-producteur/publier-des-donnees-via-cartes-gouv/" class="fr-link" target="_blank" data-fr-js-link-actionee="true">En savoir plus</a>
+                          </div>
+                        </div>
+                      </div>'           
+          },
+          {
+            title : "Utiliser le plugin QGIS Géoplateforme",
+            content: '<div class="_accordionBody_wtqk4_104"><img src="/img/accueil/geoplateforme-qgis-plugin-CjRAc7Ya.svg" alt=""><div>
+                        <p class="fr-m-0 fr-mb-4v">Accédez facilement aux principales fonctionnalités de la Géoplateforme (accès au catalogue de données, publication de données, géocodage...) et retrouvez vos données publiées dans votre compte utilisateur sur cartes.gouv.fr.</p>
+                        <div class="_accordionButtons_wtqk4_118">
+                          <a href="https://github.com/Geoplateforme/plugin-qgis-geoplateforme/blob/main/README.md" class="fr-link" target="_blank" data-fr-js-link-actionee="true">En savoir plus</a>
+                          <a href="https://plugins.qgis.org/plugins/geoplateforme/" class="fr-link" data-fr-js-link-actionee="true">Télécharger le plug-in&nbsp;<span class="fr-icon--sm fr-icon-download-fill"></span></a>
+                        </div>
+                      </div>'           
+          }
+        ]
+      })
+    }}
+  </div>
+</section>
+
+<section class="_section_wtqk4_43 _bgOpenBlueFrance_wtqk4_74">
+  <h2 class="_sectionTitle_wtqk4_53">Des services pour tous et au service de tous</h2>
+  <div class="_tilesWrapper_wtqk4_126">
+    {{ component("tile", {
+            title: "De référence",
+            description: "Des données produites par des organismes publics reconnus.",
+            pictogram: "success.svg"
+        }) 
+    }}
+    {{ component("tile", {
+            title: "Souverains",
+            description: "Des services conçus et opérés par l’État, garantissant indépendance, sécurité et pérennité.",
+            pictogram: "city-hall.svg",
+            enlarge_link: true
+        }) 
+    }}
+    {{ component("tile", {
+            title: "Accessibles en ligne",
+            description: "Des outils utilisables librement et sans installation.",
+            pictogram: "internet.svg",
+            enlarge_link: true
+        }) 
+    }}
+    {{ component("tile", {
+            title: "Ouverts et collaboratifs",
+            description: "Des données ouvertes et enrichies par la communauté.",
+            pictogram: "environment.svg",
+            enlarge_link: true
+        }) 
+    }}
+    {{ component("tile", {
+            title: "À l’écoute des utilisateurs",
+            description: "Des évolutions construites avec la communauté d’utilisateurs.",
+            pictogram: "community.svg",
+            enlarge_link: true
+        }) 
+    }}
+  </div>
+</section>
+
+<section class="_section_wtqk4_43 _bgGrey_wtqk4_58">
+  <h2 class="_sectionTitle_wtqk4_53">On vous accompagne</h2>
+  <div class="fr-grid-row _featureCardsRow_wtqk4_91">
+    <div class="fr-col">
+      {{ component("card", {
+          title: "Des temps forts",
+          description: "Inscrivez-vous à nos prochains événements et ateliers pour découvrir les nouveautés, poser vos questions et partager vos cas d’usages.",
+          detailEnd: '<a href="/actualites" class="fr-link" data-fr-js-link-actionee="true">Voir les actualités&nbsp;<span class="fr-icon-arrow-right-line"></span></a>'
+        })
+      }}
+    </div>
+    <div class="fr-col">
+      {{ component("card", {
+          title: "Une communauté",
+          description: "Rejoignez une communauté d’utilisateurs et de contributeurs pour échanger, partager vos retours et construire ensemble les services de demain.",
+          detailEnd: '<a href="/nous-rejoindre" class="fr-link" data-fr-js-link-actionee="true">Rejoindre la communauté&nbsp;<span class="fr-icon-arrow-right-line"></span></a>'
+        })
+      }}
+    </div>
+    <div class="fr-col">
+      {{ component("card", {
+          title: "Une aide",
+          description: "Accédez à notre centre d’aide à tout moment pour découvrir nos bonnes pratiques, contacter notre support ou participer à nos webinaires en ligne.",
+          detailEnd: '<a href="https://cartes.gouv.fr/aide/" class="fr-link" data-fr-js-link-actionee="true">Consulter l’aide&nbsp;<span class="fr-icon-arrow-right-line"></span></a>'
+        })
+      }}
+    </div>
+  </div>
+</section>
+
+<section class="_section_wtqk4_43 _createAccountSection_wtqk4_142 _bgActionHighBlueFrance_wtqk4_66 _textInvertedBlueFrance_wtqk4_78">
+  <h3 class="_sectionTitle_wtqk4_53">Créez votre compte pour sauvegarder vos données et vos productions sur cartes.gouv.fr</h3>
+  <a href="https://cartes.gouv.fr/login" id="fr-button-:r32:" class="fr-btn fr-btn--lg fr-icon-arrow-right-line fr-btn--icon-left" data-fr-js-button-actionee="true">Créer mon compte</a>
+</section>
+
+{% js "body" %}
+  <script type="text/javascript" src="/js/accueil.js"></script>
+{% endjs %}
