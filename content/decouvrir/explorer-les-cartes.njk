@@ -1,0 +1,195 @@
+---
+title: Explorer les cartes
+layout: layouts/home.njk
+eleventyNavigation:
+    key: Explorer les cartes
+    parent: Services
+    permalink: "explorer-les-cartes"
+    nav: main
+---
+
+{% from "components/component.njk" import component with context %}
+
+<div class="_bgContrastInfoGrey_v3pbz_1">
+    <div class="fr-container _container_v3pbz_48">
+        <div class="fr-grid-row fr-grid-row--gutters">
+            <div class="fr-col-12 fr-col-md-6 fr-col--middle">
+                <span class="ri-map-2-line _icon_v3pbz_65 _iconLg_v3pbz_73"></span>
+                <h1 class="fr-mt-4v fr-mb-2v">Explorer les cartes</h1>
+                <p class="fr-text--lead fr-mb-6v">Affichez, analysez et partagez des cartes</p>
+                <a href="https://cartes.gouv.fr/explorer-les-cartes" id="fr-button-:r7d:" class="fr-btn fr-icon-arrow-right-s-line fr-btn--icon-right" data-fr-js-button-actionee="true">Accédez au service</a>
+            </div>
+            <div class="fr-col-12 fr-col-md-6">
+                <img srcset="/img/accueil/service-explorer-DAM1FBfZ.webp 400w, /img/accueil/service-explorer-ClKWQAER.png 400w, /img/accueil/service-explorer-CjKzMqlr.webp 800w, /img/accueil/service-explorer-CIcScHdn.png 800w, /img/accueil/service-explorer-B1amAOIj.webp 1200w, /img/accueil/service-explorer-Chi_fN70.png 1200w" alt="" class="_heroImage_v3pbz_56">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fr-container _container_v3pbz_48">
+    <h2 class="fr-m-0">Ce que vous pouvez faire</h2>
+    <div class="_featureRowWrapper_v3pbz_128">
+
+        {{ component("row", {
+            iconClass: "ri-map-2-line",
+            title: "Accédez aux fonds de carte IGN",
+            content: '<p class="fr-text--lg fr-mb-3v">Les cartes de l’IGN sont accessibles en quelques clics. Elles forment la référence du territoire français, offrant des informations à jour, homogènes et essentielles pour toute analyse du territoire.</p>
+                      <p class="fr-text--xs fr-m-0 _textMentionGrey_v3pbz_35">Retrouvez les plans, prises de vues aériennes, les cartes classiques (SCAN 25), cartes topographiques, le cadastre ou encore des cartes historiques.</p>'
+          })
+        }}
+        <hr>
+        {{ component("row", {
+            iconClass: "fr-icon-france-line",
+            title: "Consultez des cartes thématiques nationales et locales",
+            content: '<p class="fr-text--lg fr-mb-3v">Consultez une large sélection de cartes thématiques sur des sujets variés comme l’environnement, la mobilité, l’urbanisme, les risques naturels et la biodiversité.<br>Vous pouvez afficher plusieurs cartes pour comparer, enrichir et mieux comprendre les enjeux propres à chaque territoire.</p><p class="fr-text--xs fr-m-0 _textMentionGrey_v3pbz_35">Obtenez une lecture exhaustive du territoire en combinant par exemple les prises de vue aériennes (BD ORTHO), le plan IGN, le cadastre (BD Parcellaire) et les données d’occupation du sol (OCS GE).</p>'
+          })
+        }}
+        <hr>
+        {{ component("row", {
+            iconClass: "ri-tools-line",
+            title: "Bénéficiez d’une boîte à outils pour analyser votre territoire",
+            content: '<p class="fr-text--lg fr-mb-3v">Parmi nos outils, vous pouvez&nbsp;:</p>
+                      <ul>
+                        <li>Rechercher une adresse, un toponyme ou une parcelle</li>
+                        <li>Rechercher ou afficher des coordonnées</li>
+                        <li>Mesurer une distance, une surface ou un angle</li>
+                        <li>Calculer un itinéraire piéton ou voiture</li>
+                        <li>Calculer des zones en fonction d’un temps ou d’une distance de trajet (isochrone/isodistance) pour visualiser l’accessibilité d’un lieu</li>
+                        <li>Obtenir un profil altimétrique (altitude) le long d’un itinéraire</li>
+                      </ul>
+                        <p class="fr-text--xs fr-m-0 _textMentionGrey_v3pbz_35">Activez vos outils préférés et personnalisez votre interface.</p>'
+          })
+        }}
+        <hr>
+        {{ component("row", {
+            iconClass: "ri-pen-nib-line",
+            title: "Créez des cartes simples",
+            content: '<p class="fr-text--lg fr-mb-3v">Importez vos données métiers (fichiers géographiques, flux) et superposez-les aux données de référence pour découvrir de nouvelles corrélations et illustrer des phénomènes.</p>
+                      <p class="fr-text--xs fr-m-0 _textMentionGrey_v3pbz_35">Utilisez nos outils pour ajouter des annotations, dessins ou points d’intérêt.</p>'
+          })
+        }}
+        <hr>
+        {{ component("row", {
+            iconClass: "ri-share-2-line",
+            title: "Diffusez des cartes instantanémen",
+            content: '<p class="fr-text--lg fr-mb-3v">Partagez simplement vos cartes via un lien direct (url unique) ou en l’intégrant dans vos services via une iframe.</p>
+                      <p class="fr-text--xs fr-m-0 _textMentionGrey_v3pbz_35">Et sauvegardez-les en créant votre compte.</p>'
+          })
+        }}
+    </div>
+</div>
+
+<div class="_bgAltGrey_v3pbz_9">
+    <div class="fr-container _container_v3pbz_48">
+        <div class="fr-grid-row fr-grid-row--gutters">
+            <div class="fr-col-12 fr-col-md-10 fr-col-offset-md-1">
+                <img srcset="/img/pages/illustration-BFr2o1Ga.webp 400w, /img/pages/illustration-lOeTfYGG.png 400w, /img/pages/illustration-CQBipS4L.webp 800w, /img/pages/illustration-B7xVJHci.png 800w, /img/pages/illustration-BVqIaSt4.webp 1200w, /img/pages/illustration-Dy17D7Ar.png 1200w" alt="illustration" class="_illustrationImg_v3pbz_79">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="_bgOpenBlueFrance_v3pbz_13">
+    <div class="fr-container _container_v3pbz_48">
+        <h2 class="fr-m-0">Les avantages</h2>
+        <div class="fr-grid-row fr-grid-row--gutters">
+            <div class="fr-col-12 fr-col-md">
+                {{ component("tile", {
+                        addTitleClass: "_tileNoBorder_v3pbz_84",
+                        title: "Des cartes fiables et actualisées",
+                        description: "Accédez aux cartes de référence produites par les organismes publics, mises à jour régulièrement et garanties par l’État."
+                    }) 
+                }}
+            </div>
+            <div class="fr-col-12 fr-col-md">
+                {{ component("tile", {
+                        addTitleClass: "_tileNoBorder_v3pbz_84",
+                        title: "Une prise en main immédiate",
+                        description: "Explorez le territoire en quelques clics, sans créer de compte ni installer de logiciel."
+                    }) 
+                }}
+            </div>
+            <div class="fr-col-12 fr-col-md">
+                {{ component("tile", {
+                        addTitleClass: "_tileNoBorder_v3pbz_84",
+                        title: "Un service gratuit et ouvert à tous",
+                        description: "L’ensemble des cartes et des outils est accessible gratuitement, pour les citoyens comme pour les professionnels."
+                    }) 
+                }}
+            </div>
+            <div class="fr-col-12 fr-col-md">
+                {{ component("tile", {
+                        addTitleClass: "_tileNoBorder_v3pbz_84",
+                        title: "Une boîte à outils pour vos premières analyses",
+                        description: "Mesurez des distances, calculez un itinéraire, ou analysez un profil altimétrique directement sur la carte."
+                    }) 
+                }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="_bgAltGrey_v3pbz_9">
+    <div class="fr-container _container_v3pbz_48">
+        <h2 class="fr-m-0">Adapté à vos usages</h2>
+        {{ component("usage_card", {
+                srcset: "/img/pages/projet-amenagement-mobilite-1GujA7TV.webp 400w, /img/pages/projet-amenagement-mobilite-B9JN_fSt.png 400w, /img/pages/projet-amenagement-mobilite-PmMUtg2D.webp 600w, /img/pages/projet-amenagement-mobilite-D29acMwf.png 600w",
+                content: '<h3 class="fr-h4">Préparez un projet d’aménagement ou de mobilité</h3>
+                          <p class="fr-text--xs _textMentionGrey_v3pbz_35">Mesurez, analysez et tracez un projet directement sur la carte</p>
+                          <p>Pour préparer un diagnostic avant de lancer votre projet d’aménagement ou d’infrastructure&nbsp;:</p>
+                          <p>→ Utilisez les cartes de référence comme le cadastre, les réseaux ou les reliefs pour préparer un diagnostic avant de lancer votre projet d’aménagement ou d’infrastructure</p>
+                          <p>→ Utilisez les outils de mesure et d’annotation pour estimer la surface d’un espace, tracer un futur cheminement ou étudier la pente via le profil altimétrique</p>
+                          <p>→ Exportez et imprimez votre carte pour l’intégrer dans des rapports ou l’utiliser sur le terrain</p>'
+            }) 
+        }}
+        {{ component("usage_card", {
+                srcset: "/img/pages/anticipez-accessibilite-territoire-C-VyJPSF.webp 400w, /img/pages/anticipez-accessibilite-territoire-DHRrwZ-k.png 400w, /img/pages/anticipez-accessibilite-territoire-BT74a-5J.webp 600w, /img/pages/anticipez-accessibilite-territoire-CjKGq9b0.png 600w",
+                content: '<h3 class="fr-h4">Anticipez l’accessibilité d’un territoire</h3>
+                          <p class="fr-text--xs _textMentionGrey_v3pbz_35">Calculez des itinéraires, des isochrones ou évaluez l’accessibilité à un service.</p>
+                          <p>Pour comprendre comment un territoire est desservi, il est essentiel d’examiner l’accès aux zones rurales, périurbaines et urbaines, ainsi que la proximité des équipements publics&nbsp;:</p>
+                          <p>→ Mesurez des distances depuis un point donné</p>
+                          <p>→ Calculez des itinéraires piétons ou automobiles</p>
+                          <p>→ Visualisez des isochrones (zones atteignables en un temps donné)</p>
+                          <p>→ Visualisez des isodistances (zones atteignables en un nombre de kilomètres défini)</p>'
+            }) 
+        }}
+        {{ component("usage_card", {
+                srcset: "/img/pages/exploitez-donnes-thematiques-publiques-DDIgE9L2.webp 400w, /img/pages/exploitez-donnes-thematiques-publiques-CAyxzgyB.png 400w, /img/pages/exploitez-donnes-thematiques-publiques-yGOhNhod.webp 600w, /img/pages/exploitez-donnes-thematiques-publiques-DWtBeI-T.png 600w",
+                content: '<h3 class="fr-h4">Exploitez les données thématiques publiques</h3>
+                          <p class="fr-text--xs _textMentionGrey_v3pbz_35">Accédez à une variété de données administratives, environnementales, forestières ou maritimes</p>
+                          <p>Pour réaliser une analyse approfondie sur votre territoire, profitez d’une large offre de données fournie par des organismes publics : limites administratives, zones forestières (ONF), données littorales et maritimes (SHOM), risques naturels, localisation des sentiers et habitats naturels (INPN)…</p>
+                          <p>→ Sélectionnez et affichez des données</p>
+                          <p>→ Ajustez la transparence des couches pour les comparer</p>
+                          <p>→ Éditez leur style si l’option est disponible pour personnaliser leur affichage </p>
+                          <p>→ Consultez leur légende, leurs métadonnées ou encore interrogez directement les données sur la carte si l’option est disponible</p>'
+            }) 
+        }}
+        {{ component("usage_card", {
+                srcset: "/img/pages/carte-reunion-concertation-locale-DB1Cy7R6.webp 400w, /img/pages/carte-reunion-concertation-locale-BoVUohxH.png 400w, /img/pages/carte-reunion-concertation-locale-BCLNdpFr.webp 594w, /img/pages/carte-reunion-concertation-locale-C1yeF7DC.png 594w",
+                content: '<h3 class="fr-h4">Préparez une carte pour une réunion de concertation locale</h3>
+                          <p class="fr-text--xs _textMentionGrey_v3pbz_35">Dessinez un tracé, ajoutez des points d’intérêt et partagez une carte interactive</p>
+                          <p>Pour préparer une réunion publique sur l’aménagement d’un terrain comme la conception d’une nouvelle piste cyclable, créez votre carte sur mesure et partagez-la aux décideurs et aux citoyens concernés&nbsp;:</p>
+                          <p>→ Choisissez un ou plusieurs fonds de carte comme le plan IGN ou les prises de vues aériennes</p>
+                          <p>→ Importez le tracé prévisionnel du projet (fichier GPX/GeoJSON) </p>
+                          <p>→ Ajoutez des annotations et dessinez directement sur votre carte pour montrer les points de conflit, les zones sensibles, les axes traversés...</p>
+                          <p>→ Partagez votre carte via un lien direct ou intégrez la directement dans la page web du projet</p>'
+            }) 
+        }}
+    </div>
+</div>
+
+<div class="_bgActionHighBlueFrance_v3pbz_17 _textInvertedBlueFrance_v3pbz_21">
+    <div class="fr-container _container_v3pbz_48">
+        <h2 class="fr-m-0">Pour aller plus loin</h2>
+        <div class="fr-grid-row fr-grid-row--gutters">
+            <div class="fr-col-12 fr-col-md fr-mx-4v fr-mr-10v fr-p-md-10v fr-col--middle _bgContrastInfoGrey_v3pbz_1 _textDefaultGrey_v3pbz_26 _equalHeightCol_v3pbz_88">
+                <p class="fr-text--lg">Consultez notre documentation pour apprendre à utiliser notre service, pas à pas, jusqu’à maîtriser les fonctionnalités plus avancées.</p>
+                <a href="https://cartes.gouv.fr/aide/fr/guides-utilisateur/visualiseur-cartographique/generalites-visualiseur/" target="_blank" title="Ouvre une nouvelle fenêtre" id="fr-button-:r1c:" class="fr-btn fr-btn--secondary _textActionHighBlueFrance_v3pbz_31" data-fr-js-button-actionee="true">Consulter la documentation</a>
+            </div>
+            <div class="fr-col-12 fr-col-md fr-mx-4v fr-p-md-10v fr-col--middle _borderDefaultGrey_v3pbz_44 _equalHeightCol_v3pbz_88">
+                <p class="fr-text--lg">Rejoignez une communauté d’utilisateurs et de contributeurs pour échanger, partager vos retours et construire ensemble les services cartographiques de demain.</p>
+                <a href="/nous-rejoindre" id="fr-button-:r1d:" class="fr-btn" data-fr-js-button-actionee="true">Rejoindre la communauté</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+{% if not row %}{% set row = params %}{% endif %}
+
+<div class="_featureRow_v3pbz_128">
+  <span class="{{row.iconClass}} _icon_v3pbz_65"></span>
+  <h3 class="fr-m-0 fr-h6">{{row.title}}</h3>
+  <div>
+    {{row.content | safe}}
+  </div>
+</div>

@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
     key: Offres
-    order: 2
+    order: 3
     permalink: "/offres"
     nav: main
 ---

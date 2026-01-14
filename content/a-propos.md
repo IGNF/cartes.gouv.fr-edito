@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
     key: À propos
-    order: 6
+    order: 7
     permalink: "/a-propos"
     nav: main
 ---

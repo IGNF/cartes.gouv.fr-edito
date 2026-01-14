@@ -4,7 +4,7 @@ layout: layouts/page.njk
 showBreadcrumb: true
 eleventyNavigation:
     key: Communautés
-    order: 4
+    order: 5
     permalink: "/nous-rejoindre"
     nav: main
 ---

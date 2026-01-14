@@ -1,10 +1,10 @@
 {% if not tile %}
     {% set tile = params %}
 {% endif %}
-<div class="fr-tile fr-tile--vertical fr-tile--no-border _tile_wtqk4_126">
+<div class="fr-tile fr-tile--vertical fr-tile--no-border {{tile.addClass}}">
     <div class="fr-tile__body">
         <div class="fr-tile__content">
-            <h3 class="fr-tile__title _tileNoBorder_wtqk4_138">
+            <h3 class="fr-tile__title {{tile.addTitleClass}}">
               {{tile.title}}
             </h3>
             <div class="fr-tile__desc">{{ tile.description }}</div>
