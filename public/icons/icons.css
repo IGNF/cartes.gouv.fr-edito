@@ -1,0 +1,340 @@
+.fr-icon-custom-size::before,
+.fr-icon-custom-size::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/custom-size.svg");
+  mask-image: url("/icons/dsfr-extension/custom-size.svg");
+}
+.fr-icon-drag-drop-fill::before,
+.fr-icon-drag-drop-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/drag-drop-fill.svg");
+  mask-image: url("/icons/dsfr-extension/drag-drop-fill.svg");
+}
+.fr-icon-drag-drop-line::before,
+.fr-icon-drag-drop-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/drag-drop-line.svg");
+  mask-image: url("/icons/dsfr-extension/drag-drop-line.svg");
+}
+.fr-icon-draggable::before,
+.fr-icon-draggable::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/draggable.svg");
+  mask-image: url("/icons/dsfr-extension/draggable.svg");
+}
+.fr-icon-file-copy-fill::before,
+.fr-icon-file-copy-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/file-copy-fill.svg");
+  mask-image: url("/icons/dsfr-extension/file-copy-fill.svg");
+}
+.fr-icon-file-copy-line::before,
+.fr-icon-file-copy-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/file-copy-line.svg");
+  mask-image: url("/icons/dsfr-extension/file-copy-line.svg");
+}
+.fr-icon-file-upload-fill::before,
+.fr-icon-file-upload-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/file-upload-fill.svg");
+  mask-image: url("/icons/dsfr-extension/file-upload-fill.svg");
+}
+.fr-icon-file-upload-line::before,
+.fr-icon-file-upload-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/file-upload-line.svg");
+  mask-image: url("/icons/dsfr-extension/file-upload-line.svg");
+}
+.fr-icon-flower-fill::before,
+.fr-icon-flower-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/flower-fill.svg");
+  mask-image: url("/icons/dsfr-extension/flower-fill.svg");
+}
+.fr-icon-flower-line::before,
+.fr-icon-flower-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/flower-line.svg");
+  mask-image: url("/icons/dsfr-extension/flower-line.svg");
+}
+.fr-icon-fullscreen-exit-fill::before,
+.fr-icon-fullscreen-exit-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/fullscreen-exit-fill.svg");
+  mask-image: url("/icons/dsfr-extension/fullscreen-exit-fill.svg");
+}
+.fr-icon-fullscreen-exit-line::before,
+.fr-icon-fullscreen-exit-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/fullscreen-exit-line.svg");
+  mask-image: url("/icons/dsfr-extension/fullscreen-exit-line.svg");
+}
+.fr-icon-fullscreen-fill::before,
+.fr-icon-fullscreen-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/fullscreen-fill.svg");
+  mask-image: url("/icons/dsfr-extension/fullscreen-fill.svg");
+}
+.fr-icon-fullscreen-line::before,
+.fr-icon-fullscreen-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/fullscreen-line.svg");
+  mask-image: url("/icons/dsfr-extension/fullscreen-line.svg");
+}
+.fr-icon-function-add-fill::before,
+.fr-icon-function-add-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/function-add-fill.svg");
+  mask-image: url("/icons/dsfr-extension/function-add-fill.svg");
+}
+.fr-icon-function-add-line::before,
+.fr-icon-function-add-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/function-add-line.svg");
+  mask-image: url("/icons/dsfr-extension/function-add-line.svg");
+}
+.fr-icon-ign-2d-fill::before,
+.fr-icon-ign-2d-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-2d-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-2d-fill.svg");
+}
+.fr-icon-ign-2d-line::before,
+.fr-icon-ign-2d-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-2d-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-2d-line.svg");
+}
+.fr-icon-ign-3d-fill::before,
+.fr-icon-ign-3d-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-3d-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-3d-fill.svg");
+}
+.fr-icon-ign-3d-line::before,
+.fr-icon-ign-3d-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-3d-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-3d-line.svg");
+}
+.fr-icon-ign-accroche::before,
+.fr-icon-ign-accroche::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-accroche.svg");
+  mask-image: url("/icons/dsfr-extension/ign-accroche.svg");
+}
+.fr-icon-ign-cadastre-admin-fill::before,
+.fr-icon-ign-cadastre-admin-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-cadastre-admin-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-cadastre-admin-fill.svg");
+}
+.fr-icon-ign-cadastre-admin-line::before,
+.fr-icon-ign-cadastre-admin-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-cadastre-admin-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-cadastre-admin-line.svg");
+}
+.fr-icon-ign-cercle-MD-fill::before,
+.fr-icon-ign-cercle-MD-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-cercle-MD-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-cercle-MD-fill.svg");
+}
+.fr-icon-ign-cercle-MD-line::before,
+.fr-icon-ign-cercle-MD-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-cercle-MD-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-cercle-MD-line.svg");
+}
+.fr-icon-ign-cercle-SM-fill::before,
+.fr-icon-ign-cercle-SM-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-cercle-SM-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-cercle-SM-fill.svg");
+}
+.fr-icon-ign-cercle-SM-line::before,
+.fr-icon-ign-cercle-SM-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-cercle-SM-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-cercle-SM-line.svg");
+}
+.fr-icon-ign-coordonnee::before,
+.fr-icon-ign-coordonnee::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-coordonnee.svg");
+  mask-image: url("/icons/dsfr-extension/ign-coordonnee.svg");
+}
+.fr-icon-ign-dupliquer-fill::before,
+.fr-icon-ign-dupliquer-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-dupliquer-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-dupliquer-fill.svg");
+}
+.fr-icon-ign-dupliquer-line::before,
+.fr-icon-ign-dupliquer-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-dupliquer-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-dupliquer-line.svg");
+}
+.fr-icon-ign-getfeature-fill::before,
+.fr-icon-ign-getfeature-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-getfeature-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-getfeature-fill.svg");
+}
+.fr-icon-ign-getfeature-line::before,
+.fr-icon-ign-getfeature-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-getfeature-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-getfeature-line.svg");
+}
+.fr-icon-ign-ligne-fill::before,
+.fr-icon-ign-ligne-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-ligne-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-ligne-fill.svg");
+}
+.fr-icon-ign-ligne-line::before,
+.fr-icon-ign-ligne-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-ligne-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-ligne-line.svg");
+}
+.fr-icon-ign-parcelle-select-fill::before,
+.fr-icon-ign-parcelle-select-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-parcelle-select-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-parcelle-select-fill.svg");
+}
+.fr-icon-ign-parcelle-select-line::before,
+.fr-icon-ign-parcelle-select-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-parcelle-select-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-parcelle-select-line.svg");
+}
+.fr-icon-ign-recherche-attribut-fill::before,
+.fr-icon-ign-recherche-attribut-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-recherche-attribut-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-recherche-attribut-fill.svg");
+}
+.fr-icon-ign-recherche-attribut-line::before,
+.fr-icon-ign-recherche-attribut-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-recherche-attribut-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-recherche-attribut-line.svg");
+}
+.fr-icon-ign-route-2-fill::before,
+.fr-icon-ign-route-2-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-route-2-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-route-2-fill.svg");
+}
+.fr-icon-ign-route-2-line::before,
+.fr-icon-ign-route-2-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-route-2-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-route-2-line.svg");
+}
+.fr-icon-ign-separer-fill::before,
+.fr-icon-ign-separer-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-separer-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-separer-fill.svg");
+}
+.fr-icon-ign-separer-line::before,
+.fr-icon-ign-separer-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-separer-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-separer-line.svg");
+}
+.fr-icon-ign-shape-3-fill::before,
+.fr-icon-ign-shape-3-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-shape-3-fill.svg");
+  mask-image: url("/icons/dsfr-extension/ign-shape-3-fill.svg");
+}
+.fr-icon-ign-shape-3-line::before,
+.fr-icon-ign-shape-3-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/ign-shape-3-line.svg");
+  mask-image: url("/icons/dsfr-extension/ign-shape-3-line.svg");
+}
+.fr-icon-list-indefinite::before,
+.fr-icon-list-indefinite::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/list-indefinite.svg");
+  mask-image: url("/icons/dsfr-extension/list-indefinite.svg");
+}
+.fr-icon-map-2-fill::before,
+.fr-icon-map-2-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-2-fill.svg");
+  mask-image: url("/icons/dsfr-extension/map-2-fill.svg");
+}
+.fr-icon-map-2-line::before,
+.fr-icon-map-2-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-2-line.svg");
+  mask-image: url("/icons/dsfr-extension/map-2-line.svg");
+}
+.fr-icon-map-pin-5-fill::before,
+.fr-icon-map-pin-5-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-pin-5-fill.svg");
+  mask-image: url("/icons/dsfr-extension/map-pin-5-fill.svg");
+}
+.fr-icon-map-pin-5-line::before,
+.fr-icon-map-pin-5-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-pin-5-line.svg");
+  mask-image: url("/icons/dsfr-extension/map-pin-5-line.svg");
+}
+.fr-icon-map-pin-add-fill::before,
+.fr-icon-map-pin-add-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-pin-add-fill.svg");
+  mask-image: url("/icons/dsfr-extension/map-pin-add-fill.svg");
+}
+.fr-icon-map-pin-add-line::before,
+.fr-icon-map-pin-add-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-pin-add-line.svg");
+  mask-image: url("/icons/dsfr-extension/map-pin-add-line.svg");
+}
+.fr-icon-map-pin-time-fill::before,
+.fr-icon-map-pin-time-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-pin-time-fill.svg");
+  mask-image: url("/icons/dsfr-extension/map-pin-time-fill.svg");
+}
+.fr-icon-map-pin-time-line::before,
+.fr-icon-map-pin-time-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/map-pin-time-line.svg");
+  mask-image: url("/icons/dsfr-extension/map-pin-time-line.svg");
+}
+.fr-icon-menu-add-fill::before,
+.fr-icon-menu-add-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/menu-add-fill.svg");
+  mask-image: url("/icons/dsfr-extension/menu-add-fill.svg");
+}
+.fr-icon-menu-add-line::before,
+.fr-icon-menu-add-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/menu-add-line.svg");
+  mask-image: url("/icons/dsfr-extension/menu-add-line.svg");
+}
+.fr-icon-menu-search-fill::before,
+.fr-icon-menu-search-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/menu-search-fill.svg");
+  mask-image: url("/icons/dsfr-extension/menu-search-fill.svg");
+}
+.fr-icon-menu-search-line::before,
+.fr-icon-menu-search-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/menu-search-line.svg");
+  mask-image: url("/icons/dsfr-extension/menu-search-line.svg");
+}
+.fr-icon-navigation-fill::before,
+.fr-icon-navigation-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/navigation-fill.svg");
+  mask-image: url("/icons/dsfr-extension/navigation-fill.svg");
+}
+.fr-icon-navigation-line::before,
+.fr-icon-navigation-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/navigation-line.svg");
+  mask-image: url("/icons/dsfr-extension/navigation-line.svg");
+}
+.fr-icon-route-fill::before,
+.fr-icon-route-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/route-fill.svg");
+  mask-image: url("/icons/dsfr-extension/route-fill.svg");
+}
+.fr-icon-route-line::before,
+.fr-icon-route-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/route-line.svg");
+  mask-image: url("/icons/dsfr-extension/route-line.svg");
+}
+.fr-icon-share-2-fill::before,
+.fr-icon-share-2-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/share-2-fill.svg");
+  mask-image: url("/icons/dsfr-extension/share-2-fill.svg");
+}
+.fr-icon-share-2-line::before,
+.fr-icon-share-2-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/share-2-line.svg");
+  mask-image: url("/icons/dsfr-extension/share-2-line.svg");
+}
+.fr-icon-shining-2-fill::before,
+.fr-icon-shining-2-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/shining-2-fill.svg");
+  mask-image: url("/icons/dsfr-extension/shining-2-fill.svg");
+}
+.fr-icon-shining-2-line::before,
+.fr-icon-shining-2-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/shining-2-line.svg");
+  mask-image: url("/icons/dsfr-extension/shining-2-line.svg");
+}
+.fr-icon-signpost-fill::before,
+.fr-icon-signpost-fill::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/signpost-fill.svg");
+  mask-image: url("/icons/dsfr-extension/signpost-fill.svg");
+}
+.fr-icon-signpost-line::before,
+.fr-icon-signpost-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/signpost-line.svg");
+  mask-image: url("/icons/dsfr-extension/signpost-line.svg");
+}
+.fr-icon-text::before,
+.fr-icon-text::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/text.svg");
+  mask-image: url("/icons/dsfr-extension/text.svg");
+}
