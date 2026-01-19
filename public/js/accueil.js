@@ -1,4 +1,5 @@
 let setCardsView = function() {
+    
     let secondRowCards = document.getElementsByName("second-row-cards");
 
     for(let i = 0; i < secondRowCards.length; i++) {

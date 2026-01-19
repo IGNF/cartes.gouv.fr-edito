@@ -93,8 +93,39 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li id="isNotLogged">
                                 <a href="https://cartes.gouv.fr/login" id="fr-button-:r1n:" class="fr-btn fr-icon-account-fill fr-btn--icon-left" data-fr-js-button-actionee="true" data-fr-js-header-tools-button-actionee="true">Se connecter</a>
+                            </li>
+                            <li id="isLogged" class="hidden">
+                                <div class="fr-translate fr-nav">
+                                    <div class="fr-nav__item fr-nav__item--align-right">
+                                        <button aria-controls="mon-espace-collapse" aria-expanded="false" title="Mon espace" class="fr-translate__btn fr-btn fr-px-2w">
+                                            <span class="fr-icon--sm fr-icon-account-fill fr-mr-1w" aria-hidden="true"></span>Mon espace
+                                        </button>
+                                        <div class="fr-collapse fr-translate__menu fr-menu headerMenu" id="mon-espace-collapse">
+                                            <ul class="fr-menu__list">
+                                                <li class="identifiants">
+                                                    <span class="fr-text--sm">
+                                                        <div style="display: flex; flex-direction: column;">
+                                                            <strong id="user-name">a</strong><span id="user-mail" class="fr-text--xs fr-m-0" style="color: var(--text-mention-grey);">a@ign.fr</span>
+                                                        </div>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link fr-mr-3w" href="https://cartes.gouv.fr/tableau-de-bord">
+                                                        <span class="fr-icon-dashboard-3-line fr-icon--sm">Tableau de bord</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="fr-nav__link fr-mr-3w" href="https://cartes.gouv.fr/mon-compte">
+                                                        <span class="fr-icon-user-line fr-icon--sm ">Mon compte</span>
+                                                    </a>
+                                                </li>
+                                                <a href="https://cartes.gouv.fr/logout" target="_blank" title="Découvrir cartes.gouv - ouvre une nouvelle fenêtre" id="fr-button-:r34:" class="fr-btn fr-btn--tertiary fr-btn--sm headerMenu-actionButton fr-m-4v" data-fr-js-button-actionee="true" data-fr-js-header-tools-button-actionee="true">Se déconnecter</a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
