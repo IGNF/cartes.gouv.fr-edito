@@ -17,6 +17,8 @@ const configPagination =  require("./eleventy.config.pagination.js");
 
 const customMarkdownContainers = require("./markdown-custom-containers");
 
+const { getSummaryItems } = require("./utils.js");
+
 module.exports = function (eleventyConfig) {
     // Copy the contents of the `public` folder to the output folder
     // For example, `./public/css/` ends up in `_site/css/`
@@ -129,6 +131,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("findBySlug", function find(collection = [], slug = "") {
         return collection.find(post => post.fileSlug === slug);
     });
+
+    // Get summary items (headers) from a content string
+    eleventyConfig.addFilter("getSummaryItems", getSummaryItems);
 
     // Customize Markdown library settings:
     eleventyConfig.amendLibrary("md", mdLib => {
