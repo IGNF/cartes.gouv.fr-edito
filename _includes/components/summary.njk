@@ -1,0 +1,19 @@
+{% macro itemList(subItems) %}
+    {% for item in subItems %}
+        <li>
+            <a class="fr-summary__link {% if item.name.startsWith("Annexe") %}frx-nonumber{% endif %}" id="summary-link-{{ item.id }}" href="#{{ item.id }}">{{ item.name }}</a>
+            {% if item.children.length > 0 and not item.name.startsWith("Annexe") %}
+                <ol>
+                    {{ itemList(item.children) }}
+                </ol>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}
+
+<nav class="fr-summary fr-mb-6w" role="navigation" aria-labelledby="fr-summary-title">
+    <p class="fr-summary__title" id="fr-summary-title">Sommaire</p>
+    <ol>
+        {{ itemList(summaryItems) }}
+    </ol>
+</nav>

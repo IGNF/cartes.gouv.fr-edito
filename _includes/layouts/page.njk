@@ -8,6 +8,11 @@ layout: layouts/base.njk
           {% if showBreadcrumb %}
             {% include "components/breadcrumb.njk" %}
           {% endif %}
+          {% if summary.visible %}
+            {% set depth = summary.depth | default(1) %}
+            {% set summaryItems = content | getSummaryItems(depth) %}
+            {% include "components/summary.njk" %}
+          {% endif %}
           {% if title == "Accessibilité" %}
             <h1>Accessibilité : partiellement conforme</h1>
           {% elif title == "Niveau de service" %}

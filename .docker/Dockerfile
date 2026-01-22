@@ -1,0 +1,37 @@
+#----------------------------------------------------------------------
+# cartesgouvfr-edito : Génération d'un build statique
+#----------------------------------------------------------------------
+FROM node:24-alpine AS builder
+
+RUN apk add git
+
+WORKDIR /app
+COPY . .
+
+RUN npm ci \
+	&& SITE_ENV=production npx @11ty/eleventy \
+	&& npx pagefind --site _site/ --output-subdir \"_pagefind\" \
+	&& rm -rf node_modules .git
+
+#----------------------------------------------------------------------
+# cartesgouvfr-edito : Config d'un serveur statique avec nginx
+#----------------------------------------------------------------------
+FROM nginxinc/nginx-unprivileged:alpine-slim
+COPY --from=builder /app/_site /usr/share/nginx/html/
+COPY .docker/nginx.conf /etc/nginx/nginx.conf
+
+# WORKDIR /app
+
+# RUN chown -R nginx:nginx /app && chmod -R 755 /app \
+# 	&& chown -R nginx:nginx /var/cache/nginx \
+# 	&& chown -R nginx:nginx /var/log/nginx \
+# 	&& chown -R nginx:nginx /etc/nginx/conf.d
+
+# RUN touch /var/run/nginx.pid \
+# 	&& chown -R nginx:nginx /var/run/nginx.pid
+
+EXPOSE 8082
+
+USER nginx
+
+CMD ["nginx", "-g", "daemon off;"]
