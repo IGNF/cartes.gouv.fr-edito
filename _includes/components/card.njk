@@ -50,11 +50,11 @@
       {% if card.image %}
         {% if card.image.path %}
           <div class="fr-card__img">
-            <img src="{{card.image.path}}" alt="{{card.image.alt}}" class="fr-responsive-img" data-fr-js-ratio="true">
-          </div>
-          {% elif card.image.src %}
-          <div class="fr-card__img">
-            <img class="fr-responsive-img fr-responsive-img--1x1" src="{{ card.image.src }}" alt="{{ card.image.alt }}">
+            {% if card.imgWidths %}
+              <img eleventy:widths={{card.imgWidths}} src="{{card.image.path}}" alt="{{card.image.alt}}" class="fr-responsive-img" data-fr-js-ratio="true">
+            {% else %}
+              <img srcset="{{card.image.path}}" alt="{{card.image.alt}}" class="fr-responsive-img" data-fr-js-ratio="true">
+            {% endif %}
           </div>
         {% endif %}
       {% endif %}

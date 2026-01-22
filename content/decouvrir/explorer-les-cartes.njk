@@ -20,7 +20,7 @@ eleventyNavigation:
                 <a href="https://cartes.gouv.fr/explorer-les-cartes" id="fr-button-:r7d:" class="fr-btn fr-icon-arrow-right-s-line fr-btn--icon-right" data-fr-js-button-actionee="true">Accédez au service</a>
             </div>
             <div class="fr-col-12 fr-col-md-6">
-                <img srcset="/img/accueil/service-explorer-DAM1FBfZ.webp 400w, /img/accueil/service-explorer-ClKWQAER.png 400w, /img/accueil/service-explorer-CjKzMqlr.webp 800w, /img/accueil/service-explorer-CIcScHdn.png 800w, /img/accueil/service-explorer-B1amAOIj.webp 1200w, /img/accueil/service-explorer-Chi_fN70.png 1200w" alt="" class="_heroImage_v3pbz_56">
+                <img eleventy:widths="400, 800, 1200" srcset="/img/explorer-les-cartes/service-explorer-big.webp, /img/explorer-les-cartes/service-explorer-big.png" alt="" class="_heroImage_v3pbz_56">
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@ eleventyNavigation:
     <div class="fr-container _container_v3pbz_48">
         <div class="fr-grid-row fr-grid-row--gutters">
             <div class="fr-col-12 fr-col-md-10 fr-col-offset-md-1">
-                <img srcset="/img/pages/illustration-BFr2o1Ga.webp 400w, /img/pages/illustration-lOeTfYGG.png 400w, /img/pages/illustration-CQBipS4L.webp 800w, /img/pages/illustration-B7xVJHci.png 800w, /img/pages/illustration-BVqIaSt4.webp 1200w, /img/pages/illustration-Dy17D7Ar.png 1200w" alt="illustration" class="_illustrationImg_v3pbz_79">
+                <img eleventy:widths="400, 800, 1200" srcset="/img/explorer-les-cartes/illustration-service-explorer.webp, /img/explorer-les-cartes/illustration-service-explorer.png" alt="illustration" class="_illustrationImg_v3pbz_79">
             </div>
         </div>
     </div>
@@ -133,7 +133,8 @@ eleventyNavigation:
     <div class="fr-container _container_v3pbz_48">
         <h2 class="fr-m-0">Adapté à vos usages</h2>
         {{ component("usage_card", {
-                srcset: "/img/pages/projet-amenagement-mobilite-1GujA7TV.webp 400w, /img/pages/projet-amenagement-mobilite-B9JN_fSt.png 400w, /img/pages/projet-amenagement-mobilite-PmMUtg2D.webp 600w, /img/pages/projet-amenagement-mobilite-D29acMwf.png 600w",
+                srcset: "/img/explorer-les-cartes/projet-amenagement-mobilite.webp, /img/explorer-les-cartes/projet-amenagement-mobilite.png",
+                imgWidths: "400, 600",
                 content: '<h3 class="fr-h4">Préparez un projet d’aménagement ou de mobilité</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">Mesurez, analysez et tracez un projet directement sur la carte</p>
                           <p>Pour préparer un diagnostic avant de lancer votre projet d’aménagement ou d’infrastructure&nbsp;:</p>
@@ -143,7 +144,8 @@ eleventyNavigation:
             }) 
         }}
         {{ component("usage_card", {
-                srcset: "/img/pages/anticipez-accessibilite-territoire-C-VyJPSF.webp 400w, /img/pages/anticipez-accessibilite-territoire-DHRrwZ-k.png 400w, /img/pages/anticipez-accessibilite-territoire-BT74a-5J.webp 600w, /img/pages/anticipez-accessibilite-territoire-CjKGq9b0.png 600w",
+                srcset: "/img/explorer-les-cartes/anticipez-accessibilite-territoire.webp, /img/explorer-les-cartes/anticipez-accessibilite-territoire.png",
+                imgWidths: "400, 600",
                 content: '<h3 class="fr-h4">Anticipez l’accessibilité d’un territoire</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">Calculez des itinéraires, des isochrones ou évaluez l’accessibilité à un service.</p>
                           <p>Pour comprendre comment un territoire est desservi, il est essentiel d’examiner l’accès aux zones rurales, périurbaines et urbaines, ainsi que la proximité des équipements publics&nbsp;:</p>
@@ -154,7 +156,8 @@ eleventyNavigation:
             }) 
         }}
         {{ component("usage_card", {
-                srcset: "/img/pages/exploitez-donnes-thematiques-publiques-DDIgE9L2.webp 400w, /img/pages/exploitez-donnes-thematiques-publiques-CAyxzgyB.png 400w, /img/pages/exploitez-donnes-thematiques-publiques-yGOhNhod.webp 600w, /img/pages/exploitez-donnes-thematiques-publiques-DWtBeI-T.png 600w",
+                srcset: "/img/explorer-les-cartes/exploitez-donnes-thematiques-publiques.webp, /img/explorer-les-cartes/exploitez-donnes-thematiques-publiques.png",
+                imgWidths: "400, 600",
                 content: '<h3 class="fr-h4">Exploitez les données thématiques publiques</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">Accédez à une variété de données administratives, environnementales, forestières ou maritimes</p>
                           <p>Pour réaliser une analyse approfondie sur votre territoire, profitez d’une large offre de données fournie par des organismes publics : limites administratives, zones forestières (ONF), données littorales et maritimes (SHOM), risques naturels, localisation des sentiers et habitats naturels (INPN)…</p>
@@ -165,7 +168,8 @@ eleventyNavigation:
             }) 
         }}
         {{ component("usage_card", {
-                srcset: "/img/pages/carte-reunion-concertation-locale-DB1Cy7R6.webp 400w, /img/pages/carte-reunion-concertation-locale-BoVUohxH.png 400w, /img/pages/carte-reunion-concertation-locale-BCLNdpFr.webp 594w, /img/pages/carte-reunion-concertation-locale-C1yeF7DC.png 594w",
+                srcset: "/img/explorer-les-cartes/carte-reunion-concertation-locale.webp, /img/explorer-les-cartes/carte-reunion-concertation-locale.png",
+                imgWidths: "400, 594",
                 content: '<h3 class="fr-h4">Préparez une carte pour une réunion de concertation locale</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">Dessinez un tracé, ajoutez des points d’intérêt et partagez une carte interactive</p>
                           <p>Pour préparer une réunion publique sur l’aménagement d’un terrain comme la conception d’une nouvelle piste cyclable, créez votre carte sur mesure et partagez-la aux décideurs et aux citoyens concernés&nbsp;:</p>

@@ -9,6 +9,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
+const {eleventyImageTransformPlugin} = require("@11ty/eleventy-img");
 const pluginCalendar = require("@codegouvfr/eleventy-plugin-calendar");
 
 const configDrafts =  require("./eleventy.config.drafts.js");
@@ -44,7 +45,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(configDrafts);
     eleventyConfig.addPlugin(configImages);
     eleventyConfig.addPlugin(configPagination);
-
+    
     // Official plugins
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight, {
@@ -55,6 +56,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addBundle("css");
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(pluginCalendar);
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+        formats: ["webp", "jpeg", "jpg", "png", "svg", "auto"],
+        defaultAttributes: {
+			loading: "lazy",
+			decoding: "async",
+		}
+    });
 
     // Custom collections
     eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {

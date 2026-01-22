@@ -20,7 +20,7 @@ eleventyNavigation:
                 <a href="/publier-une-donnee" id="fr-button-:r2k:" class="fr-btn fr-icon-arrow-right-s-line fr-btn--icon-right" data-fr-js-button-actionee="true">Accédez au service</a>
             </div>
             <div class="fr-col-12 fr-col-md-6">
-                <img srcset="/img/pages/hero-DHvF7-HP.webp 400w, /img/pages/hero-BLW7Laxs.png 400w, /img/pages/hero-C5Qvynps.webp 800w, /img/pages/hero-OjqTvjTy.png 800w, /img/pages/hero-Dff56osS.webp 1200w, /img/pages/hero-CoKNq93K.png 1200w" alt="" class="_heroImage_v3pbz_56">
+                <img eleventy:widths="400, 800, 1200" srcset="/img/publier-une-donnee/hero-publier-donnee.webp, /img/publier-une-donnee/hero-publier-donnee.png" alt="" class="_heroImage_v3pbz_56">
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@ eleventyNavigation:
     <div class="fr-container _container_v3pbz_48">
         <div class="fr-grid-row fr-grid-row--gutters">
             <div class="fr-col-12 fr-col-md-10 fr-col-offset-md-1">
-                <img srcset="/img/pages/illustration-BDgjTAli.webp 400w, /img/pages/illustration-Dl3PBl4v.png 400w, /img/pages/illustration-BkMOH9_d.webp 800w, /img/pages/illustration-CrT3Nlnn.png 800w, /img/pages/illustration-BxMS0k8A.webp 1200w, /img/pages/illustration-D4TsoDN9.png 1200w" alt="illustration" class="_illustrationImg_v3pbz_79">
+                <img eleventy:widths="400, 800, 1200" srcset="/img/publier-une-donnee/illustration-publier-donnee.webp, /img/publier-une-donnee/illustration-publier-donnee.png" alt="illustration" class="_illustrationImg_v3pbz_79">
             </div>
         </div>
     </div>
@@ -134,7 +134,8 @@ eleventyNavigation:
     <div class="fr-container _container_v3pbz_48">
         <h2 class="fr-m-0">Adapté à vos usages</h2>
         {{ component("usage_card", {
-                srcset: "/img/pages/suivi-donnees-environ-DqkUW40I.webp 400w, /img/pages/suivi-donnees-environ-s5W1JwpW.png 400w, /img/pages/suivi-donnees-environ-DF9-nSBL.webp 600w, /img/pages/suivi-donnees-environ-BBblie85.png 600w",
+                srcset: "/img/publier-une-donnee/suivi-donnees-environ.webp, /img/publier-une-donnee/suivi-donnees-environ.png",
+                imgWidths: "400, 600",
                 content: '<h3 class="fr-h4">Mettez à disposition un suivi restreint de vos données environnementales</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">N’autorisez que certains utilisateurs à suivre l’évolution de vos données</p>
                           <p>OFB ou DDTM, mettez à disposition auprès des acteurs publics ou opérationnels habilités un suivi de l’évolution d’habitats protégés ou d’espèces sensibles.</p>
@@ -145,7 +146,8 @@ eleventyNavigation:
             }) 
         }}
         {{ component("usage_card", {
-                srcset: "/img/pages/donnee-raster-I6q8aNLN.webp 400w, /img/pages/donnee-raster-DP6HaYRU.png 400w, /img/pages/donnee-raster-BU2AkGUV.webp 600w, /img/pages/donnee-raster-Doyvkcyf.png 600w",
+                srcset: "/img/publier-une-donnee/donnee-raster.webp, /img/publier-une-donnee/donnee-raster.png",
+                imgWidths: "400, 600",
                 content: '<h3 class="fr-h4">Stockez une donnée raster et rendez-la accessible à tous</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">Stockez différents formats de jeux de données</p>
                           <p>Parc naturel régional, observatoires, diffusez simplement vos orthophotos locales et cartes thermiques au grand public</p>
@@ -155,7 +157,8 @@ eleventyNavigation:
             }) 
         }}
         {{ component("usage_card", {
-                srcset: "/img/pages/alimentez-portail-thematique-B8X1ivV2.webp 400w, /img/pages/alimentez-portail-thematique-BujnQztg.png 400w, /img/pages/alimentez-portail-thematique-BPDGCWe5.webp 600w, /img/pages/alimentez-portail-thematique-BHxouaPp.png 600w",
+                srcset: "/img/publier-une-donnee/alimentez-portail-thematique.webp, /img/publier-une-donnee/alimentez-portail-thematique.png",
+                imgWidths: "400, 600",
                 content: '<h3 class="fr-h4">Alimentez votre portail thématique</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">Hébergez vos données en un point unique</p>
                           <p>Opérateur public, institut de recherche, diffusez vos données dans votre portail pour exposer vos données thématiques.</p>
@@ -166,7 +169,8 @@ eleventyNavigation:
             }) 
         }}
         {{ component("usage_card", {
-                srcset: "/img/pages/open-data-CHYgKBFe.webp 400w, /img/pages/open-data-B96K-ZWC.png 400w, /img/pages/open-data-DLnz2ttj.webp 600w, /img/pages/open-data-1NRxZapZ.png 600w",
+                srcset: "/img/publier-une-donnee/open-data.webp, /img/publier-une-donnee/open-data.png",
+                imgWidths: "400, 600",
                 content: '<h3 class="fr-h4">Déposez vos données en open data, de cartes.gouv.fr à data.gouv.fr</h3>
                           <p class="fr-text--xs _textMentionGrey_v3pbz_35">Déposez vos données à travers les services publics</p>
                           <p>Pour diffuser toutes vos données sur data.gouv.fr tout en bénéficiant de l’infrastructure de cartes.gouv.fr, la Géoplateforme, et de ses performances&nbsp;:</p>
