@@ -94,6 +94,17 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, {zone: "utc"}).minute;
     });
 
+    eleventyConfig.setServerOptions({
+        middleware: [
+        function (req, res, next) {
+            if (req.url.startsWith("/actualites/")) {
+                req.url = "/actualites/index.html";
+            }
+            next();
+        }
+        ]
+    });
+
     // Get the first `n` elements of a collection.
     eleventyConfig.addFilter("head", (array, n) => {
         if (!Array.isArray(array) || array.length === 0) {
