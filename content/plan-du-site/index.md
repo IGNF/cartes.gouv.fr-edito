@@ -13,7 +13,7 @@ showBreadcrumb: true
             <a href="https://cartes.gouv.fr/explorer-les-cartes"> Explorer les cartes </a>
           </li>
           <li>
-            <a href="/rechercher-une-donnée"> Rechercher une donnée </a>
+            <a href="https://cartes.gouv.fr/rechercher-une-donnee/search"> Rechercher une donnée </a>
           </li>
           <li>
             <a href="/decouvrir"> Découvrir cartes.gouv.fr </a>
@@ -25,10 +25,10 @@ showBreadcrumb: true
                 <a href="/decouvrir/explorer-les-cartes"> Description du service Explorer les cartes </a>
               </li>
               <li>
-                <a href="/decouvrir/rechercher-une-donnée"> Description du service Rechercher une donnée </a>
+                <a href="/decouvrir/rechercher-une-donnee"> Description du service Rechercher une donnée </a>
               </li>
               <li>
-                <a href="/decouvrir/publier-une-donnée"> Description du service Publier une donnée </a>
+                <a href="/decouvrir/publier-une-donnee"> Description du service Publier une donnée </a>
               </li>
             </ul>
           </li>
@@ -71,7 +71,7 @@ showBreadcrumb: true
                 <a href="https://cartes.gouv.fr/aide"> Guides d’utilisation </a>
               </li>
               <li>
-                <a href="https://cartes.gouv.fr/nous-ecrire"> Nous écrire </a>
+                <a href="https://cartes.gouv.fr/aide/fr/nous-ecrire/"> Nous écrire </a>
               </li>
             </ul>
           </li>
