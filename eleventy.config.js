@@ -212,6 +212,10 @@ module.exports = function (eleventyConfig) {
     // https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
     // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+    eleventyConfig.addPassthroughCopy({
+        "./node_modules/@gouvfr/dsfr/dist/analytics/analytics.module.min.js": "js/analytics.module.min.js",
+        "./node_modules/@gouvfr/dsfr/dist/analytics/analytics.nomodule.min.js": "js/analytics.nomodule.min.js",
+    });
 
     return {
         // Control which files Eleventy will process
