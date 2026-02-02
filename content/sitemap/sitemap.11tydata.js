@@ -2,7 +2,8 @@ module.exports = function () {
     return {
         eleventyComputed: {
             tree: (data) => {
-                const allPages = data.collections.all.filter((p) => p.url);
+                const allPages = data.collections.all.filter((p) => p.url && p.data.title != "Services");
+
                 const tree = {};
 
                 function addPageToTree(urlSegments, page, node) {
