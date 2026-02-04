@@ -1,0 +1,17 @@
+---
+title: S’inscrire à la lettre d’information
+layout: layouts/page.njk
+showBreadcrumb: true
+---
+
+<p>Pour être alerté des dernières actualités...</p>
+  <div id="mail-input-group" class="  ">
+    <label class="fr-label" for="contact_email">Votre adresse électronique</label>
+    <input class="fr-input" name="contact_email" placeholder="Votre adresse électronique (ex. : nom@domaine.fr)" type="email" autocomplete="email">
+    <div id="input-mail-messages-group" class="fr-messages-group" aria-live="polite"></div>
+  </div>
+  <button class="fr-btn" type="submit" title="S’abonner à notre lettre d’information" onclick="sendForm()"> S'abonner </button>
+
+{% js "body" %}
+  <script type="text/javascript" src="/js/newsletter.js"></script>
+{% endjs %}
