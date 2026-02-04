@@ -32,7 +32,8 @@ module.exports = function (eleventyConfig) {
         "./node_modules/@gouvfr/dsfr/dist/utility/utility.min.css": "/css/utility/utility.min.css",
         "./node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js": "/js/dsfr.module.min.js",
         "./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js": "/js/dsfr.nomodule.min.js",
-        "./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork"
+        "./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork",
+        "./node_modules/keycloak-js/lib/keycloak.js": "/js/keycloak.js",
     });
 
     // Run Eleventy when these files change:

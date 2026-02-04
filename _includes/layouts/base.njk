@@ -31,6 +31,8 @@
 
   <meta name="generator" content="{{ eleventy.generator }}">
 
+  <script type="module" src="/js/header-auth.js"></script>
+
   <title>{{ title or metadata.title }}</title>
 </head>
 <body id="top">
@@ -71,7 +73,7 @@
 <script type="module" src="/js/dsfr.module.min.js"></script>
 <script type="module" src="/js/analytics.module.min.js"></script>
 <script type="text/javascript" nomodule src="/js/dsfr.nomodule.min.js"></script>
-<script type="text/javascript" nomodule src="/js/analytics.nomodule.min.js"></script>
-<script type="text/javascript" src="/js/connexion.js"></script>
+<!-- Script Matomo pour le suivi des visites -->
+<script type="text/javascript" src="/js/matomo.js"></script>
 </body>
 </html>
