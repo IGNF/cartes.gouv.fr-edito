@@ -37,7 +37,8 @@
     "markdown-it-anchor": "^9.0.0",
     "markdown-it-attrs": "^4.2.0",
     "markdown-it-container": "^4.0.0",
-    "pagefind": "^1.4.0"
+    "pagefind": "^1.4.0",
+    "keycloak-js": "^26.2.2"
   },
   "dependencies": {
     "jsdom": "^27.0.0"

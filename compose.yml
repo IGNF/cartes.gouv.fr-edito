@@ -14,4 +14,10 @@ services:
             - HTTPS_PROXY=${HTTPS_PROXY}
             - http_proxy=${HTTP_PROXY}
             - https_proxy=${HTTPS_PROXY}
+            - IAM_URL=${IAM_URL}
+            - IAM_REALM=${IAM_REALM}
+            - IAM_CLIENT_ID=${IAM_CLIENT_ID}
+        read_only: true
+        tmpfs:
+            - /tmp
         restart: unless-stopped
