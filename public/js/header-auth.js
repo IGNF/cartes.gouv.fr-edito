@@ -88,7 +88,7 @@ import Keycloak from "./keycloak.js";
             flow: "standard",
             pkceMethod: "S256",
             checkLoginIframe: false,
-            silentCheckSsoRedirectUri: `${window.location.origin}/silent-check-sso.html`,
+            silentCheckSsoRedirectUri: `${window.location.origin}/edito/silent-check-sso.html`,
             responseMode: 'query',
         })
         .then(async (authenticated) => {
