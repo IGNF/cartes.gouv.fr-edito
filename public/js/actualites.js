@@ -9,7 +9,7 @@ if(href == window.origin + "/actualites/liste") {
 if(!href.match(/actualites\$/) && href.match(/actualites\/.*/)) {
     let slug = href.match(/actualites\/.*/)[0].replace("actualites/","");
     if(!slug.match(/\?page=/) && !href.match(/actualites\/liste\//)) {
-        fetch("https://cartes.gouv.fr/files/articles/" + slug + ".html", {
+        fetch(window.origin + "/files/articles/" + slug + ".html", {
             method: "GET",
             headers: {
                 "X-Requested-With": "XMLHttpRequest",
@@ -34,7 +34,7 @@ if(href.match(/actualites\/liste\//)) {
         page = window.location.href.match(/page=[0-9]+/)[0].replace("page=","");
     }
 
-    fetch("https://cartes.gouv.fr/files/articles/list/tags/" + tag + "/" + page + ".html", {
+    fetch(window.origin + "/files/articles/list/tags/" + tag + "/" + page + ".html", {
         method: "GET",
         headers: {
             "X-Requested-With": "XMLHttpRequest",
@@ -55,7 +55,7 @@ else {
         page = window.location.href.match(/page=[0-9]+/)[0].replace("page=","");
     }
 
-    fetch("https://cartes.gouv.fr/files/articles/list/" + page + ".html", {
+    fetch(window.origin + "/files/articles/list/" + page + ".html", {
         method: "GET",
         headers: {
             "X-Requested-With": "XMLHttpRequest",

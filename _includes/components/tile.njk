@@ -7,7 +7,12 @@
             <h3 class="fr-tile__title {{tile.addTitleClass}}">
               {{tile.title}}
             </h3>
-            <div class="fr-tile__desc">{{ tile.description }}</div>
+            <div class="fr-tile__desc">{{ tile.description | safe }}</div>
+            {% if tile.link %}
+            <div class="fr-tile__link">
+                <a href="{{tile.link.url}}" target={{tile.link.target}}> {{tile.link.text}} {% if tile.link.target=="" %}<span class="fr-icon-arrow-right-line"></span> {% endif %} </a>
+            </div>
+            {% endif %}
         </div>
     </div>
     {% if tile.pictogram %}

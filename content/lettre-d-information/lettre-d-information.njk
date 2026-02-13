@@ -1,0 +1,77 @@
+---
+title: S’inscrire à notre lettre d’information
+layout: layouts/home.njk
+showBreadcrumb: true
+---
+
+<div class="_bgContrastInfoBlue">
+    <div class="fr-container _container_v3pbz_48">
+        <div class="fr-col-12 fr-col-md-12">
+            <span class="fr-icon-mail-add-line"></span>
+            <h1 class="fr-mt-4v fr-mb-2v">S'inscrire à notre lettre d'information</h1>
+            <p class="fr-text--lead fr-mb-6v">Recevez les dernières actualités de cartes.gouv.fr</p>
+        </div>
+    </div>
+</div>
+
+<div class="fr-container newsletter-container">
+    <div class="newsletterForm">
+        <h3>Formulaire d'inscription</h3>
+        <form id="subscription-form" method="post" action="http://analytics-eu.clickdimensions.com/forms/h/aploV3fcGl0WA3XfGhD0Z8">
+            <fieldset class="fr-fieldset" aria-labelledby="text-legend text-messages">
+                <div class="fr-fieldset__element">
+                    <div id="mail-input-group" class="fr-input-group">
+                        <label class="fr-label" for="text-1">
+                            Votre adresse électronique
+                            <span class="fr-hint-text">Format attendu : nom@domaine.fr</span>
+                        </label>
+                        <input class="fr-input" name="contact_email" type="email" autocomplete="email">
+                    </div>
+                </div>
+                <div id="input-mail-messages-group" class="fr-messages-group" id="text-messages" aria-live="polite"></div>
+            </fieldset>
+
+            <div id="checkbox-input-group" class="fr-checkbox-group">
+                <input id="checkbox" type="checkbox" aria-describedby="checkbox-messages">
+                <label class="fr-label" for="checkbox">
+                    <p>J'accepte de recevoir la lettre d’information et je comprends que mes données seront utilisées conformément à <a href="/donnees-personnelles">notre politique des données personnelles</a></p>
+                </label>
+                <div id="input-checkbox-messages-group" class="fr-messages-group" id="checkbox-messages" aria-live="polite"></div>
+            </div>
+        </form>
+        <button class="fr-btn" onclick="sendSubscribeForm()"> S'inscrire </button>
+    </div>
+    <div class="newsletterInfo">
+        <h3>La lettre d'information de cartes.gouv.fr :</h3>
+        <div class="infoDiv">
+            <div class="infoIconDiv">
+                <span class="fr-icon-notification-3-fill"></span>
+            </div>
+            <div class="infoTextDiv">
+                <p>Recevez l’actualité des partenaires et des producteurs de données directement par courriel.</p>
+            </div>
+        </div>
+        <div class="infoDiv">
+            <div class="infoIconDiv">
+                <span class="fr-icon-time-fill"></span>
+            </div>
+            <div class="infoTextDiv">
+                <p>Retrouver toutes les nouveautés chaque trimestre.</p>
+            </div>
+        </div>
+        <div class="infoDiv">
+            <div class="infoIconDiv">
+                <span class="fr-icon-settings-5-fill"></span>
+            </div>
+            <div class="infoTextDiv">
+                <p>Vous pouvez vous désinscrire à tout moment via le lien présent dans chacune de nos lettres.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% js "body" %}
+  <script type="text/javascript" src="/js/newsletter.js"></script>
+{% endjs %}

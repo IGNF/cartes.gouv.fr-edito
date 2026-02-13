@@ -223,6 +223,11 @@
   -webkit-mask-image: url("/icons/dsfr-extension/list-indefinite.svg");
   mask-image: url("/icons/dsfr-extension/list-indefinite.svg");
 }
+.fr-icon-mail-add-line::before,
+.fr-icon-mail-add-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/mail-add-line.svg");
+  mask-image: url("/icons/dsfr-extension/mail-add-line.svg");
+}
 .fr-icon-map-2-fill::before,
 .fr-icon-map-2-fill::after {
   -webkit-mask-image: url("/icons/dsfr-extension/map-2-fill.svg");

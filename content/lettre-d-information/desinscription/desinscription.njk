@@ -1,0 +1,43 @@
+---
+title: Se désinscrire de notre lettre d’information
+layout: layouts/home.njk
+showBreadcrumb: true
+---
+
+<div class="_bgContrastInfoBlue">
+    <div class="fr-container _container_v3pbz_48">
+        <div class="fr-col-12 fr-col-md-12">
+            <span class="fr-icon-mail-close-line"></span>
+            <h1 class="fr-mt-4v fr-mb-2v">Se désinscrire de notre lettre d'information</h1>
+        </div>
+    </div>
+</div>
+
+<div class="fr-container newsletter-container">
+    <div class="newsletterForm">
+        <h3>Formulaire de désinscription</h3>
+        <form id="unsubscription-form" action="http://analytics-eu.clickdimensions.com/forms/h/agy23ImqvZ0uGZK4anXJmm" method="post">
+            <fieldset class="fr-fieldset" aria-labelledby="text-legend text-messages">
+                <div class="fr-fieldset__element">
+                    <div id="mail-input-group" class="fr-input-group">
+                        <label class="fr-label" for="text-1">
+                            Votre adresse électronique
+                            <span class="fr-hint-text">Format attendu : nom@domaine.fr</span>
+                        </label>
+                        <input class="fr-input" name="contact_email" type="email" autocomplete="email">
+                    </div>
+                </div>
+                <div id="input-mail-messages-group" class="fr-messages-group" id="text-messages" aria-live="polite"></div>
+            </fieldset>
+
+            <button id="newsletter-unsubscription-submit-btn" class="fr-btn hidden" type="submit">Me désinscrire</button>
+        </form>
+        <button class="fr-btn" onclick="sendUnsubscribeForm()"> Me désinscrire </button>
+    </div>
+</div>
+
+
+
+{% js "body" %}
+  <script type="text/javascript" src="/js/newsletter.js"></script>
+{% endjs %}

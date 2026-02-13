@@ -11,10 +11,30 @@ fetch(window.location.origin + "/api/users/me", {
     }
 });
 
-let sendForm = function() {
+let sendSubscribeForm = function() {
+    let isFormValid = true;
+
     let contact_email = document.getElementsByName("contact_email")[0].value;
-    if(checkMail(contact_email)) {
-        console.log("TODO => POST request with value '" + contact_email + "'");
+    if(!checkMail(contact_email)) {
+        isFormValid = false;
+    }
+    if(!checkCheckbox()) {
+        isFormValid = false;
+    }
+    if(isFormValid) {
+        document.getElementById("subscription-form").submit();
+    }
+};
+
+let sendUnsubscribeForm = function() {
+    let isFormValid = true;
+
+    let contact_email = document.getElementsByName("contact_email")[0].value;
+    if(!checkMail(contact_email)) {
+        isFormValid = false;
+    }
+    if(isFormValid) {
+        document.getElementById("unsubscription-form").submit();
     }
 };
 
@@ -32,4 +52,19 @@ let checkMail = function (mail) {
         return true;
     }
 };
+
+//Gestion de la checkbox
+let checkCheckbox = function() {
+    document.getElementById("checkbox-input-group").classList.contains("fr-input-group--error")
+        ? document.getElementById("checkbox-input-group").classList.toggle("fr-input-group--error")
+        : null;
+    document.getElementById("input-checkbox-messages-group").innerHTML = "";
+    if (!document.getElementById("checkbox").checked) {
+        document.getElementById("checkbox-input-group").classList.toggle("fr-input-group--error");
+        document.getElementById("input-checkbox-messages-group").innerHTML = "<p class='fr-error-text'> Veuillez accepter les conditions </p>";
+        return false;
+    } else {
+        return true;
+    }
+}
 
