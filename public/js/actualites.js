@@ -26,7 +26,7 @@ if(!href.match(/actualites\$/) && href.match(/actualites\/.*/)) {
 } 
 
 //page tag
-if(href.match(/actualites\/liste\//)) {
+else if(href.match(/actualites\/liste\//)) {
     let tag = href.match(/\/liste\/.*/)[0].replace("/liste/", "");
     let page = "0";
 
