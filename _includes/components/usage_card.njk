@@ -1,10 +1,10 @@
 {% if not usage_card %}{% set usage_card = params %}{% endif %}
 
-<div class="fr-grid-row fr-grid-row--no-gutters _usageCard_v3pbz_95 _bgDefaultGrey_v3pbz_5">
-  <div class="fr-col-12 fr-col-md _usageCardImg_v3pbz_114">
+<div class="fr-grid-row fr-grid-row--no-gutters usageCard bgDefaultGrey">
+  <div class="fr-col-12 fr-col-md usageCardImg">
     <img srcset="{{usage_card.srcset}}" alt="">
   </div>
-   <div class="fr-col-12 fr-col-md _usageCardCol_v3pbz_102">
+   <div class="fr-col-12 fr-col-md usageCardCol">
     {{usage_card.content | safe}}
    </div>
 </div>

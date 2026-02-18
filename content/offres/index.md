@@ -21,7 +21,7 @@ Les producteurs de données ayant besoin de stocker et diffuser un volume import
     <div id="fr-callout-:rt:" class="fr-callout fr-callout--green-emeraude frx-callout--offer-root" data-fr-js-callout-actionee="true">
       <h2 class="fr-callout__title fr-mb-4v frx-text--center">Offre Essentielle</h2>
       <span class="fr-callout__text frx-callout--offer-text">
-        <p class="fr-py-2v frx-text--center frx-callout--offer-text-tagline">Une offre adaptée aux besoins les plus courants, avec l'ensemble des fonctionnalités et un premier niveau de stockage et de diffusion associé.</p>
+        <p class="fr-py-2v frx-text--center frx-callout--offer-text-tagline">Une offre adaptée aux besoins les plus courants, avec l’ensemble des fonctionnalités et un premier niveau de stockage et de diffusion associé.</p>
         <ul class="frx-callout--offer-text-list">
           <li>500 Go<br>Hébergés sur un entrepôt</li>
           <li>50 couches de données</li>

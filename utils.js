@@ -20,7 +20,7 @@ class Node {
  * @param {number} level
  */
 function insertNode(parent, node, level) {
-    // Si le parent n'a pas d'enfants, ça veut dire que node est le premier du niveau de heading rencontré et donc on l'ajoute au parent
+    // Si le parent n'a pas d'enfants, ça veut dire que node est le premier du niveau de heading rencontré et donc on l’ajoute au parent
     // init children
     if (!parent.children.length) {
         parent.addChild(node);

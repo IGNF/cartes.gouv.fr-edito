@@ -13,7 +13,7 @@ slugOverride: mentions-legales
 
   Tél. : 01 43 98 80 00
 
-  Directeur de la publication : Sébastien Soriano, Directeur général de l'IGN.
+  Directeur de la publication : Sébastien Soriano, Directeur général de l’IGN.
 
   ## Hébergeur
 

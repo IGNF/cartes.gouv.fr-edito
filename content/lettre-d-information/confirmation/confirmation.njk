@@ -6,21 +6,18 @@ showBreadcrumb: true
 
 {% from "components/component.njk" import component with context %}
 
-<div class="_bgContrastInfoBlue">
+<div class="bgContrastInfoBlue">
     <div class="fr-container _container_v3pbz_48">
         <div class="fr-col-12 fr-col-md-12">
             <span class="fr-icon-mail-add-line"></span>
-            <h1 class="fr-mt-4v fr-mb-2v">S'inscrire à notre lettre d'information</h1>
+            <h1 class="fr-mt-4v fr-mb-2v">S’inscrire à notre lettre d’information</h1>
             <p class="fr-text--lead fr-mb-6v">Recevez les dernières actualités de cartes.gouv.fr</p>
         </div>
     </div>
 </div>
 <div class="fr-container confirmation-container">
-    <div>
-        <h3>Confirmation d'inscription</h3>
-        <div class="fr-alert fr-alert--success fr-input-group">
-            <p>Votre demande a été prise en compte. Vous allez recevoir un courriel de confirmation.</p>
-        </div>
+    <div class="fr-alert fr-alert--success fr-input-group">
+        <p>Votre demande a été prise en compte. Vous allez recevoir un courriel de confirmation.</p>
     </div>
     <hr>
     <div class="fr-container _container_v3pbz_48">
@@ -47,7 +44,7 @@ showBreadcrumb: true
                 {{ component("tile", {
                         title: "Une aide",
                         description: "Accédez à notre centre d’aide à tout moment pour découvrir nos bonnes pratiques, contacter notre support ou participer à nos webinaires en ligne.",
-                        link: {url: "/aide", text: "Consulter l'aide", target: "_blank"}
+                        link: {url: "/aide", text: "Consulter l’aide", target: "_blank"}
                     }) 
                 }}
             </div>

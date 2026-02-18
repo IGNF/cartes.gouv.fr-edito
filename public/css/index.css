@@ -243,16 +243,16 @@ table {
     content: "";
 }
 
-._bgContrastInfoBlue {
-    background-color: #000091;
+.bgContrastInfoBlue {
+    background-color: var(--background-action-high-blue-france, #000091);
 }
 
-._bgContrastInfoBlue h1, ._bgContrastInfoBlue p, ._bgContrastInfoBlue span {
-    background-color: #000091;
-    color: white;
+.bgContrastInfoBlue h1, .bgContrastInfoBlue p, .bgContrastInfoBlue span {
+    background-color: var(--background-action-high-blue-france, #000091);
+    color: var(--text-inverted-blue-france, #f5f5fe);
 }
 
-._bgContrastInfoBlue .fr-icon-mail-add-line::before,  ._bgContrastInfoBlue .fr-icon-mail-close-line::before{
+.bgContrastInfoBlue .fr-icon-mail-add-line::before,  .bgContrastInfoBlue .fr-icon-mail-close-line::before{
     --icon-size: 4rem;
 }
 
@@ -285,7 +285,7 @@ table {
     text-align: center;
     line-height: 4rem;
     background-color: #F5F5FE;
-    color: #000091;
+    color: var(--background-action-high-blue-france, #000091);
 }
 
 .infoTextDiv {
@@ -323,7 +323,7 @@ table {
 }
 
 .confirmation-container .blue {
-    background-color: #000091;
+    background-color: var(--background-action-high-blue-france, #000091);
     color: white;
 }
 
@@ -333,7 +333,7 @@ table {
 }
 
 .confirmation-container .fr-tile__title {
-    color: #000091;
+    color: var(--background-action-high-blue-france, #000091);
     width: 100%;
 }
 .confirmation-container .blue .fr-tile__title {
@@ -349,7 +349,7 @@ table {
     margin-top: 2rem;
     font-weight: lighter;
     width: 100%;
-    color: #000091;
+    color: var(--background-action-high-blue-france, #000091);
 }
 
 .confirmation-container .blue .fr-tile__link {

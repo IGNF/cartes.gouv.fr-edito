@@ -1,4 +1,4 @@
-._bgContrastInfoGrey_v3pbz_1 {
+.bgContrastInfoGrey {
     background-color: var(--background-contrast-info, #e8edff);
 }
 
@@ -17,21 +17,7 @@
 
 ._iconLg_v3pbz_73, ._iconLg_v3pbz_73:before {
     width: 2.5rem;
-    height: 2.5rem
-40px
-;
-}
-
-._iconLg_v3pbz_73, ._iconLg_v3pbz_73:before {
-    width: 2.5rem;
     height: 2.5rem;
-}
-
-._icon_v3pbz_65, ._icon_v3pbz_65:before {
-    width: 2rem;
-    height: 2rem;
-    aspect-ratio: 1 / 1;
-    color: var(--text-title-grey, #161616);
 }
 
 ._icon_v3pbz_65, ._icon_v3pbz_65:before {
@@ -44,19 +30,6 @@
 ._heroImage_v3pbz_56 {
     max-width: 100%;
     height: auto;
-}
-
-._container_v3pbz_48 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 1.5rem !important;
-    padding-top: 2.5rem;
-    padding-bottom: 3.5rem;
 }
 
 ._featureRowWrapper_v3pbz_128 {
@@ -79,50 +52,24 @@
     background-color: var(--background-alt-grey, #f6f6f6);
 }
 
-._container_v3pbz_48 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 1.5rem !important;
-    padding-top: 2.5rem;
-    padding-bottom: 3.5rem;
-}
-
 ._illustrationImg_v3pbz_79 {
     width: 100%;
     height: auto;
 }
 
-._bgOpenBlueFrance_v3pbz_13 {
+.bgOpenBlueFrance {
     background: var(--background-open-blue-france, #e3e3fd);
-}
-
-._container_v3pbz_48 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 1.5rem !important;
-    padding-top: 2.5rem;
-    padding-bottom: 3.5rem;
 }
 
 ._container_v3pbz_48 .fr-tile--no-border {
     --border-plain-grey: none;
 }
 
-._bgDefaultGrey_v3pbz_5 {
+.bgDefaultGrey {
     background-color: var(--background-default-grey, #fff);
 }
 
-._usageCard_v3pbz_95 {
+.usageCard {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -136,7 +83,7 @@
     width: 100%;
 }
 
-._usageCardImg_v3pbz_114 {
+.usageCardImg {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -144,7 +91,7 @@
     overflow: hidden;
 }
 
-._usageCardCol_v3pbz_102 {
+.usageCardCol {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -159,15 +106,15 @@
     margin: 1rem !important;
 }
 
-._usageCardCol_v3pbz_102 * {
+.usageCardCol * {
     margin: 0;
 }
 
-._textMentionGrey_v3pbz_35, ._textMentionGrey_v3pbz_35 * {
+.textMentionGrey, .textMentionGrey * {
     color: var(--text-mention-grey, #6f6f6f);
 }
 
-._usageCardImg_v3pbz_114 img {
+.usageCardImg img {
     display: block;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -178,15 +125,15 @@
     object-fit: cover;
 }
 
-._bgActionHighBlueFrance_v3pbz_17 {
+.bgActionHighBlueFrance {
     background: var(--background-action-high-blue-france, #000091);
 }
 
-._textInvertedBlueFrance_v3pbz_21, ._textInvertedBlueFrance_v3pbz_21 * {
+.textInvertedBlueFrance, .textInvertedBlueFrance * {
     color: var(--text-inverted-blue-france, #f5f5fe) !important;
 }
 
-._textDefaultGrey_v3pbz_26, ._textDefaultGrey_v3pbz_26 * {
+.textDefaultGrey, .textDefaultGrey * {
     color: var(--text-default-grey, #3a3a3a) !important;
 }
 
@@ -205,11 +152,11 @@
     justify-content: center;
 }
 
-._borderDefaultGrey_v3pbz_44 {
+.borderDefaultGrey {
     border: 2px solid var(--border-default-grey, #ddd);
 }
 
-.fr-icon-accroche-option_v3pbz_61:before {
+.fr-icon-accroche-option:before {
     content: url(data:image/svg+xml,%3csvg%20xmlns=\'http://www.w3.org/2000/svg\'%20width=\'35\'%20height=\'34\'%20viewBox=\'0%200%2035%2034\'%20fill=\'none\'%3e%3cpath%20d=\'M13.3333%2013.3333H30V17.9667H33.3333V11.6667C33.3333%2010.75%2032.5833%2010%2031.6667%2010H23.3333V1.66667C23.3333%200.75%2022.5833%200%2021.6667%200H1.66667C0.75%200%200%200.75%200%201.66667V21.6667C0%2022.5833%200.75%2023.3333%201.66667%2023.3333H10V31.6667C10%2032.5833%2010.75%2033.3333%2011.6667%2033.3333H20V30H13.3333V13.3333ZM10%2011.6667V20H3.33333V3.33333H20V10H11.6667C10.75%2010%2010%2010.75%2010%2011.6667Z\'%20fill=\'%23161616\'%20/%3e%3cpath%20d=\'M29.5292%2031.8875L29.1125%2032.8375C28.8125%2033.5208%2027.8625%2033.5208%2027.5625%2032.8375L27.1458%2031.8875C26.4125%2030.2042%2025.0958%2028.8708%2023.4458%2028.1375L22.1792%2027.5708C21.4958%2027.2708%2021.4958%2026.2708%2022.1792%2025.9708L23.3792%2025.4375C25.0625%2024.6875%2026.4125%2023.3042%2027.1292%2021.5542L27.5458%2020.5375C27.8458%2019.8208%2028.8125%2019.8208%2029.1125%2020.5375L29.5292%2021.5542C30.2458%2023.2875%2031.5958%2024.6875%2033.2792%2025.4375L34.4792%2025.9708C35.1625%2026.2708%2035.1625%2027.2708%2034.4792%2027.5708L33.2125%2028.1375C31.5625%2028.8708%2030.2458%2030.2042%2029.5125%2031.8875H29.5292Z\'%20fill=\'%23161616\'%20/%3e%3c/svg%3e);
     background-color: unset !important;
 }
@@ -220,37 +167,19 @@
         padding-top: 5rem;
         padding-bottom: 6rem;
     }
-
-    ._container_v3pbz_48 {
-        gap: 2.5rem !important;
-        padding-top: 5rem;
-        padding-bottom: 6rem;
-    }
-
-    ._container_v3pbz_48 {
-        gap: 2.5rem !important;
-        padding-top: 5rem;
-        padding-bottom: 6rem;
-    }
-
-    ._container_v3pbz_48 {
-        gap: 2.5rem !important;
-        padding-top: 5rem;
-        padding-bottom: 6rem;
-    }
     
-    ._usageCard_v3pbz_95 {
+    .usageCard {
         -webkit-box-orient: horizontal !important;
         -webkit-box-direction: normal !important;
         -ms-flex-direction: row!important;
         flex-direction: row !important;
     }
 
-    ._usageCardCol_v3pbz_102, ._usageCardImg_v3pbz_114 {
+    .usageCardCol, .usageCardImg {
         margin: 1.5rem !important;
     }
 
-    ._usageCard_v3pbz_95:nth-child(odd) {
+    .usageCard:nth-child(odd) {
         -webkit-box-orient: horizontal !important;
         -webkit-box-direction: reverse !important;
         -ms-flex-direction: row-reverse!important;
@@ -277,7 +206,7 @@
         flex: 0 0 20rem;
     }
 
-    ._usageCardCol_v3pbz_102, ._usageCardImg_v3pbz_114 {
+    .usageCardCol, .usageCardImg {
         margin: 2.5rem !important;
     }
 

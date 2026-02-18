@@ -82,7 +82,7 @@ showBreadcrumb: true
             <a href="/mentions-legales"> Mentions Légales </a>
           </li>
           <li>
-            <a href="/cgu"> Conditions générales d'utilisation </a>
+            <a href="/cgu"> Conditions générales d’utilisation </a>
           </li>
           <li>
             <a href="/donnees-personnelles"> Données personnelles </a>
