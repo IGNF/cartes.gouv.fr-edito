@@ -1,47 +1,41 @@
 ---
-title: Erreur inscription/désinscription
+title: Lettre d’information - Erreur
 layout: layouts/home.njk
 showBreadcrumb: true
 ---
 
 {% from "components/component.njk" import component with context %}
 
-<div class="bgContrastInfoBlue">
-    <div class="fr-container _container_v3pbz_48">
-        <div class="fr-col-12 fr-col-md-12">
-            <span class="fr-icon-mail-add-line"></span>
-            <h1 class="fr-mt-4v fr-mb-2v">S’inscrire à notre lettre d’information</h1>
-            <p class="fr-text--lead fr-mb-6v">Recevez les dernières actualités de cartes.gouv.fr</p>
-        </div>
-    </div>
-</div>
 <div class="fr-container confirmation-container">
-    <div class="fr-alert fr-alert--error fr-input-group">
-        <p>Votre demande n’a malheureusement pas pu aboutir. Un problème technique est survenu.</p> 
-        <p>Nous vous prions de bien vouloir renouveler votre demande ultérieurement.</p>
+
+    <div class="fr-alert fr-alert--error fr-input-group fr-mb-12w ">
+        <p>Votre demande n’a malheureusement pas pu aboutir. Un problème technique est survenu. Nous vous prions de bien vouloir renouveler votre demande ultérieurement.</p>
     </div>
+
     <hr>
-    <div class="fr-container _container_v3pbz_48">
-        <h2 class="fr-m-0">Découvrez également</h2>
-        <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-12 fr-col-md blue">
+
+    <div class="fr-container">
+        <p class="fr-text--xl fr-mt-8w fr-mb-5w">Découvrez également</p>
+
+        <div class="fr-grid-row fr-grid-row--gutters fr-mt-0">
+            <div class="fr-col-12 fr-col-md-4">
                 {{ component("tile", {
                         addClass: "blue",
                         title: "Des temps forts",
-                        description: "<p>Inscrivez-vous à nos prochains événements et ateliers pour découvrir les nouveautés, poser vos questions et partager vos cas d’usages.</p>",
+                        description: "Inscrivez-vous à nos prochains événements et ateliers pour découvrir les nouveautés, poser vos questions et partager vos cas d’usages.",
                         link: {url: "/actualites", text: "Voir les actualités", target: ""}
                     }) 
                 }}
             </div>
-            <div class="fr-col-12 fr-col-md">
+            <div class="fr-col-12 fr-col-md-4">
                 {{ component("tile", {
                         title: "Une communauté",
-                        description: "Rejoignez une communauté d’utilisateurs et de contributeurs pour échanger, partager vos retours et construire ensemble les services de demain. ",
+                        description: "Rejoignez une communauté d’utilisateurs et de contributeurs pour échanger, partager vos retours et construire ensemble les services de demain.",
                         link: {url: "/nous-rejoindre", text: "Rejoindre la communauté", target: ""}
                     }) 
                 }}
             </div>
-            <div class="fr-col-12 fr-col-md">
+            <div class="fr-col-12 fr-col-md-4">
                 {{ component("tile", {
                         title: "Une aide",
                         description: "Accédez à notre centre d’aide à tout moment pour découvrir nos bonnes pratiques, contacter notre support ou participer à nos webinaires en ligne.",

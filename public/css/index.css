@@ -259,15 +259,16 @@ table {
 .newsletter-container {
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 5rem;
     align-items: stretch;
     width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 5rem auto 6rem auto;
 }
 
-.newsletterForm, .newsletterInfo {
-    width: 50%;
+.newsletterForm {
+    border-left: 4px solid var(--background-action-high-blue-france, #000091);
+    max-width: 640px;
+    padding-left: 2rem;
 }
 
 .infoDiv {
@@ -275,7 +276,6 @@ table {
     flex-direction: row;
     gap: 2rem;
     width: 100%;
-    height: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -300,25 +300,25 @@ table {
 }
 
 .confirmation-container {
-    display: flex;
-    flex-direction: column;
-    gap: 4em;
-    margin-top: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
 }
 
 .confirmation-container .fr-alert {
-    width: 70%;
+    max-width: 576px;
 }
 
-.confirmation-container ._container_v3pbz_48 {
-    padding-top: 0;
+.confirmation-container .hintText {
+    color: var(--text-mention-grey, #6f6f6f);
+    font-size: 0.75rem;
+    line-height: 1.25rem;
 }
 
-.confirmation-container .fr-grid-row {
-    gap: 2rem;
+.confirmation-container .fr-text--xl {
+    font-weight: 700;
 }
 
-.confirmation-container .fr-col-12 {
+.confirmation-container .fr-tile{
     border: solid 1px #ddd;
 }
 
@@ -328,11 +328,13 @@ table {
 }
 
 .confirmation-container .fr-tile {
-    padding-bottom: 0;
+    padding: 2rem;
     text-align: left;
+    --border-plain-grey: none;
 }
 
 .confirmation-container .fr-tile__title {
+    margin-bottom: 0.75rem;
     color: var(--background-action-high-blue-france, #000091);
     width: 100%;
 }

@@ -13,26 +13,28 @@ showBreadcrumb: true
     </div>
 </div>
 
-<div class="fr-container newsletter-container">
-    <div class="newsletterForm">
-        <h3>Formulaire de désinscription</h3>
-        <form id="unsubscription-form" action="http://analytics-eu.clickdimensions.com/forms/h/agy23ImqvZ0uGZK4anXJmm" method="post">
-            <fieldset class="fr-fieldset" aria-labelledby="text-legend text-messages">
-                <div class="fr-fieldset__element">
-                    <div id="mail-input-group" class="fr-input-group">
-                        <label class="fr-label" for="text-1">
-                            Votre adresse électronique
-                            <span class="fr-hint-text">Format attendu : nom@domaine.fr</span>
-                        </label>
-                        <input class="fr-input" name="contact_email" type="email" autocomplete="email">
+<div class="fr-container newsletter-container fr-grid-row fr-grid-row--gutters">
+    <div class="fr-col-12 fr-col-md">
+        <div class="newsletterForm">
+            <h2 class="fr-h6 fr-mb-5w">Formulaire de désinscription</h2>
+            <form id="unsubscription-form" action="http://analytics-eu.clickdimensions.com/forms/h/agy23ImqvZ0uGZK4anXJmm" method="post">
+                <fieldset class="fr-fieldset fr-mb-5w" aria-labelledby="text-legend text-messages">
+                    <div class="fr-fieldset__element fr-mb-0">
+                        <div id="mail-input-group" class="fr-input-group">
+                            <label class="fr-label" for="text-1">
+                                Adresse électronique
+                                <span class="fr-hint-text">Format attendu : nom@domaine.fr</span>
+                            </label>
+                            <input class="fr-input" name="contact_email" type="email" autocomplete="email">
+                        </div>
                     </div>
-                </div>
-                <div id="input-mail-messages-group" class="fr-messages-group" id="text-messages" aria-live="polite"></div>
-            </fieldset>
+                    <div id="input-mail-messages-group" class="fr-messages-group" id="text-messages" aria-live="polite"></div>
+                </fieldset>
 
-            <button id="newsletter-unsubscription-submit-btn" class="fr-btn hidden" type="submit">Me désinscrire</button>
-        </form>
-        <button class="fr-btn" onclick="sendUnsubscribeForm()"> Me désinscrire </button>
+                <button id="newsletter-unsubscription-submit-btn" class="fr-btn hidden" type="submit">Me désinscrire</button>
+            </form>
+            <button class="fr-btn" onclick="sendUnsubscribeForm()"> Me désinscrire </button>
+        </div>
     </div>
 </div>
 
