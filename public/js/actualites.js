@@ -14,12 +14,12 @@ let page = url.searchParams.get("page") ?? "0";
 
 // Mise à jour du fil d'ariane
 function updateBreadcrumb(newLabel) {
-    const ol = document.querySelector('.fr-breadcrumb__list');
+    const ol = document.querySelector(".fr-breadcrumb__list");
     if (!ol) return;
     const items = Array.from(ol.children);
-    let idx = items.findIndex(li => li.textContent.trim() === 'Actualités');
+    let idx = items.findIndex((li) => li.textContent.trim() === "Actualités");
     if (idx === -1) {
-        idx = items.findIndex(li => li.textContent.trim().includes('Actualités'));
+        idx = items.findIndex((li) => li.textContent.trim().includes("Actualités"));
     }
     if (idx === -1) return;
 
@@ -27,9 +27,16 @@ function updateBreadcrumb(newLabel) {
     items[idx].innerHTML = '<a class="fr-breadcrumb__link" href="/actualites">Actualités</a>';
 
     // Ajoute un nouveau segment pour la page courante
-    const newLi = document.createElement('li');
-    newLi.innerHTML = '<a class="fr-breadcrumb__link" aria-current="page">' + newLabel + '</a>';
+    const newLi = document.createElement("li");
+    newLi.innerHTML = '<a class="fr-breadcrumb__link" aria-current="page">' + newLabel + "</a>";
     ol.appendChild(newLi);
+}
+
+function updateTitle(pageTitle) {
+    const titleElement = document.querySelector("title");
+    if (titleElement) {
+        titleElement.textContent = pageTitle + " | " + titleElement.textContent;
+    }
 }
 
 // Récupération et insertion du contenu
@@ -43,24 +50,24 @@ function fetchAndInsert(path) {
         if (res.ok) {
             let result = await res.text();
 
-            const tmp = document.createElement('div');
+            const tmp = document.createElement("div");
             tmp.innerHTML = result;
 
             // Modifie tous les liens absolus sortants pour ouvrir une nouvelle fenêtre
-            tmp.querySelectorAll('a[href]').forEach(function (a) {
-                const href = a.getAttribute('href') || '';
+            tmp.querySelectorAll("a[href]").forEach(function (a) {
+                const href = a.getAttribute("href") || "";
                 if (/^https?:\/\//i.test(href)) {
-                    a.setAttribute('target', '_blank');
-                    let rel = a.getAttribute('rel') || '';
-                    if (!/\bnoopener\b/i.test(rel)) rel = (rel + ' noopener').trim();
-                    if (!/\bnoreferrer\b/i.test(rel)) rel = (rel + ' noreferrer').trim();
-                    a.setAttribute('rel', rel);
+                    a.setAttribute("target", "_blank");
+                    let rel = a.getAttribute("rel") || "";
+                    if (!/\bnoopener\b/i.test(rel)) rel = (rel + " noopener").trim();
+                    if (!/\bnoreferrer\b/i.test(rel)) rel = (rel + " noreferrer").trim();
+                    a.setAttribute("rel", rel);
 
-                    const suffix = ' - ouvre une nouvelle fenêtre';
-                    const existingTitle = a.getAttribute('title');
-                    const baseTitle = existingTitle ? existingTitle.replace(suffix, '') : a.textContent.trim();
+                    const suffix = " - ouvre une nouvelle fenêtre";
+                    const existingTitle = a.getAttribute("title");
+                    const baseTitle = existingTitle ? existingTitle.replace(suffix, "") : a.textContent.trim();
                     if (!baseTitle.endsWith(suffix)) {
-                        a.setAttribute('title', baseTitle + suffix);
+                        a.setAttribute("title", baseTitle + suffix);
                     }
                 }
             });
@@ -73,21 +80,23 @@ function fetchAndInsert(path) {
 
             // Met à jour le fil d'ariane si le h1 n'est pas "Actualités"
             let label = null;
-            const h1 = tmp.querySelector('h1');
+            const h1 = tmp.querySelector("h1");
             if (h1) label = h1.textContent.trim();
 
-            if (label && label !== 'Actualités') {
+            if (label && label !== "Actualités") {
                 updateBreadcrumb(label);
+                updateTitle(label);
             }
         } else {
             // Redirige vers la page d'accueil des actualités si le contenu n'est pas trouvé
             // => Jamais de 404 sur les actus
             // En évitant une boucle de redirection si la liste des actus est réellement indisponible
-            const currentPath = window.location.pathname.replace(/\/$/, '');
-            if (currentPath === '/actualites') {
+            const currentPath = window.location.pathname.replace(/\/$/, "");
+            if (currentPath === "/actualites") {
                 const container = document.getElementById("actualites-container");
                 if (container) {
-                    container.innerHTML = '<div class="fr-callout fr-callout--error">Le contenu est temporairement indisponible. Veuillez réessayer plus tard.</div>';
+                    container.innerHTML =
+                        '<div class="fr-callout fr-callout--error">Le contenu est temporairement indisponible. Veuillez réessayer plus tard.</div>';
                 }
             } else {
                 window.location.replace(window.origin + "/actualites");
@@ -107,4 +116,3 @@ if (slug === "" || slug === null) {
     // page article
     fetchAndInsert(window.origin + "/files/articles/" + slug + ".html");
 }
-
