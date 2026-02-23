@@ -34,6 +34,26 @@
   <meta name="robots" content="noindex">
   {% endif %}
 
+  {# Configuration de l'API JS DSFR (avant chargement des modules) #}
+<script>
+    window.dsfr = {
+        mode: 'auto',
+        production: {{ metadata.analytics.site.environment == "production" }},
+        analytics: {
+            domain: '{{ metadata.analytics.domain }}',
+            collection: 'auto',
+            isActionEnabled: true,
+            page: {
+                template: 'article'
+            },
+            site: {
+                entity: '{{ metadata.analytics.site.entity }}',
+                environment: '{{ metadata.analytics.site.environment | default("production") }}'
+            }
+        }
+    };
+</script>
+
   <script type="module" src="/js/header-auth.js"></script>
   <script src="/js/env.js"></script>
 
