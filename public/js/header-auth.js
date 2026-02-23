@@ -44,11 +44,11 @@ import Keycloak from "./keycloak.js";
                                         </div>
                                     </li>
                                     <li>
-                                        <a class="fr-nav__link fr-mr-3w" href="https://cartes.gouv.fr/tableau-de-bord">
+                                        <a class="fr-nav__link fr-mr-3w" href="/tableau-de-bord">
                                             <span class="fr-icon-dashboard-3-line fr-icon--sm">&emsp;Tableau de bord</span></a>
                                     </li>
                                     <li>
-                                        <a class="fr-nav__link fr-mr-3w" href="https://cartes.gouv.fr/mon-compte">
+                                        <a class="fr-nav__link fr-mr-3w" href="/mon-compte">
                                             <span class="fr-icon-user-line fr-icon--sm">&emsp;Mon compte</span></a>
                                     </li>
                                     <li>

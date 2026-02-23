@@ -73,14 +73,14 @@ slugOverride: accessibilite
   5. [A propos](/a-propos)
   6. Détail actualité
   7. [Actualités](/actualites)
-  8. [Contact](https://cartes.gouv.fr/aide/nous-ecrire)
+  8. [Contact](/aide/fr/nous-ecrire)
   9. [Accessibilité](/accessibilite)
 
   ### Retour d’information et contact
 
   Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de cartes.gouv.fr pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
 
-  - Envoyer un message par le biais du [formulaire de contact en ligne](https://cartes.gouv.fr/aide/nous-ecrire)
+  - Envoyer un message par le biais du [formulaire de contact en ligne](/aide/fr/nous-ecrire)
   - ou contacter l’IGN par courrier ou par téléphone&nbsp;:  
   Institut national de l’information géographique et forestière  
   73 avenue de Paris<br>94165 Saint-Mandé Cedex<br>Tél. : 01 43 98 80 00

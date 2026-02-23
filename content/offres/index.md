@@ -62,7 +62,7 @@ Les producteurs de données ayant besoin de stocker et diffuser un volume import
 
  [Conditions générales d’utilisation](/cgu)
 
- [Nous contacter](https://cartes.gouv.fr/aide/nous-ecrire)
+ [Nous contacter](/aide/fr/nous-ecrire)
 
   </div>
 </div>

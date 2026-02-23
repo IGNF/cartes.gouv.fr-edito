@@ -10,10 +10,10 @@ showBreadcrumb: true
       <div class="fr-col-12 fr-col-md-8">
         <ul>
           <li>
-            <a href="https://cartes.gouv.fr/explorer-les-cartes"> Explorer les cartes </a>
+            <a href="/explorer-les-cartes"> Explorer les cartes </a>
           </li>
           <li>
-            <a href="https://cartes.gouv.fr/rechercher-une-donnee/search"> Rechercher une donnée </a>
+            <a href="/rechercher-une-donnee/search"> Rechercher une donnée </a>
           </li>
           <li>
             <a href="/decouvrir"> Découvrir cartes.gouv.fr </a>
@@ -48,16 +48,16 @@ showBreadcrumb: true
             <span> Mon espace </span>
             <ul>
               <li>
-                <a href="https://cartes.gouv.fr/tableau-de-bord"> Tableau de bord </a>
+                <a href="/tableau-de-bord"> Tableau de bord </a>
               </li>
               <li>
-                <a href="https://cartes.gouv.fr/mon-compte"> Mon compte </a>
+                <a href="/mon-compte"> Mon compte </a>
               </li>
               <li>
-                <a href="https://cartes.gouv.fr/mes-cles"> Mes clés d’accès </a>
+                <a href="/mes-cles"> Mes clés d’accès </a>
               </li>
               <li>
-                <a href="https://cartes.gouv.fr/tableau-de-bord/entrepots"> Mes données </a><span> (Publier une donnée) </span>
+                <a href="/tableau-de-bord/entrepots"> Mes données </a><span> (Publier une donnée) </span>
               </li>
             </ul>
           </li>
@@ -65,13 +65,13 @@ showBreadcrumb: true
             <span> Aide </span>
             <ul>
               <li>
-                <a href="https://cartes.gouv.fr/aide"> Questions fréquentes </a>
+                <a href="/aide/fr/"> Questions fréquentes </a>
               </li>
               <li>
-                <a href="https://cartes.gouv.fr/aide"> Guides d’utilisation </a>
+                <a href="/aide/fr/"> Guides d’utilisation </a>
               </li>
               <li>
-                <a href="https://cartes.gouv.fr/aide/fr/nous-ecrire/"> Nous écrire </a>
+                <a href="/aide/fr/nous-ecrire/"> Nous écrire </a>
               </li>
             </ul>
           </li>
