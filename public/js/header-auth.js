@@ -1,7 +1,7 @@
 import Keycloak from "./keycloak.js";
 
 (() => {
-    const env = (typeof window !== "undefined" && window.__CARTESGOUVFR_EDITO_ENV__) ?? {};
+    const env = window?.__CARTESGOUVFR_EDITO_ENV__ ?? {};
 
     const authContainer = document.getElementById("header-auth");
     if (!authContainer) return;
