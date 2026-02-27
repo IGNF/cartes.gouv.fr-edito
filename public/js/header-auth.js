@@ -40,7 +40,7 @@ import Keycloak from "./keycloak.js";
                                     <li style="pointer-events: none;">
                                         <div style="text-align: left;">
                                             <p class="fr-text--sm fr-text--bold fr-mx-2w fr-mt-3v fr-mb-2v">${displayName}</p>
-                                            <p class="fr-text--xs fr-mb-3v fr-mx-2w fr-text-mention--grey">${claims.email}</p>
+                                            <p class="fr-text--xs fr-mb-3v fr-mx-2w fr-text-mention--grey">${typeof claims.email === "string" ? claims.email : ""}</p>
                                         </div>
                                     </li>
                                     <li>
