@@ -100,7 +100,7 @@ import Keycloak from "./keycloak.js";
 
             await renderLoggedIn();
 
-            // Si on veut garder le token à jour pour d'éventuelles futures appels API :
+            // Si on veut garder le token à jour pour d'éventuels futurs appels API :
             // window.setInterval(() => {
             //     keycloak.updateToken(60).catch(() => {
             //         // Si le rafraîchissement échoue, on affiche simplement l'interface déconnectée.
