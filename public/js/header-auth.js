@@ -75,8 +75,20 @@ import Keycloak from "./keycloak.js";
         }
     };
 
+    const requiredEnvKeys = ["iamUrl", "iamRealm", "iamClientId"];
+    const missingEnvKeys = requiredEnvKeys.filter((key) => !env[key]);
+
+    if (missingEnvKeys.length > 0) {
+        console.error(
+            "Failed to initialize Keycloak: missing required configuration values:",
+            missingEnvKeys.join(", ")
+        );
+        renderLoggedOut();
+        return;
+    }
+
     const keycloak = new Keycloak({
-        url:  env.iamUrl,
+        url: env.iamUrl,
         realm: env.iamRealm,
         clientId: env.iamClientId,
     });
