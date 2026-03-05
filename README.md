@@ -2,21 +2,23 @@
 
 Ce dépôt constitue un site statique associé à [cartes.gouv.fr](https://cartes.gouv.fr/) et aux services de la Géoplateforme.
 
-Il est construit sur la base des templates de [codegouvfr/eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) et sur le générateur de site statique [Eleventy](https://www.11ty.dev/).
+Il contient des pages éditoriales décrivant les services proposés sur cartes.gouv.fr, le plan du site, des mentions légales (accessibilité, conditions d'utilisation, données personnelles...)...
 
-## Pré-requis
+Ces pages étaient originellement gérées dans le dépôt principal [IGNF/cartes.gouv.fr](https://github.com/IGNF/cartes.gouv.fr), dont le front est en React JS. Elles ont été déplacées dans ce dépôt pour : réduire la latence de leur affichage, simplifier leur mise à jour et améliorer leur indexation par les moteurs de recherche.
 
-NodeJs >=  22.14.0
+L'intégralité des pages n'est pas statique :
+- les actualités dépendent d'un endpoint servant les contenus html à injecter
+- les alertes sur la page `/niveau-de-service/` dépendent d'un fichier JSON déposé dans un espace annexe de la Géoplateforme
+- le header réagit au fait que l'utilisateur est connecté ou non à la Géoplateforme en utilisant un workflow openid-connect avec [keycloak/keycloak-js](https://github.com/keycloak/keycloak-js)
 
-## Lancer en local
+Les pages sont sur la base des templates de [codegouvfr/eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) et sur le générateur de site statique [Eleventy](https://www.11ty.dev/), de la même façon que l'[aide de cartes.gouv.fr](https://github.com/IGNF/cartes.gouv.fr-documentation).
 
-### Instalation des dépendances
+## Lancer le projet en local
 
->npm install
-
-### Lancer le server
-
->npm start
+```sh
+npm install
+npm start
+```
 
 ## Licence
 
