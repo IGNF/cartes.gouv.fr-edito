@@ -1,7 +1,7 @@
 import Keycloak from "./keycloak.js";
 
 (() => {
-    const env = (typeof window !== "undefined" && window.__CARTESGOUVFR_EDITO_ENV__) ?? {};
+    const env = window?.__CARTESGOUVFR_EDITO_ENV__ ?? {};
 
     const authContainer = document.getElementById("header-auth");
     if (!authContainer) return;
@@ -40,7 +40,7 @@ import Keycloak from "./keycloak.js";
                                     <li style="pointer-events: none;">
                                         <div style="text-align: left;">
                                             <p class="fr-text--sm fr-text--bold fr-mx-2w fr-mt-3v fr-mb-2v">${displayName}</p>
-                                            <p class="fr-text--xs fr-mb-3v fr-mx-2w fr-text-mention--grey">${claims.email}</p>
+                                            <p class="fr-text--xs fr-mb-3v fr-mx-2w fr-text-mention--grey">${typeof claims.email === "string" ? claims.email : ""}</p>
                                         </div>
                                     </li>
                                     <li>
@@ -75,8 +75,20 @@ import Keycloak from "./keycloak.js";
         }
     };
 
+    const requiredEnvKeys = ["iamUrl", "iamRealm", "iamClientId"];
+    const missingEnvKeys = requiredEnvKeys.filter((key) => !env[key]);
+
+    if (missingEnvKeys.length > 0) {
+        console.error(
+            "Failed to initialize Keycloak: missing required configuration values:",
+            missingEnvKeys.join(", ")
+        );
+        renderLoggedOut();
+        return;
+    }
+
     const keycloak = new Keycloak({
-        url:  env.iamUrl,
+        url: env.iamUrl,
         realm: env.iamRealm,
         clientId: env.iamClientId,
     });
@@ -100,7 +112,7 @@ import Keycloak from "./keycloak.js";
 
             await renderLoggedIn();
 
-            // Si on veut garder le token à jour pour d'éventuelles futures appels API :
+            // Si on veut garder le token à jour pour d'éventuels futurs appels API :
             // window.setInterval(() => {
             //     keycloak.updateToken(60).catch(() => {
             //         // Si le rafraîchissement échoue, on affiche simplement l'interface déconnectée.
