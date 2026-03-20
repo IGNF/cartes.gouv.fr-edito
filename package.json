@@ -33,14 +33,15 @@
     "@codegouvfr/eleventy-plugin-calendar": "^3.0.5",
     "@gouvfr/dsfr": "^1.14.0",
     "ics": "^3.8.1",
+    "keycloak-js": "^26.2.2",
     "luxon": "^3.7.2",
     "markdown-it-anchor": "^9.0.0",
     "markdown-it-attrs": "^4.2.0",
     "markdown-it-container": "^4.0.0",
-    "pagefind": "^1.4.0",
-    "keycloak-js": "^26.2.2"
+    "pagefind": "^1.4.0"
   },
   "dependencies": {
-    "jsdom": "^27.0.0"
+    "jsdom": "^27.0.0",
+    "markdown-it": "^14.1.1"
   }
 }

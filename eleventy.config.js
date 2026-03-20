@@ -216,6 +216,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
         "./node_modules/@gouvfr/dsfr/dist/analytics/analytics.module.min.js": "js/analytics.module.min.js",
         "./node_modules/@gouvfr/dsfr/dist/analytics/analytics.nomodule.min.js": "js/analytics.nomodule.min.js",
+        "./node_modules/markdown-it/dist/markdown-it.min.js": "js/markdown-it.min.js",
     });
 
     return {
