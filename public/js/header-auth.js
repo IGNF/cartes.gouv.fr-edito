@@ -17,6 +17,7 @@ import Keycloak from "./keycloak.js";
 
     const renderLoggedIn = async () => {
         const claims = keycloak.idTokenParsed || keycloak.tokenParsed || {};
+        const idToken = keycloak.idToken;
 
         const displayName =
             (typeof claims.name === "string" && claims.name) ||
@@ -28,7 +29,7 @@ import Keycloak from "./keycloak.js";
         const generateUserMenuHTML = (collapseId) => {
             const urlWithoutHash = window.location.href.split('#')[0];
             const currentUrl = encodeURIComponent(urlWithoutHash);
-            const logoutUrl = `${env.iamUrl}/realms/${encodeURIComponent(env.iamRealm)}/protocol/openid-connect/logout?post_logout_redirect_uri=${currentUrl}&client_id=${encodeURIComponent(env.iamClientId)}`;
+            const logoutUrl = `${env.iamUrl}/realms/${encodeURIComponent(env.iamRealm)}/protocol/openid-connect/logout?post_logout_redirect_uri=${currentUrl}&id_token_hint=${idToken}&client_id=${encodeURIComponent(env.iamClientId)}`;
             return `
                 <li>
                     <div class="fr-translate fr-nav">
