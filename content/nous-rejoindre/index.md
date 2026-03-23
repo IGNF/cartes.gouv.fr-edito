@@ -2,6 +2,7 @@
 title: Communautés
 layout: layouts/page.njk
 showBreadcrumb: true
+hideTitle: true
 eleventyNavigation:
     key: Communautés
     order: 5
