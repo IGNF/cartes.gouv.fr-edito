@@ -8,12 +8,10 @@ layout: layouts/base.njk
           {% if showBreadcrumb %}
             {% include "components/breadcrumb.njk" %}
           {% endif %}
-          {% if title == "Accessibilité" %}
-            <h1>Accessibilité : partiellement conforme</h1>
-          {% elif title == "Niveau de service" %}
-            <h1>{{ title }} <span id="loader" class="fr-icon-refresh-line fr-icon--lg frx-icon-spin"></span></h1>
-          {% elif title != "Communautés" %}
-            <h1>{{ title }}</h1>
+          {% if hasLoader %}
+            <h1>{{ effectiveTitle if effectiveTitle else title }} <span id="loader" class="fr-icon-refresh-line fr-icon--lg frx-icon-spin"></span></h1>
+          {% else %}
+            <h1>{{ effectiveTitle if effectiveTitle else title }}</h1>
           {% endif %}
           {% if description %}
             <p class="fr-text--lead">
