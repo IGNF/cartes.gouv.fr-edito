@@ -1,8 +1,8 @@
 ---
 title: Communautés
+effectiveTitle: Rejoignez la communauté des utilisateurs et contributeurs de la Géoplateforme et cartes.gouv.fr
 layout: layouts/page.njk
 showBreadcrumb: true
-hideTitle: true
 eleventyNavigation:
     key: Communautés
     order: 5
@@ -11,14 +11,13 @@ eleventyNavigation:
 ---
 
 <div class="fr-col-md-8">
-
-  # Rejoignez la communauté des utilisateurs et contributeurs de la Géoplateforme et cartes.gouv.fr
-
-  - Pour suivre l’actualité du programme Géoplateforme
-  - Pour contribuer à des groupes de travail et co-construire l’offre de services Géoplateforme - cartes.gouv.fr
-  - Pour échanger et partager avec les autres membres de la communauté sur vos retours d’utilisation des données, des services, des outils et sur vos cas d’usages,...
-  - Pour exprimer vos idées et poser des questions sur des thématiques précises
-  - Pour participer à des événements, à des temps d’information, à des ateliers thématiques...
+  <ul>
+    <li>Pour suivre l’actualité du programme Géoplateforme</li>
+    <li>Pour contribuer à des groupes de travail et co-construire l’offre de services Géoplateforme - cartes.gouv.fr</li>
+    <li>Pour échanger et partager avec les autres membres de la communauté sur vos retours d’utilisation des données, des services, des outils et sur vos cas d’usages,...</li>
+    <li>Pour exprimer vos idées et poser des questions sur des thématiques précises</li>
+    <li>Pour participer à des événements, à des temps d’information, à des ateliers thématiques...</li>
+  </ul>
 
   <p>N’attendez plus pour rejoindre la <strong>communauté d’utilisateurs Géoplateforme - Cartes.gouv</strong>&nbsp;!</p>
 
