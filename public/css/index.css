@@ -125,6 +125,15 @@ div.fr-callout__text p {
     line-height: inherit;
 }
 
+.fr-follow {
+    margin-bottom: 2rem;
+    border-bottom: 0.2rem solid var(--background-action-high-blue-france);
+}
+
+.fr-follow-link {
+    color: var(--background-action-high-blue-france);
+}
+
 /** Missing icons **/
 .fr-follow .fr-btn--peertube:before,
 .fr-follow .fr-btn--github:before,

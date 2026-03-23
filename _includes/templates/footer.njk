@@ -1,5 +1,8 @@
 <footer class="fr-footer" role="contentinfo" id="footer">
     <div class="fr-container">
+        {% if hideNewsletterBanner != true %}
+            {% include "templates/newsletter.njk" %}
+        {% endif %}
         <div class="fr-footer__body">
             <div class="fr-footer__brand fr-enlarge-link">
                 <a href="{{ "/" }}" title="{{ "home" }} - {{ metadata.description }} - {{ metadata.title }}">
