@@ -89,7 +89,7 @@
             <div>
               <div class="fr-consent-service fr-consent-manager__header">
                 <fieldset class="fr-fieldset fr-fieldset--inline">
-                  <legend class="fr-consent-service__title">Préférences pour tous les services.<br><a href="/donnees-personnelles">Données personnelles et cookies</a></legend>
+                  <legend class="fr-consent-service__title">Préférences pour tous les services.<br><a href="/donnees-personnelles#utilisation-des-cookies">Données personnelles et cookies</a></legend>
                   <div class="fr-consent-service__radios">
                     <div class="fr-btns-group fr-btns-group--inline fr-btns-group--right">
                       <button id="fr-consent-modal-button-accept-all" title="Autoriser tous les cookies" class="fr-btn" data-fr-js-button-actionee="true">Tout accepter</button>
@@ -99,35 +99,35 @@
                 </fieldset>
               </div>
               <div class="fr-consent-service">
-                <fieldset aria-labelledby="finality-:r2q:-legend finality-:r2q:-desc" role="group" class="fr-fieldset">
-                  <legend id="finality-:r2q:-legend" class="fr-consent-service__title">Cookies obligatoires</legend>
+                <fieldset aria-labelledby="finality-mandatory-legend finality-mandatory-desc" role="group" class="fr-fieldset">
+                  <legend id="finality-mandatory-legend" class="fr-consent-service__title">Cookies obligatoires</legend>
                   <div class="fr-consent-service__radios">
                     <div class="fr-radio-group">
-                      <input type="radio" id="consent-finality-:r2q:-accept" disabled="" checked="" data-fr-js-radio-actionee="true"/>
-                      <label class="fr-label" for="consent-finality-:r2q:-accept">Accepter</label>
+                      <input type="radio" id="consent-finality-mandatory-accept" disabled="" checked="" data-fr-js-radio-actionee="true"/>
+                      <label class="fr-label" for="consent-finality-mandatory-accept">Accepter</label>
                     </div>
                     <div class="fr-radio-group">
-                      <input type="radio" id="consent-finality-:r2q:-refuse" disabled="" data-fr-js-radio-actionee="true"/>
-                      <label class="fr-label" for="consent-finality-:r2q:-refuse">Refuser</label>
+                      <input type="radio" id="consent-finality-mandatory-refuse" disabled="" data-fr-js-radio-actionee="true"/>
+                      <label class="fr-label" for="consent-finality-mandatory-refuse">Refuser</label>
                     </div>
                   </div>
-                  <p class="fr-consent-service__desc">Ce site utilise des cookies nécessaires à son bon fonctionnement qui ne peuvent pas être désactivés.</p>
+                  <p class="fr-consent-service__desc" id="finality-mandatory-desc">Ce site utilise des cookies nécessaires à son bon fonctionnement qui ne peuvent pas être désactivés.</p>
                 </fieldset>
               </div>
               <div class="fr-consent-service">
-                <fieldset aria-labelledby="finality-:r2r:-legend finality-:r2r:-desc" role="group" class="fr-fieldset">
-                  <legend id="finality-:r2r:-legend" class="fr-consent-service__title">Eulerian Analytics</legend>
+                <fieldset aria-labelledby="finality-eulerian-legend finality-eulerian-desc" role="group" class="fr-fieldset">
+                  <legend id="finality-eulerian-legend" class="fr-consent-service__title">Eulerian Analytics</legend>
                   <div class="fr-consent-service__radios">
                     <div class="fr-radio-group">
-                      <input type="radio" id="consent-finality-:r2r:-accept" checked=true data-fr-js-radio-actionee="true" name="fr-radio-consent"/>
-                      <label class="fr-label" for="consent-finality-:r2r:-accept">Accepter</label>
+                      <input type="radio" id="consent-finality-eulerian-accept" checked="true" data-consent-key="eulerianAnalytics" data-fr-js-radio-actionee="true" name="consent-eulerian" />
+                      <label class="fr-label" for="consent-finality-eulerian-accept">Accepter</label>
                     </div>
                     <div class="fr-radio-group">
-                      <input type="radio" id="consent-finality-:r2r:-refuse" data-fr-js-radio-actionee="true" name="fr-radio-consent"/>
-                      <label class="fr-label" for="consent-finality-:r2r:-refuse">Refuser</label>
+                      <input type="radio" id="consent-finality-eulerian-refuse" data-fr-js-radio-actionee="true" name="consent-eulerian" />
+                      <label class="fr-label" for="consent-finality-eulerian-refuse">Refuser</label>
                     </div>
                   </div>
-                  <p class="fr-consent-service__desc">En cliquant sur 'Accepter', vous consentez à l’utilisation des cookies pour nous aider à améliorer notre site web en collectant et en rapportant des informations sur votre utilisation grâce à Eulerian Analytics. Si vous n'êtes pas d’accord, veuillez cliquer sur 'Refuser'. Votre expérience de navigation ne sera pas affectée.</p>
+                  <p class="fr-consent-service__desc" id="finality-eulerian-desc">En cliquant sur 'Accepter', vous consentez à l’utilisation des cookies pour nous aider à améliorer notre site web en collectant et en rapportant des informations sur votre utilisation grâce à Eulerian Analytics. Si vous n'êtes pas d’accord, veuillez cliquer sur 'Refuser'. Votre expérience de navigation ne sera pas affectée.</p>
                 </fieldset>
               </div>
               <ul class="fr-consent-manager__buttons fr-btns-group fr-btns-group--right fr-btns-group--inline-sm">
