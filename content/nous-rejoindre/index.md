@@ -3,6 +3,7 @@ title: Communautés
 effectiveTitle: Rejoignez la communauté des utilisateurs et contributeurs de la Géoplateforme et cartes.gouv.fr
 layout: layouts/page.njk
 showBreadcrumb: true
+hideNewsletterBanner: true
 eleventyNavigation:
     key: Communautés
     order: 5

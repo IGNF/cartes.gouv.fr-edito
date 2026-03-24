@@ -68,6 +68,10 @@
   {{ content | safe }}
 </main>
 
+{% if hideNewsletterBanner != true %}
+    {% include "templates/newsletter.njk" %}
+{% endif %}
+
 {% include "templates/footer.njk" %}
 
 {% include "templates/display.njk" %}
