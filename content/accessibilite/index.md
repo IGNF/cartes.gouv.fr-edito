@@ -69,7 +69,7 @@ slugOverride: accessibilite
 
   1. [Accueil](/)
   2. [Mentions légales](/mentions-legales)
-  3. [Faq](/faq)
+  3. [Faq](/aide/fr)
   4. [Plan du site](/plan-du-site)
   5. [A propos](/a-propos)
   6. Détail actualité
