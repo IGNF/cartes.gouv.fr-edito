@@ -119,7 +119,7 @@ Lorsque vous décidez de téléverser et de partager un jeu de données depuis u
 
 Lorsque vous mettez à disposition un jeu de données à partir d’une API, vous devez indiquer si vous autorisez sa diffusion au public ou à certaines personnes autorisées.
 
-Vous définissez les conditions d’utilisation et de réutilisation des jeux de données mis à disposition à partir d’une API et renseignez la licence depuis les métadonnées de données de l’API. A défaut, la <a href="https://www.etalab.gouv.fr/licence-ouverte-open-licence/" target="_blank" rel="noreferrer" title="www.etalab.gouv.fr - ouvre une nouvelle fenêtre">Licence Ouverte / Open Licence – Etalab</a> s’applique sur ce jeu de données.
+Vous définissez les conditions d’utilisation et de réutilisation des jeux de données mis à disposition à partir d’une API et renseignez la licence depuis les métadonnées de données de l’API. A défaut, la <a href="https://alliance.numerique.gouv.fr/licence-ouverte-open-licence/" target="_blank" rel="noreferrer" title="www.etalab.gouv.fr - ouvre une nouvelle fenêtre">Licence Ouverte / Open Licence – Etalab</a> s’applique sur ce jeu de données.
 
 Lorsque vous supprimez un jeu de données que vous avez mis à disposition à partir d’une API, le jeu de données cessera d’être accessible dans un délai raisonnable. Cependant, il est possible que les jeux de données ayant fait l’objet de réutilisations avant leur suppression restent accessibles.
 
