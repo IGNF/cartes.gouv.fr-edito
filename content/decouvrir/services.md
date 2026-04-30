@@ -6,5 +6,4 @@ eleventyNavigation:
     key: Services
     order: 2
     nav: main
-eleventyExcludeFromCollections: true
 ---
