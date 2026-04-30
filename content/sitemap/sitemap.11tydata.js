@@ -3,9 +3,7 @@ module.exports = function () {
         eleventyComputed: {
             tree: (data) => {
 
-                let excludedSlugs = ["services", "confirmation", "erreur"];
-
-                const allPages = data.collections.all.filter((p) => p.url && !excludedSlugs.includes(p.fileSlug));
+                const allPages = data.collections.all.filter((p) => p.url);
 
                 const tree = {};
 
