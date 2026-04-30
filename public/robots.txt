@@ -2,4 +2,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://cartes.gouv.fr/sitemap.xml
-Sitemap: https://cartes.gouv.fr/aide/sitemap.xml
+Sitemap: https://cartes.gouv.fr/aide/plan-du-site.xml

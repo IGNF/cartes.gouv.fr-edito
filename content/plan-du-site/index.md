@@ -73,6 +73,9 @@ showBreadcrumb: true
               <li>
                 <a href="/aide/fr/nous-ecrire/"> Nous écrire </a>
               </li>
+              <li>
+                <a href="/aide/plan-du-site/"> Plan de l'aide de cartes.gouv.fr </a>
+              </li>
             </ul>
           </li>
           <li>
