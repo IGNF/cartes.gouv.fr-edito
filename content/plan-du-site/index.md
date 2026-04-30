@@ -39,9 +39,6 @@ showBreadcrumb: true
             <a href="/actualites"> Actualités </a>
           </li>
           <li>
-            <a href="/nous-rejoindre"> Communautés </a>
-          </li>
-          <li>
             <a href="/niveau-de-service"> Niveau de service </a>
           </li>
           <li>
