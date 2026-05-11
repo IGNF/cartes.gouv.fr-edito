@@ -1,5 +1,10 @@
 User-agent: *
-Disallow:
+Disallow: /aide/fr/partenaires/ign/observations-regulieres-territoire/*
+Disallow: /aide/fr/partenaires/ign/referentiels-description-territoire/*
+Disallow: /aide/fr/partenaires/ign/representations-cartographiques-souveraines/*
+Disallow: /aide/fr/partenaires/ign/outils-cartographiques/*
+Disallow: /aide/fr/partenaires/ign/services-appui-decision/*
+Disallow: /aide/fr/partenaires/ign/carte-compagne-decouvertes/*
 
 Sitemap: https://cartes.gouv.fr/sitemap.xml
 Sitemap: https://cartes.gouv.fr/aide/plan-du-site.xml
