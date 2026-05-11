@@ -420,11 +420,11 @@ a.custom-center-btn.fr-btn {
 
 .section_3 {
     background-color: #000091;
-    color: white;
+    color: #fff;
     padding: 80px 0;
 }
 .section_3 h2 {
-    color: white;
+    color: #fff;
 }
 
 .trimester_tab {
@@ -558,7 +558,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_3 .section_elem {
-    border: solid 1px white;
+    border: solid 1px #E3E3FD;
     padding: 40px;
     display: flex;
     flex-direction: row;
@@ -578,7 +578,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_3 .section_elem .fr-artwork-minor {
-    fill: white;
+    fill: #ECECFE;
 }
 
 .section_3 .section_elem .fr-artwork-major {
@@ -586,7 +586,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_3 .section_elem a {
-    border: solid 1px white;
+    border: solid 1px #E3E3FD;
 }
 
 @media screen and (max-width: 1054px){
