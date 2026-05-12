@@ -319,7 +319,7 @@ table {
 }
 
 .confirmation-container .fr-tile{
-    border: solid 1px #ddd;
+    border: solid 1px var(--border-default-grey, #DDDDDD);
 }
 
 .confirmation-container .blue {
@@ -410,7 +410,7 @@ a.custom-center-btn.fr-btn {
 
 /* Page Évolutions */
 .section_1 {
-    background-color: #F6F6F6;
+    background-color: var(--background-alt-grey, #F6F6F6);
     padding: 80px 0;
 }
 
@@ -419,12 +419,12 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_3 {
-    background-color: #000091;
-    color: #fff;
+    background-color: var(--background-action-high-blue-france, #000091);
+    color: var(--text-inverted-blue-france, #fff);
     padding: 80px 0;
 }
 .section_3 h2 {
-    color: #fff;
+    color: var(--text-inverted-blue-france, #fff);
 }
 
 .trimester_tab {
@@ -433,7 +433,7 @@ a.custom-center-btn.fr-btn {
     width: 100%;
     height: 40px;
     justify-content: space-around;
-    background-color: white;
+    background-color: var(--background-default-grey, white);
 }
 
 .trimester_tab p {
@@ -450,8 +450,8 @@ a.custom-center-btn.fr-btn {
 }
 
 .trimester_tab .selected {
-    color: #000091;
-    border: solid 1px #000091;
+    color: var(--background-action-high-blue-france, #000091);
+    border: solid 1px var(--background-action-high-blue-france, #000091);
     border-radius: 5px;
 }
 
@@ -467,9 +467,9 @@ a.custom-center-btn.fr-btn {
 }
 
 .tab_content {
-    background-color: white;
+    background-color: var(--background-default-grey, white);
     margin-top: 1em;
-    padding: 40px 0 0 40px;
+    padding: 40px 40px 0 40px;
     display: none;
 }
 
@@ -487,8 +487,7 @@ a.custom-center-btn.fr-btn {
 
 .tab_content .month_separator {
     height: 0px;
-    margin: 0 40px;
-    border-bottom: solid 1px #DDDDDD;
+    border-bottom: solid 1px var(--border-default-grey, #DDDDDD);
 }
 
 .tab_content .evo_elem {
@@ -502,7 +501,7 @@ a.custom-center-btn.fr-btn {
 
 .tab_content .month {
     font-size: 12px;
-    color: #666666;
+    color: var(--text-mention-grey, #666666);
     margin-bottom: 32px;
 }
 
@@ -521,7 +520,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_2 .fr-tile {
-    border: solid 1px #DDDDDD;
+    border: solid 1px var(--border-default-grey, #DDDDDD);
 }
 
 .section_2 .fr-tile--no-border {
@@ -534,13 +533,13 @@ a.custom-center-btn.fr-btn {
 
 .section_2 .fr-tile__header {
     text-align: left;
-    color: #666666;
+    color: var(--text-mention-grey, #666666);
     font-size: 12px;
 }
 
 .section_2 .fr-tile__title {
     width: 100%;
-    color: #000091;
+    color: var(--background-action-high-blue-france, #000091);
 }
 
 .section_2 .fr-tile__desc {
@@ -555,15 +554,16 @@ a.custom-center-btn.fr-btn {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .section_3 .section_elem {
-    border: solid 1px #E3E3FD;
+    border: solid 1px var(--background-action-low-blue-france, #E3E3FD);
     padding: 40px;
     display: flex;
     flex-direction: row;
-    margin: 20px 20px 0 0;
-    width: 48%;
+    margin-top: 20px;
+    width: calc(50% - 10px);
 }
 
 .section_3 .section_elem div {
@@ -578,15 +578,15 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_3 .section_elem .fr-artwork-minor {
-    fill: #ECECFE;
+    fill: var(--artwork-decorative-blue-france, #ECECFE);
 }
 
 .section_3 .section_elem .fr-artwork-major {
-    fill: #6A6AF4;
+    fill: var(--artwork-minor-blue-france, #6A6AF4);
 }
 
 .section_3 .section_elem a {
-    border: solid 1px #E3E3FD;
+    border: solid 1px var(--background-action-low-blue-france, #E3E3FD);
 }
 
 @media screen and (max-width: 1054px){
