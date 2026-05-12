@@ -145,7 +145,7 @@
 }
 
 ._equalHeightCol_v3pbz_88 a {
-    border: solid 1px #E3E3FD;
+    border: solid 1px var(--border-default-grey, #E3E3FD);
 }
 
 .borderDefaultGrey {
@@ -163,11 +163,11 @@
 }
 
 .fr-artwork-minor {
-    fill: #ECECFE;
+    fill: var(--artwork-decorative-blue-france, #ECECFE);
 }
 
 .fr-artwork-major {
-    fill: #6A6AF4;
+    fill: var(--artwork-minor-blue-france, #6A6AF4);
 }
 
 @media screen and (max-width: 500px){
