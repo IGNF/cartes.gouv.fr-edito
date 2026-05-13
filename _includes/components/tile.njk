@@ -10,25 +10,30 @@
             <div class="fr-tile__desc">{{ tile.description | safe }}</div>
             {% if tile.link %}
             <div class="fr-tile__link">
-                <a href="{{tile.link.url}}" target={{tile.link.target}}> {{tile.link.text}} {% if tile.link.target=="" %}<span class="fr-icon-arrow-right-line"></span> {% endif %} </a>
+                <a title="{{tile.link.title}}" href="{{tile.link.url}}" target={{tile.link.target}}> {{tile.link.text}} {% if tile.link.target=="" %}<span class="fr-icon-arrow-right-line"></span> {% endif %} </a>
             </div>
             {% endif %}
         </div>
     </div>
-    {% if tile.pictogram %}
+    {% if tile.pictogram or tile.headerText %}
         <div class="fr-tile__header">
-            <div class="fr-tile__pictogram">
-                {% set pictogramUrl = "/artwork/pictograms/" + tile.pictogram %}
-                <svg aria-hidden="true"
-                     class="fr-artwork"
-                     viewBox="0 0 80 80"
-                     width="80px"
-                     height="80px">
-                    <use class="fr-artwork-decorative" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-decorative"></use>
-                    <use class="fr-artwork-minor" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-minor"></use>
-                    <use class="fr-artwork-major" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-major"></use>
-                </svg>
-            </div>
+            {% if tile.pictogram %}
+                <div class="fr-tile__pictogram">
+                    {% set pictogramUrl = "/artwork/pictograms/" + tile.pictogram %}
+                    <svg aria-hidden="true"
+                        class="fr-artwork"
+                        viewBox="0 0 80 80"
+                        width="80px"
+                        height="80px">
+                        <use class="fr-artwork-decorative" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-decorative"></use>
+                        <use class="fr-artwork-minor" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-minor"></use>
+                        <use class="fr-artwork-major" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-major"></use>
+                    </svg>
+                </div>
+            {% endif %}
+            {% if tile.headerText %}
+                <p>{{ tile.headerText }}</p>
+            {% endif %}
         </div>
     {% endif %}
 </div>
