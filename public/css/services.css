@@ -157,16 +157,16 @@
     background-color: unset !important;
 }
 
-.fr-container svg {
+.go-further .fr-container svg {
     margin-right: 24px;
     min-width: 120px;
 }
 
-.fr-artwork-minor {
+.go-further .fr-artwork-minor {
     fill: var(--artwork-decorative-blue-france, #ECECFE);
 }
 
-.fr-artwork-major {
+.go-further .fr-artwork-major {
     fill: var(--artwork-minor-blue-france, #6A6AF4);
 }
 
