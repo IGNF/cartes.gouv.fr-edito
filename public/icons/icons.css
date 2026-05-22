@@ -1,3 +1,8 @@
+.fr-icon-contacts-book-upload-line::before,
+.fr-icon-contacts-book-upload-line::after {
+  -webkit-mask-image: url("/icons/dsfr-extension/contacts-book-upload-line.svg");
+  mask-image: url("/icons/dsfr-extension/contacts-book-upload-line.svg");
+}
 .fr-icon-custom-size::before,
 .fr-icon-custom-size::after {
   -webkit-mask-image: url("/icons/dsfr-extension/custom-size.svg");
