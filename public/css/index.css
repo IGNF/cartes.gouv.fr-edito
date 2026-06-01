@@ -415,7 +415,6 @@ a.custom-center-btn.fr-btn {
     align-items: center;
     gap: 8px;
     align-self: stretch;
-    color: var(--light-decisions-text-text-title-grey, #161616);
     font-family: Marianne;
     font-size: 32px;
     font-style: normal;
@@ -425,7 +424,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_1 {
-    background: var(--light-decisions-background-background-default-grey-hover, #F6F6F6);
+    background: var(--background-alt-grey, #f6f6f6);
     display: flex;
     padding: 80px 0 96px 0px;
     flex-direction: column;
@@ -435,7 +434,6 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_2 {
-    background: var(--light-decisions-background-background-default-grey, #FFF);
     display: flex;
     padding: 80px 0px 96px 0px;
     flex-direction: column;
@@ -445,7 +443,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_3 {
-    background: var(--light-decisions-background-background-action-high-blue-france, #000091);
+    background: var(--background-action-high-blue-france, #000091);
     color: var(--text-inverted-blue-france, #fff);
     display: flex;
     padding: 80px 0px 96px 0px;
@@ -475,7 +473,7 @@ a.custom-center-btn.fr-btn {
     align-self: stretch;
     flex-wrap: wrap;
     border-radius: 4px;
-    background: var(--light-decisions-background-background-default-grey, #FFF);
+    background: var(--background-default-grey, #fff);
 }
 
 .trimester_tab p {
@@ -486,7 +484,6 @@ a.custom-center-btn.fr-btn {
     gap: 8px;
     flex: 1 0 0;
     margin: 0;
-    color: var(--light-decisions-text-text-action-high-grey, #161616);
     text-align: center;
     font-family: Marianne;
     font-size: 16px;
@@ -511,7 +508,7 @@ a.custom-center-btn.fr-btn {
     align-items: flex-start;
     align-self: stretch;
     border-radius: 4px;
-    background: #FFF;
+    background: var(--background-default-grey, #fff);
 }
 
 .tab_content.selected {
@@ -633,7 +630,7 @@ a.custom-center-btn.fr-btn {
     justify-self: stretch;
     border-radius: 4px;
     border: 1px solid var(--light-decisions-border-border-default-grey, #DDD);
-    background: var(--light-decisions-background-background-default-grey, #FFF);
+    background: var(--background-default-grey, #FFF);
     width: 48%;
 }
 
@@ -674,7 +671,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_2 .note_body h3 {
-    color: var(--light-decisions-text-text-title-blue-france, #000091);
+    color: var(--background-action-high-blue-france, #000091);
     font-family: Marianne;
     font-size: 22px;
     font-style: normal;
@@ -691,7 +688,7 @@ a.custom-center-btn.fr-btn {
     padding-top: 8px;
     align-items: flex-start;
     gap: 8px;
-    color: var(--light-decisions-text-text-action-high-blue-france, #000091);
+    color: var(--background-action-high-blue-france, #000091);
     font-family: Marianne;
     font-size: 14px;
     font-style: normal;
@@ -749,7 +746,7 @@ a.custom-center-btn.fr-btn {
 .section_3 .section_elem div p {
     margin: 0;
     align-self: stretch;
-    color: var(--light-decisions-text-text-inverted-grey, #FFF);
+    color: var(--background-default-grey, #FFF);
     font-family: Marianne;
     font-size: 18px;
     font-style: normal;
@@ -774,7 +771,7 @@ a.custom-center-btn.fr-btn {
 
 .section_3 .section_elem a {
     border: 1px solid var(--light-decisions-border-border-open-blue-france, #E3E3FD);
-    background: var(--light-decisions-background-background-action-high-blue-france, #000091);
+    background: var(--background-action-high-blue-france, #000091);
     display: flex;
     padding: 8px 12px 8px 16px;
     justify-content: center;
