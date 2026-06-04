@@ -498,7 +498,7 @@ a.custom-center-btn.fr-btn {
 
 .trimester_tab .selected {
     color: var(--background-action-high-blue-france, #000091);
-    border: solid 1px var(--background-action-high-blue-france, #000091);
+    border: solid 1px var(--border-active-blue-france, #000091);
     border-radius: 5px;
 }
 
@@ -671,7 +671,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_2 .note_body h3 {
-    color: var(--background-action-high-blue-france, #000091);
+    color: var(--text-title-blue-france, #000091);
     font-family: Marianne;
     font-size: 22px;
     font-style: normal;
@@ -688,7 +688,7 @@ a.custom-center-btn.fr-btn {
     padding-top: 8px;
     align-items: flex-start;
     gap: 8px;
-    color: var(--background-action-high-blue-france, #000091);
+    color: var(--text-title-blue-france, #000091);
     font-family: Marianne;
     font-size: 14px;
     font-style: normal;
@@ -746,7 +746,7 @@ a.custom-center-btn.fr-btn {
 .section_3 .section_elem div p {
     margin: 0;
     align-self: stretch;
-    color: var(--background-default-grey, #FFF);
+    color: var(--text-inverted-grey, #fff);
     font-family: Marianne;
     font-size: 18px;
     font-style: normal;
