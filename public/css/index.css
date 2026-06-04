@@ -453,7 +453,7 @@ a.custom-center-btn.fr-btn {
     align-self: stretch;
 }
 .section_3 h2 {
-    color: var(--text-inverted-blue-france, #fff);
+    color: var(--text-inverted-grey, #fff);
 }
 
 .calendar {
@@ -601,7 +601,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .tab_content .month {
-    color: var(--light-decisions-text-text-mention-grey, #666);
+    color: var(--text-mention-grey, #666);
     font-family: Marianne;
     font-size: 12px;
     font-style: normal;
@@ -629,7 +629,7 @@ a.custom-center-btn.fr-btn {
     grid-row: 1 / span 1;
     justify-self: stretch;
     border-radius: 4px;
-    border: 1px solid var(--light-decisions-border-border-default-grey, #DDD);
+    border: 1px solid var(--border-default-grey, #DDDDDD);
     background: var(--background-default-grey, #FFF);
     width: 48%;
 }
@@ -654,7 +654,7 @@ a.custom-center-btn.fr-btn {
     gap: 12px;
     align-self: stretch;
     margin: 0;
-    color: var(--light-decisions-text-text-mention-grey, #666);
+    color: var(--text-mention-grey, #666);
     font-family: Marianne;
     font-size: 12px;
     font-style: normal;
@@ -727,7 +727,7 @@ a.custom-center-btn.fr-btn {
     align-items: flex-start;
     gap: 24px;
     flex: 1 0 0;
-    border: 2px solid var(--light-decisions-border-border-open-blue-france, #E3E3FD);
+    border: 2px solid var(--border-open-blue-france, #E3E3FD);
 }
 
 .section_3 .section_elem.second_elem {
@@ -770,7 +770,7 @@ a.custom-center-btn.fr-btn {
 }
 
 .section_3 .section_elem a {
-    border: 1px solid var(--light-decisions-border-border-open-blue-france, #E3E3FD);
+    border: 1px solid var(--border-open-blue-france, #E3E3FD);
     background: var(--background-action-high-blue-france, #000091);
     display: flex;
     padding: 8px 12px 8px 16px;
