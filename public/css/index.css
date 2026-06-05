@@ -573,10 +573,8 @@ a.custom-center-btn.fr-btn {
 
 .tab_content .evo_elem .fr-badge {
     display: flex;
-    padding: 0 6px;
     justify-content: center;
     align-items: center;
-    gap: 4px;
     border-radius: 4px;
 }
 
