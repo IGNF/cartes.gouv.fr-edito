@@ -476,7 +476,7 @@ a.custom-center-btn.fr-btn {
     background: var(--background-default-grey, #fff);
 }
 
-.trimester_tab p {
+.trimester_tab button {
     display: flex;
     padding: 8px 16px;
     justify-content: center;
@@ -492,8 +492,9 @@ a.custom-center-btn.fr-btn {
     line-height: 24px;
 }
 
-.trimester_tab p:hover {
+.trimester_tab button:hover {
     cursor: pointer;
+    background: unset;
 }
 
 .trimester_tab .selected {

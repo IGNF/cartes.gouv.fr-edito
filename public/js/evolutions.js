@@ -1,6 +1,6 @@
 let setTabView = function(elem) {
     
-    let tabs = document.querySelectorAll(".trimester_tab p");
+    let tabs = document.querySelectorAll(".trimester_tab button");
 
     for(let i in tabs) {
         if(tabs[i].classList.contains("selected")) {
