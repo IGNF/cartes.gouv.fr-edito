@@ -648,7 +648,7 @@ a.custom-center-btn.fr-btn {
 
 .section_2 .note_info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     gap: 12px;
     align-self: stretch;
