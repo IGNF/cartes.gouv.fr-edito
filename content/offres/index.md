@@ -69,7 +69,7 @@ Les producteurs de données ayant besoin de stocker et diffuser un volume import
 <div class="fr-grid-row fr-grid-row--gutters">
   <div class="fr-col-12 fr-col-lg-8">
 
-  ## Cartes.gouv.fr
+  <h2> Cartes.gouv.fr </h2>
 
   Cartes.gouv.fr est le nouveau service public des cartes et données du territoire.
 

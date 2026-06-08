@@ -416,7 +416,6 @@ a.custom-center-btn.fr-btn {
     gap: 8px;
     align-self: stretch;
     font-family: Marianne;
-    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -486,10 +485,8 @@ a.custom-center-btn.fr-btn {
     margin: 0;
     text-align: center;
     font-family: Marianne;
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
 }
 
 .trimester_tab button:hover {
@@ -527,10 +524,8 @@ a.custom-center-btn.fr-btn {
 .trimester_infos .title {
     flex: 1 0 0;
     font-family: Marianne;
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
     margin: 0;
 }
 
@@ -589,10 +584,8 @@ a.custom-center-btn.fr-btn {
 
 .tab_content .evo_elem .text_zone p {
     font-family: Marianne;
-    font-size: 16px;
     font-style: normal;
     margin: 0;
-    line-height: 24px;
 }
 
 .tab_content .evo_elem .text_zone p.title {
@@ -602,10 +595,10 @@ a.custom-center-btn.fr-btn {
 .tab_content .month {
     color: var(--text-mention-grey, #666);
     font-family: Marianne;
-    font-size: 12px;
+    font-size: 0.75em;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.7em;
     margin: 0;
 }
 
@@ -655,10 +648,10 @@ a.custom-center-btn.fr-btn {
     margin: 0;
     color: var(--text-mention-grey, #666);
     font-family: Marianne;
-    font-size: 12px;
+    font-size: 0.75em;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.65em;
 }
 
 .section_2 .note_body {
@@ -672,10 +665,10 @@ a.custom-center-btn.fr-btn {
 .section_2 .note_body h3 {
     color: var(--text-title-blue-france, #000091);
     font-family: Marianne;
-    font-size: 22px;
+    font-size: 1.375em;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 1.275em;
 }
 
 .section_2 .note_body h3, .section_2 .note_body p {
@@ -689,10 +682,9 @@ a.custom-center-btn.fr-btn {
     gap: 8px;
     color: var(--text-title-blue-france, #000091);
     font-family: Marianne;
-    font-size: 14px;
+    font-size: 0.875em;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
 }
 
 .section_2 .note_action[target=_blank]:after {
@@ -747,10 +739,10 @@ a.custom-center-btn.fr-btn {
     align-self: stretch;
     color: var(--text-inverted-grey, #fff);
     font-family: Marianne;
-    font-size: 18px;
+    font-size: 1.125em;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.56em;
 }
 
 .section_3 .section_elem svg {
