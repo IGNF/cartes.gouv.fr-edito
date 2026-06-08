@@ -31,7 +31,6 @@ import Keycloak from "./keycloak.js";
             const currentUrl = encodeURIComponent(urlWithoutHash);
             const logoutUrl = `${env.iamUrl}/realms/${encodeURIComponent(env.iamRealm)}/protocol/openid-connect/logout?post_logout_redirect_uri=${currentUrl}&id_token_hint=${idToken}&client_id=${encodeURIComponent(env.iamClientId)}`;
             return `
-                <li>
                     <div class="fr-translate fr-nav">
                         <div class="fr-nav__item">
                             <button aria-controls="${collapseId}" aria-expanded="false" title="Mon espace" class="fr-translate__btn fr-btn fr-px-2w">
@@ -64,7 +63,6 @@ import Keycloak from "./keycloak.js";
                             </div>
                         </div>
                     </div>
-                </li>
             `;
         };
 
