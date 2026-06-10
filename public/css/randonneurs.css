@@ -1,0 +1,336 @@
+#rando-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 1440px; */
+    padding-top: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#rando-container .main-container {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-left: 427px;
+}
+
+#rando-container .summary-container {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+#rando-container .summary-container .fr-summary {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    background: var(--background-contrast-grey, #EEE);
+    position: fixed;
+    width: 307px;
+    left: 120px;
+}
+
+#rando-container .summary-container .fr-summary h2{
+    display: flex;
+    padding: 0 8px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    margin: 0;
+}
+
+#rando-container .summary-container .fr-summary ol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    margin: 0;
+    padding-inline-start: 8px
+}
+
+#rando-container .summary-container .fr-summary li{
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#rando-container .summary-container .fr-summary a{
+    padding-right: 8px;
+}
+
+#rando-container .content-container {
+    display: flex;
+    padding: 40px 0 80px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    border-left: 1px solid var(--border-default-grey, #DDD);
+}
+
+#rando-container .content-container .top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+#rando-container .content-container .top-content .text-content {
+    display: flex;
+    padding-left: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    max-width: 893px;
+}
+
+#rando-container .content-container .top-content .text-content div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    margin: 0;
+}
+
+
+#rando-container .content-container .top-content .text-content h1{
+    color: var(--text-title-grey, #161616);
+    font-family: Marianne;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin: 0;
+}
+
+#rando-container .content-container .top-content .text-content p {
+    color: var(--text-default-grey, #3A3A3A);
+    font-family: Marianne;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin: 0;
+}
+
+#rando-container .content-container .top-content .top-image {
+    max-width: 893px;
+    height: 595px;
+    aspect-ratio: 890/593;
+    background: url("/img/randonneurs/AdobeStock_68558548.JPEG") lightgray 50% / cover no-repeat;
+}
+
+#rando-container .content-container .other-content {
+    display: flex;
+    padding-left: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+    align-self: stretch;
+}
+
+#rando-container .content-container .other-content .other-content-elem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+#rando-container .content-container .other-content .other-content-elem h2{
+    color: var(--text-title-grey, #161616);
+    font-family: Marianne;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;    
+    margin: 0;
+}
+
+#rando-container .content-container .other-content .other-content-elem .fr-accordions-group {
+    display: flex;
+    width: 792px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#rando-container .content-container .other-content .other-content-elem .fr-accordions-group .fr-accordion .fr-collapse--expanded{
+    padding: 28px 16px;
+}
+
+#rando-container .content-container .other-content .other-content-elem .fr-accordions-group .fr-accordion .fr-collapse .fr-link span{
+    margin-left: 8px;
+}
+
+#rando-container .content-container .other-content .other-content-elem .fr-accordions-group .fr-accordion .fr-collapse .fr-link{
+    margin-right: 18px;
+}
+
+#rando-container .content-container .other-content .other-content-elem .fr-accordions-group figure {
+    margin: 42px 0 8px 0;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-row {
+    display: flex;
+    gap: 24px;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    border: 1px solid var(--border-default-grey, #DDD);
+    background: var(--background-default-grey, #FFF);
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col .fr-card{
+    min-height: 373px;
+    max-width: 253px;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col .fr-card__body{
+    padding: 24px;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col .fr-card__title{
+    color: var(--text-title-blue-france, #000091);
+    font-size: 1.25rem;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col .fr-card__content{
+    padding: 0 32px;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col .fr-card__detail{
+    align-self: flex-end;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col .fr-card__end{
+    margin-bottom: 0;
+    padding: 0;
+    justify-content: flex-end;
+    min-height: unset;
+}
+
+#rando-container .content-container .other-content .other-content-elem .card-col .fr-card__footer{
+    padding: 16px 0 0 0;
+    display: none;
+}
+
+@media screen and (max-width: 1350px){
+    #rando-container .summary-container .fr-summary {
+        left: 0;
+    }
+    #rando-container .main-container {
+        margin-left: 307px;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    #rando-container .summary-container .fr-summary {
+        width: 200px;
+    }
+    #rando-container .main-container {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #rando-container .summary-container .fr-summary {
+        padding-right: 0;
+    }
+    #rando-container .main-container {
+        margin-left: 176px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    #rando-container .summary-container {
+        display: none;
+    }
+    #rando-container .main-container {
+        margin-left: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 994px){
+    #rando-container .content-container .top-content .top-image {
+        max-width: 736px;
+        height: 414px;
+        aspect-ratio: 733/411;
+        background: url("/img/randonneurs/AdobeStock_68558548.JPEG") lightgray 50% / cover no-repeat;
+    }
+    #rando-container .content-container .top-content .text-content {
+        max-width: 736px;
+    }
+    #rando-container .content-container .other-content {
+        padding-left: 20px;
+    }
+    #rando-container .content-container .other-content .other-content-elem .fr-accordions-group {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #rando-container .content-container .top-content .top-image {
+        max-width: 544px;
+        height: 306px;
+        aspect-ratio: 541/303;
+        background: url("/img/randonneurs/AdobeStock_68558548.JPEG") lightgray 50% / cover no-repeat;
+    }
+    #rando-container .content-container .top-content .text-content {
+        max-width: 544px;
+    }
+    #rando-container .content-container .other-content {
+        padding-left: 20px;
+    }
+    #rando-container .content-container .other-content .other-content-elem .fr-accordions-group {
+        width: 550px;
+    }
+    #rando-container .content-container .other-content .other-content-elem .card-row {
+        flex-direction: column;
+}
+}
+
+@media screen and (max-width: 575px){
+    #rando-container .content-container .top-content .top-image {
+        max-width: 288px;
+        height: 162px;
+        aspect-ratio: 285/159;
+        background: url("/img/randonneurs/AdobeStock_68558548.JPEG") lightgray 50% / cover no-repeat;
+    }
+    #rando-container .main-container {
+        margin: 0;
+    }
+    #rando-container .content-container .other-content .other-content-elem {
+        max-width: 320px;
+    }
+    #rando-container .content-container .top-content .text-content {
+        max-width: 288px;
+        padding-left: 20px;
+    }
+    #rando-container .content-container .other-content {
+        padding-left: 20px;
+    }
+    #rando-container .content-container .other-content .other-content-elem .fr-accordions-group {
+        width: 300px;
+    }
+}
