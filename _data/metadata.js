@@ -20,7 +20,7 @@ module.exports = {
     sourcehut_url: "",
     repository_url: "https://github.com/IGNF/cartes.gouv.fr-edito",
     language: "fr",
-    description: "Le service public des cartes et données du territoire",
+    description: "Notre territoire commun",
     author: {
         name: "IGN",
         email: "geoplateforme@ign.fr",
