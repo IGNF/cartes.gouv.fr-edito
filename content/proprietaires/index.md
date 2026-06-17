@@ -12,10 +12,12 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
 
 <a disabled class="fr-btn fr-mb-6v">Explorez votre (future) propriété</a>
 
-<div class="content-bleed fr-mb-14v">
-    <img src="/img/proprietaires/proprietaire-preparer-projet-immobilier.jpeg" eleventy:ignore>
-    <figcaption class="fr-content-media__caption fr-ml-4v">© Halfpoint - stock.adobe.com</figcaption>
-</div>
+<figure role="group" class="fr-content-media" aria-label="© Halfpoint - stock.adobe.com">
+    <div class="fr-content-media__img content-bleed">
+        <img src="/img/page-usage/proprietaires/proprietaire-preparer-projet-immobilier.jpg" alt="" eleventy:ignore/>
+        <figcaption class="fr-content-media__caption fr-ml-4v">© Halfpoint - stock.adobe.com</figcaption>
+    </div>
+</figure>
 
 ## Trouvez un bien, explorez son environnement et projetez-vous
 
@@ -117,7 +119,7 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
             <p>
                 Sur cartes.gouv.fr, vous disposez d’un accès libre au plan cadastral. Vous pouvez localiser facilement votre parcelle en effectuant une recherche par adresse ou en saisissant sa référence cadastrale directement dans l’outil de recherche. Les limites s’affichent en superposition sur le fond de carte de votre choix - <a href="https://cartes.gouv.fr/explorer-les-cartes?c=4.092880,48.286371&z=18&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;0;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(3;1;1;0),GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureAzimuth,MousePosition,Drawing,Route,ReverseGeocode,Isocurve,MeasureLength,MeasureArea,ElevationPath&permalink=yes">Plan IGN</a>, <a href="https://cartes.gouv.fr/explorer-les-cartes?c=4.092880,48.286371&z=18&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureAzimuth,MousePosition,Drawing,Route,ReverseGeocode,Isocurve,MeasureLength,MeasureArea,ElevationPath&permalink=yes">photographies aériennes</a> ou autre - pour une lecture claire et contextualisée.
             </p>
-            <img class="fr-responsive-img" srcset="/img/proprietaires/parcelles-localiser.jpg"/>
+            <img class="fr-responsive-img" srcset="/img/page-usage/proprietaires/parcelles-localiser.jpg" alt=""/>
         '
     },
     {
@@ -184,7 +186,8 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Plan IGN",
                 description: "Une carte claire et précise pour localiser un bien et comprendre son environnement",
                 image: {
-                    src: "/img/proprietaires/plan-ign.jpg"
+                    src: "/img/page-usage/plan-ign.jpg",
+                    alt: ""
                 }
             }
         },
@@ -194,7 +197,8 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Photographies aériennes",
                 description: "Une vue du ciel réaliste pour visualiser votre terrain et ses alentours (résolution : 20 cm)",
                 image: {
-                    src: "/img/proprietaires/vignette-photo-aerienne.jpg"
+                    src: "/img/page-usage/proprietaires/vignette-photo-aerienne.jpg",
+                    alt: ""
                 }
             }
         },
@@ -204,7 +208,8 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Parcelles cadastrales",
                 description: "Le plan officiel pour vérifier précisément les limites de votre terrain",
                 image: {
-                    src: "/img/proprietaires/vignette_cadastre.jpg"
+                    src: "/img/page-usage/proprietaires/vignette_cadastre.jpg",
+                    alt: ""
                 }
             }
         },
@@ -214,7 +219,8 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Vues immersives Panoramax",
                 description: "Pour voir à quoi ressemble votre rue sans vous déplacer",
                 image: {
-                    src: "/img/proprietaires/vignette-panoramax.jpg"
+                    src: "/img/page-usage/proprietaires/vignette-panoramax.jpg",
+                    alt: ""
                 }
             }
         },
@@ -224,7 +230,8 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "La carte des limites administratives",
                 description: "Pour repérer les limites administratives autour de votre bien",
                 image: {
-                    src: "/img/proprietaires/vignette_admin.jpg"
+                    src: "/img/page-usage/proprietaires/vignette_admin.jpg",
+                    alt: ""
                 }
             }
         },
@@ -234,7 +241,8 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Zonage informatif des obligations légales de débroussaillement (OLD)",
                 description: "Pour vérifier si vous devez débroussailler votre terrain pour le protéger des incendies",
                 image: {
-                    src: "/img/proprietaires/vignette_old.jpg"
+                    src: "/img/page-usage/proprietaires/vignette_old.jpg",
+                    alt: ""
                 }
             }
         }

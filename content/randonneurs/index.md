@@ -12,10 +12,12 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
 
 <a href="https://cartes.gouv.fr/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR$GEOPORTAIL:OGC:WMTS(1;0.99;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes" class="fr-btn fr-mb-6v">Préparez votre randonnée</a>
 
-<div class="content-bleed fr-mb-14v">
-    <img src="/img/randonneurs/AdobeStock_68558548.jpg" eleventy:ignore>
-    <figcaption class="fr-content-media__caption fr-ml-4v">© Tomfry - stock.adobe.com</figcaption>
-</div>
+<figure role="group" class="fr-content-media" aria-label="© Tomfry - stock.adobe.com">
+    <div class="fr-content-media__img content-bleed">
+        <img src="/img/page-usage/randonneurs/AdobeStock_68558548.jpg" alt="" eleventy:ignore/>
+        <figcaption class="fr-content-media__caption fr-ml-4v">© Tomfry - stock.adobe.com</figcaption>
+    </div>
+</figure>
 
 ## Trouvez votre prochaine randonnée sur cartes.gouv.fr
 
@@ -54,7 +56,7 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
             <p>
                 Où trouver l’outil ? Rendez-vous dans le menu « Accéder à d’autres outils » situé en haut à gauche de votre écran pour télécharger votre tracé.
             </p>
-            <img class="fr-responsive-img" srcset="/img/randonneurs/importer-une-trace.jpg"/>
+            <img class="fr-responsive-img" srcset="/img/page-usage/randonneurs/importer-une-trace.jpg" alt=""/>
         '
     }]
 }) }}
@@ -199,7 +201,8 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
                 title: "SCAN 25® touristique",
                 description: "La carte de référence pour s’orienter sur les sentiers balisés (échelle 1 : 25 000)",
                 image: {
-                    src: "/img/randonneurs/scan_25-touristique.jpg"
+                    src: "/img/page-usage/randonneurs/scan_25-touristique.jpg",
+                    alt: ""
                 }
             }
         },
@@ -209,7 +212,8 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
                 title: "Photographies aériennes",
                 description: "Pour vérifier le terrain en vrai vu du ciel (résolution : 20 cm)",
                 image: {
-                    src: "/img/randonneurs/photo-aerienne.jpg"
+                    src: "/img/page-usage/randonneurs/photo-aerienne.jpg",
+                    alt: ""
                 }
             }
         },
@@ -219,17 +223,19 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
                 title: "Plan IGN",
                 description: "Pour explorer le territoire grâce à une carte claire, précise et régulièrement mise à jour",
                 image: {
-                    src: "/img/randonneurs/no-img-available.jpg"
+                    src: "/img/page-usage/plan-ign.jpg",
+                    alt: ""
                 }
             }
         },
         {
+            url: "https://cartes.gouv.fr/explorer-les-cartes?c=5.998506,45.435902&z=12&l=ELEVATION.CONTOUR.LINE$GEOPORTAIL:OGC:WMTS(2;1;1;0),GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR$GEOPORTAIL:OGC:WMTS(1;0.3;1;0)&w=MeasureAzimuth,MousePosition,Drawing,Route,ReverseGeocode,Isocurve,MeasureLength,ElevationPath,MeasureArea&permalink=yes",
             data: {
-                disabled: true,
                 title: "Courbes de niveau",
                 description: "Pour visualiser le relief précis et anticiper l’effort",
                 image: {
-                    src: "/img/randonneurs/no-img-available.jpg"
+                    src: "/img/page-usage/randonneurs/courbes-niveau-vignette.jpg",
+                    alt: ""
                 }
             }
         },
@@ -239,7 +245,8 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
                 title: "Carte des traces de randonnée hivernale",
                 description: "Pour sécuriser vos randonnées à ski ou en raquettes",
                 image: {
-                    src: "/img/randonneurs/traces_rando-hivernale.jpg"
+                    src: "/img/page-usage/randonneurs/traces_rando-hivernale.jpg",
+                    alt: ""
                 }
             }
         },
@@ -249,7 +256,8 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
                 title: "Carte des pentes",
                 description: "Pour identifier les sentiers les plus raides (> 30°)",
                 image: {
-                    src: "/img/randonneurs/carte-pentes.jpg"
+                    src: "/img/page-usage/randonneurs/carte-pentes.jpg",
+                    alt: ""
                 }
             }
         },
@@ -259,7 +267,8 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
                 title: "Carte des offices de tourisme",
                 description: "Pour localiser les points d’information touristique",
                 image: {
-                    src: "/img/randonneurs/no-img-available.jpg"
+                    src: "/img/page-usage/randonneurs/offices-tourisme.jpg",
+                    alt: ""
                 }
             }
         }
