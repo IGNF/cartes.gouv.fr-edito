@@ -10,7 +10,7 @@ Que vous soyez déjà propriétaire, à la recherche d’un terrain ou en pleine
 
 En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et découvrez les informations utiles avant de vous lancer.
 
-<a disabled class="fr-btn fr-mb-6v">Explorez votre (future) propriété</a>
+<a href="/explorer-les-cartes?c=4.066897,48.301893&z=18&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureAzimuth,MousePosition,Drawing,Route,ReverseGeocode,Isocurve,MeasureLength,MeasureArea,ElevationPath&permalink=yes" class="fr-btn fr-mb-6v">Explorez votre (future) propriété</a>
 
 <figure role="group" class="fr-content-media" aria-label="© Halfpoint - stock.adobe.com">
     <div class="fr-content-media__img content-bleed">
@@ -209,17 +209,6 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 description: "Le plan officiel pour vérifier précisément les limites de votre terrain",
                 image: {
                     src: "/img/page-usage/proprietaires/vignette_cadastre.jpg",
-                    alt: ""
-                }
-            }
-        },
-        {
-            data: {
-                disabled: true,
-                title: "Vues immersives Panoramax",
-                description: "Pour voir à quoi ressemble votre rue sans vous déplacer",
-                image: {
-                    src: "/img/page-usage/proprietaires/vignette-panoramax.jpg",
                     alt: ""
                 }
             }
