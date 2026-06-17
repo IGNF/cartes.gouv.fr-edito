@@ -2,11 +2,6 @@
 title: Offres
 layout: layouts/page.njk
 showBreadcrumb: true
-eleventyNavigation:
-    key: Offres
-    order: 3
-    permalink: "/offres"
-    nav: main
 ---
 
 <div class="fr-col-12 fr-col-lg-8">

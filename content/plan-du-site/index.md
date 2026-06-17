@@ -33,9 +33,6 @@ showBreadcrumb: true
             </ul>
           </li>
           <li>
-            <a href="/offres"> Offres </a>
-          </li>
-          <li>
             <a href="/actualites"> Actualités </a>
           </li>
           <li>
