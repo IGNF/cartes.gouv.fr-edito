@@ -11,7 +11,7 @@
 @media (min-width: 992px) {
   .usage_summary {
     position: sticky;
-    top: 1rem;
+    top: 0;
     align-self: flex-start;
   }
   .usage_content .content-bleed {
