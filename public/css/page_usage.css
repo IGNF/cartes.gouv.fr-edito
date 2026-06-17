@@ -15,8 +15,8 @@
     align-self: flex-start;
   }
   .usage_content .content-bleed {
-    margin-left: -5rem;
-    width: calc(100% + 5rem);
+    margin-left: -4rem;
+    width: calc(100% + 4rem);
   }
 }
 
