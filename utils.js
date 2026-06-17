@@ -65,7 +65,7 @@ const getSummaryItems = (content, depth = 1) => {
     }
 
     const headings = Array.from(document.querySelectorAll(querySelector)).filter(
-        (h) => !h.classList.contains("fr-tile__title") && !h.classList.contains("fr-alert__title") && !h.classList.contains("fr-accordion__title")
+        (h) => !h.classList.contains("fr-tile__title") && !h.classList.contains("fr-alert__title") && !h.classList.contains("fr-accordion__title") && !h.classList.contains("fr-card__title")
     );
 
     const root = new Node("root", "root", "root");

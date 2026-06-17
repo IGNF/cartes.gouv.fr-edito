@@ -1,0 +1,25 @@
+@media (max-width: 992px) {
+  .usage_layout {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .usage_content {
+    padding-left: 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .usage_summary {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+  .usage_content .content-bleed {
+    margin-left: -4rem;
+    width: calc(100% + 4rem);
+  }
+}
+
+.usage_content .content-bleed img {
+    width: 100%;
+}
