@@ -197,7 +197,7 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Photographies aériennes",
                 description: "Une vue du ciel réaliste pour visualiser votre terrain et ses alentours (résolution : 20 cm)",
                 image: {
-                    src: "/img/page-usage/proprietaires/vignette-photo-aerienne.jpg",
+                    src: "/img/page-usage/vignette-photo-aerienne.jpg",
                     alt: ""
                 }
             }
@@ -208,7 +208,7 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Parcelles cadastrales",
                 description: "Le plan officiel pour vérifier précisément les limites de votre terrain",
                 image: {
-                    src: "/img/page-usage/proprietaires/vignette_cadastre.jpg",
+                    src: "/img/page-usage/vignette_cadastre.jpg",
                     alt: ""
                 }
             }
@@ -230,7 +230,7 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 title: "Zonage informatif des obligations légales de débroussaillement (OLD)",
                 description: "Pour vérifier si vous devez débroussailler votre terrain pour le protéger des incendies",
                 image: {
-                    src: "/img/page-usage/proprietaires/vignette_old.jpg",
+                    src: "/img/page-usage/vignette_old.jpg",
                     alt: ""
                 }
             }
