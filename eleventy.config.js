@@ -28,6 +28,7 @@ module.exports = function (eleventyConfig) {
     // For example, `./public/css/` ends up in `_site/css/`
     eleventyConfig.addPassthroughCopy({
         "./public/": "/",
+        "./node_modules/@gouvfr/dsfr/dist/favicon": "/", // copy favicons in the root folder to avoid 404 from pages that don't have an explicit <link rel="icon"...> (in other apps on the same domain)
         "./node_modules/@gouvfr/dsfr/dist/fonts": "/css/fonts",
         "./node_modules/@gouvfr/dsfr/dist/icons": "/css/icons",
         "./node_modules/@gouvfr/dsfr/dist/dsfr.min.css": "/css/dsfr.min.css",
@@ -36,16 +37,6 @@ module.exports = function (eleventyConfig) {
         "./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js": "/js/dsfr.nomodule.min.js",
         "./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork",
         "./node_modules/keycloak-js/lib/keycloak.js": "/js/keycloak.js",
-    });
-
-    // Copy favicons in the root folder to avoid 404 from pages that don't have
-    // an explicit <link rel="icon"...> (in other apps on the same domain)
-    eleventyConfig.on("eleventy.after", async ({ dir }) => {
-        await fs.cp(
-            path.join(dir.output, "favicon"),
-            path.join(dir.output, ""),
-            { recursive: true }
-        );
     });
 
     // Run Eleventy when these files change:
