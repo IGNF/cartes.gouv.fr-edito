@@ -20,6 +20,9 @@ const customMarkdownContainers = require("./markdown-custom-containers");
 
 const { getSummaryItems } = require("./utils.js");
 
+const fs = require("node:fs/promises");
+const path = require("node:path");
+
 module.exports = function (eleventyConfig) {
     // Copy the contents of the `public` folder to the output folder
     // For example, `./public/css/` ends up in `_site/css/`
@@ -34,6 +37,16 @@ module.exports = function (eleventyConfig) {
         "./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js": "/js/dsfr.nomodule.min.js",
         "./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork",
         "./node_modules/keycloak-js/lib/keycloak.js": "/js/keycloak.js",
+    });
+
+    // Also copy favicons in the root folder to avoid 404 from pages that don't have
+    // an explicit <link rel="icon"...> (in other apps on the same domain)
+    eleventyConfig.on("eleventy.after", async ({ dir }) => {
+        await fs.cp(
+            path.join(dir.output, "favicon"),
+            path.join(dir.output, ""),
+            { recursive: true }
+        );
     });
 
     // Run Eleventy when these files change:
