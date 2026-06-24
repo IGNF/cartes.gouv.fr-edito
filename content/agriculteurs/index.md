@@ -1,5 +1,7 @@
 ---
-title: Gérez votre exploitation agricole avec précision grâce à cartes.gouv.fr
+title: "Agriculture : gérez vos parcelles agricoles avec cartes.gouv.fr"
+effectiveTitle: "Gérez votre exploitation agricole avec précision grâce à cartes.gouv.fr"
+description: "Optimisez la gestion de votre exploitation agricole grâce à des cartes précises : parcelles, cultures, relief et données utiles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk
 ---
@@ -69,7 +71,7 @@ En quelques clics, croisez vos parcelles avec des données agricoles, environnem
                 <ul>
                     <li>les <a href="/explorer-les-cartes?c=1.973017,47.029540&z=13&l=CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0),HAIES.BOCAGES$GEOPORTAIL:OGC:WMS(3;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">données issues du suivi des bocages</a>,</li>
                     <li>la <a href="/explorer-les-cartes?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0),OCSGE.COUVERTURE.2021-2023$GEOPORTAIL:OGC:WMTS(3;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">carte d’occupation du sol,</a></li>
-                    <li>les <a href="/explorer-les-cartes?c=1.597386,46.934727&z=11&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(2;1;1;0),LANDUSE.AGRICULTURE2024$GEOPORTAIL:OGC:WMTS(3;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">parcelles cadastrales</a> ou le <a href="/explorer-les-cartes?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">Registre parcellaire graphique (RPG)</a>,</li>
+                    <li>les <a href="/explorer-les-cartes?c=0.843813,49.494093&z=9&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=&permalink=yes">parcelles cadastrales</a> ou le <a href="/explorer-les-cartes?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">Registre parcellaire graphique (RPG)</a>,</li>
                     <li>et les <a href="/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes">photographies aériennes</a> pour affiner l’analyse.</li>
                 </ul>
             </p>
@@ -103,7 +105,7 @@ En quelques clics, croisez vos parcelles avec des données agricoles, environnem
         title: "Suivre vos déclarations PAC grâce au RPG",
         content: '
             <p>
-                Sur <a href="/explorer-les-cartes/">cartes.gouv.fr</a>, vous accédez librement au <a href="/explorer-les-cartes?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">Registre parcellaire graphique (RPG)</a> qui vous permet de localiser vos parcelles agricoles, consulter vos cultures déclarées et suivre leurs évolutions dans le temps en consultant les anciennes cartes du RPG.
+                Sur cartes.gouv.fr, vous accédez librement au <a href="/explorer-les-cartes?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">Registre parcellaire graphique (RPG)</a> qui vous permet de localiser vos parcelles agricoles, consulter vos cultures déclarées et suivre leurs évolutions dans le temps en consultant les anciennes cartes du RPG.
             </p>
             <p>
                 Vous pouvez croiser ces informations avec le <a href="/explorer-les-cartes?c=1.955405,47.035754&z=16&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(2;1;1;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(3;1;1;0),GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">plan cadastral</a>, les cartes topographiques, les <a href="/explorer-les-cartes?c=1.973017,47.029540&z=13&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(3;1;1;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(2;1;1;0),GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes">photographies aériennes</a> récentes ou anciennes, ou encore des données environnementales.

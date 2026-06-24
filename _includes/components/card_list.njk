@@ -2,7 +2,7 @@
     {% set card_list = params %}
 {% endif %}
 {% if card_list.items and card_list.items.length %}
-  <div class="fr-grid-row fr-grid-row--gutters fr-mt-6w" data-pagefind-ignore>
+  <div class="fr-grid-row fr-grid-row--gutters fr-mt-7v" data-pagefind-ignore>
     {% for item in card_list.items %}
       <div class="fr-col-12 fr-col-sm-6 fr-col-md-{{ card_list.columns or 4 }}">
         {% set card = {

@@ -1,5 +1,7 @@
 ---
-title: Cartes.gouv.fr pour les randonneurs
+title: "Randonnée : préparez vos parcours avec cartes.gouv.fr"
+effectiveTitle: "Prêts pour l’aventure ? Votre prochaine randonnée commence sur cartes.gouv.fr"
+description: "Trouvez, explorez et préparez vos itinéraires de randonnée grâce aux cartes et données du territoire disponibles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk
 ---
@@ -39,7 +41,7 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
         title: "Trouver un parcours selon votre temps disponible",
         content: '
             <p>
-                Vous n’avez que deux heures ou un rayon de 10 km maximum pour votre sortie dominicale ? Utilisez notre outil « Zone selon temps de trajet » pour rechercher un parcours autour de vous ou d’une adresse précise. Entrez votre point de départ, fixez vos limites, et la carte affiche instantanément le périmètre souhaité.
+                Vous n’avez que 2h ou un rayon de 10km maximum pour votre sortie dominicale ? Utilisez notre outil « Zone selon temps de trajet » pour rechercher un parcours autour de vous ou d’une adresse précise. Entrez votre point de départ, fixez vos limites, et la carte affiche instantanément le périmètre souhaité.
             </p>
             <p>
                 Superposez la carte <a href="/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR$GEOPORTAIL:OGC:WMTS(1;0.99;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes">SCAN 25® touristique</a>, le <a href="/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR$GEOPORTAIL:OGC:WMTS(1;0.99;1;0),GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes">Plan IGN</a> ou les <a href="/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes">photographies aériennes</a> (ou tout autre fond de plan de votre choix) et ajustez la transparence pour un rendu personnalisé.
@@ -51,7 +53,7 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
         title: "Importer une trace GPS en quelques clics",
         content: '
             <p>
-                Vous disposez déjà d’un parcours sous la forme d’une trace au format GPX ou KML ? Importez-la très simplement sur cartes.gouv.fr. Vous pourrez ainsi la superposer avec les fonds de cartes et la croiser avec n’importe quelle donnée de votre choix.
+                Vous disposez déjà d’un parcours sous la forme d’une trace au format GPX ou KML ? Importez-la très simplement sur cartes.gouv.fr. Vous pourrez ainsi la superposer avec les fonds de carte et la croiser avec n’importe quelle donnée de votre choix.
             </p>
             <p>
                 Où trouver l’outil ? Rendez-vous dans le menu « Accéder à d’autres outils » situé en haut à gauche de votre écran pour télécharger votre tracé.
@@ -130,7 +132,7 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
         title: "Garder le cap, même sans réseau ni batterie",
         content: '
             <p>
-                Pour s’assurer une progression en toute sécurité sur un parcours qui peut comporter des zones blanches coupées du réseau 4G, il est prudent de s’équiper d’un parcours imprimé. En quelques clics, vous pouvez l’imprimer sur cartes.gouv.fr et la partager très simplement avec vos compagnons de route.
+                Pour s’assurer une progression en toute sécurité sur un parcours qui peut comporter des zones blanches coupées du réseau 4G, il est prudent de s’équiper d’un parcours imprimé. En quelques clics, vous pouvez l’imprimer sur cartes.gouv.fr et le partager très simplement avec vos compagnons de route.
             </p>
             <p>
                 <a href="/aide/fr/guides-utilisateur/visualiseur-cartographique/imprimer-une-carte/" class="fr-link">Guide : comment imprimer votre carte</a>
@@ -191,7 +193,7 @@ Avec cartes.gouv.fr, explorez votre itinéraire avant même d’enfiler vos chau
 
 <br>
 
-## Les cartes et données incontournables
+## Les cartes et données incontournables pour randonner
 
 {{ component("card_list", {
     items: [

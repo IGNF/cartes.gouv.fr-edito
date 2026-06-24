@@ -1,5 +1,7 @@
 ---
-title: Préparez votre projet immobilier simplement avec cartes.gouv.fr
+title: "Immobilier : préparez vos projets avec cartes.gouv.fr"
+effectiveTitle: "Préparez votre projet immobilier simplement avec cartes.gouv.fr"
+description: "Préparez votre projet immobilier en consultant les cartes, le cadastre et les données utiles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk
 ---
@@ -117,7 +119,7 @@ En quelques clics, explorez les lieux, visualisez et mesurez votre parcelle, et 
                 Lorsque l’on possède un terrain ou que l’on prépare un achat, connaître les limites exactes d’une parcelle est souvent indispensable.
             </p>
             <p>
-                Sur cartes.gouv.fr, vous disposez d’un accès libre au plan cadastral. Vous pouvez localiser facilement votre parcelle en effectuant une recherche par adresse ou en saisissant sa référence cadastrale directement dans l’outil de recherche. Les limites s’affichent en superposition sur le fond de carte de votre choix - <a href="/explorer-les-cartes?c=4.092880,48.286371&z=18&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;0;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(3;1;1;0),GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureAzimuth,MousePosition,Drawing,Route,ReverseGeocode,Isocurve,MeasureLength,MeasureArea,ElevationPath&permalink=yes">Plan IGN</a>, <a href="/explorer-les-cartes?c=4.092880,48.286371&z=18&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureAzimuth,MousePosition,Drawing,Route,ReverseGeocode,Isocurve,MeasureLength,MeasureArea,ElevationPath&permalink=yes">photographies aériennes</a> ou autre - pour une lecture claire et contextualisée.
+                Sur cartes.gouv.fr, vous disposez d’un accès libre au plan cadastral. Vous pouvez localiser facilement votre parcelle en effectuant une recherche par adresse ou en saisissant sa référence cadastrale directement dans l’outil de recherche. Les limites s’affichent en superposition sur le fond de carte de votre choix - <a href="/explorer-les-cartes?c=4.092880,48.286371&z=18&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;0;0),CADASTRALPARCELS.PARCELLAIRE_EXPRESS$GEOPORTAIL:OGC:WMTS(3;1;1;0),GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureAzimuth,MousePosition,Drawing,Route,ReverseGeocode,Isocurve,MeasureLength,MeasureArea,ElevationPath&permalink=yes">Plan IGN</a>, <a href="/explorer-les-cartes?c=4.092880,48.286371&z=18&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=&permalink=yes">photographies aériennes</a> ou autre - pour une lecture claire et contextualisée.
             </p>
             <img class="fr-responsive-img" srcset="/img/page-usage/proprietaires/parcelles-localiser.jpg" alt=""/>
         '
