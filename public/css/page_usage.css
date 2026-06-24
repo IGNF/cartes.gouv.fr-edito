@@ -23,3 +23,7 @@
 .usage_content .content-bleed img {
     width: 100%;
 }
+
+.usage_content a.header-anchor {
+    display: none;
+}
