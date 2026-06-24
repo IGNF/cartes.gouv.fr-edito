@@ -1,7 +1,7 @@
 ---
-title: "Agriculture : gérez vos parcelles agricoles avec cartes.gouv.fr"
+title: "Agriculture : gérez vos parcelles agricoles avec cartes.gouv.fr"
 effectiveTitle: "Gérez votre exploitation agricole avec précision grâce à cartes.gouv.fr"
-description: "Optimisez la gestion de votre exploitation agricole grâce à des cartes précises : parcelles, cultures, relief et données utiles sur cartes.gouv.fr."
+description: "Optimisez la gestion de votre exploitation agricole grâce à des cartes précises : parcelles, cultures, relief et données utiles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk
 ---

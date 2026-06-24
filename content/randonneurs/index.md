@@ -1,6 +1,6 @@
 ---
-title: "Randonnée : préparez vos parcours avec cartes.gouv.fr"
-effectiveTitle: "Prêts pour l’aventure ? Votre prochaine randonnée commence sur cartes.gouv.fr"
+title: "Randonnée : préparez vos parcours avec cartes.gouv.fr"
+effectiveTitle: "Prêts pour l’aventure ? Votre prochaine randonnée commence sur cartes.gouv.fr"
 description: "Trouvez, explorez et préparez vos itinéraires de randonnée grâce aux cartes et données du territoire disponibles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk

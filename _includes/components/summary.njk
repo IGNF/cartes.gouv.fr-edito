@@ -11,7 +11,7 @@
     {% endfor %}
 {% endmacro %}
 
-<nav class="fr-summary fr-mb-6w" role="navigation" aria-labelledby="fr-summary-title">
+<nav class="fr-summary{% if not summaryNoMargin %} fr-mb-6w{% endif %}" role="navigation" aria-labelledby="fr-summary-title">
     <p class="fr-summary__title" id="fr-summary-title">Sommaire</p>
     <ol>
         {{ itemList(summaryItems) }}

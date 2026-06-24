@@ -1,5 +1,5 @@
 ---
-title: "Immobilier : préparez vos projets avec cartes.gouv.fr"
+title: "Immobilier : préparez vos projets avec cartes.gouv.fr"
 effectiveTitle: "Préparez votre projet immobilier simplement avec cartes.gouv.fr"
 description: "Préparez votre projet immobilier en consultant les cartes, le cadastre et les données utiles sur cartes.gouv.fr."
 hideNewsletterBanner: true
