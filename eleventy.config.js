@@ -25,7 +25,7 @@ module.exports = function (eleventyConfig) {
     // For example, `./public/css/` ends up in `_site/css/`
     eleventyConfig.addPassthroughCopy({
         "./public/": "/",
-        "./node_modules/@gouvfr/dsfr/dist/favicon": "/favicon",
+        "./node_modules/@gouvfr/dsfr/dist/favicon": "/", // copy favicons in the root folder to avoid 404 from pages that don't have an explicit <link rel="icon"...> (in other apps on the same domain)
         "./node_modules/@gouvfr/dsfr/dist/fonts": "/css/fonts",
         "./node_modules/@gouvfr/dsfr/dist/icons": "/css/icons",
         "./node_modules/@gouvfr/dsfr/dist/dsfr.min.css": "/css/dsfr.min.css",
