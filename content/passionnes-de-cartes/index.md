@@ -56,7 +56,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
 {{ component("card_list", {
     items: [
         {
-            url: "/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes",
+            url: "/explorer-les-cartes/?c=-2.333382,47.699966&z=14&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes",
             data: {
                 title: "Plan IGN",
                 description: "La carte de référence pour une lecture synthétique, moderne et multi-échelle du paysage",
@@ -67,7 +67,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes?c=4.387455,43.984552&z=9&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;0.4;1;0),GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode,Isocurve&permalink=yes",
+            url: "/explorer-les-cartes/?c=4.387455,43.984552&z=9&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;0.4;1;0),GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode,Isocurve&permalink=yes",
             data: {
                 title: "SCAN 25® touristique",
                 description: "Une carte détaillée pour apprécier la richesse graphique (échelle 1 : 25 000)",
@@ -78,7 +78,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes",
+            url: "/explorer-les-cartes/?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes",
             data: {
                 title: "Carte de Cassini",
                 description: "Une carte ancienne pour voyager dans la France du XVIIIe siècle",
@@ -89,7 +89,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes",
+            url: "/explorer-les-cartes/?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes",
             data: {
                 title: "Carte de l'état-major",
                 description: "Une carte historique pour plonger dans la France du XIXe siècle",
@@ -100,7 +100,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes",
+            url: "/explorer-les-cartes/?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes",
             data: {
                 title: "Photographies aériennes",
                 description: "Une vue du ciel détaillée pour admirer le territoire (résolution jusqu’à 20 cm)",
@@ -111,7 +111,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes",
+            url: "/explorer-les-cartes/?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes",
             data: {
                 title: "Photographies aériennes historiques",
                 description: "Pour remonter le temps et observer les paysages tels qu’ils étaient réellement",
@@ -122,7 +122,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes?c=2.788475,43.483341&z=16&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;1;1;0),IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=&permalink=yes",
+            url: "/explorer-les-cartes/?c=2.788475,43.483341&z=16&l=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2$GEOPORTAIL:OGC:WMTS(1;1;1;0),IGNF_LIDAR-HD_MNT_ELEVATION.ELEVATIONGRIDCOVERAGE.SHADOW$GEOPORTAIL:OGC:WMTS(2;1;1;0)&w=&permalink=yes",
             data: {
                 title: "Relief du terrain haute définition issu du LiDAR",
                 description: "Pour révéler les détails du relief invisibles à l’œil nu",
