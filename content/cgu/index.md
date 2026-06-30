@@ -699,19 +699,21 @@ S’agissant des seuils relatifs au volume de données hébergées ainsi qu’au
                         </tr>
                         <tr data-fr-js-table-row="true">
                             <td>API Géoplateforme - Calcul altimétrique</td>
-                            <td rowspan="6">5 requêtes/s</td>
+                            <td rowspan="2">5 requêtes/s</td>
                         </tr>
                         <tr data-fr-js-table-row="true">
                             <td>API Géoplateforme - Calcul altimétrique - Privé</td>
                         </tr>
                         <tr data-fr-js-table-row="true">
                             <td>API Géoplateforme - Calcul d’itinéraire</td>
+                            <td rowspan="2">10 requêtes/s</td>
                         </tr>
                         <tr data-fr-js-table-row="true">
                             <td>API Géoplateforme - Calcul d’itinéraire - Privé</td>
                         </tr>
                         <tr data-fr-js-table-row="true">
                             <td>API Géoplateforme - Calcul d’isochrone/isodistance</td>
+                            <td rowspan="2">5 requêtes/s</td>
                         </tr>
                         <tr data-fr-js-table-row="true">
                             <td>API Géoplateforme - Calcul d’isochrone/isodistance - Privé</td>
