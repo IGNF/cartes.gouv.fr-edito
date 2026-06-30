@@ -78,7 +78,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes/?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes",
+            url: "/explorer-les-cartes/?c=1.176301,47.897594&z=11&l=BNF-IGNF_GEOGRAPHICALGRIDSYSTEMS.CASSINI$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=&permalink=yes",
             data: {
                 title: "Carte de Cassini",
                 description: "Une carte ancienne pour voyager dans la France du XVIIIe siècle",
@@ -89,7 +89,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes/?c=0.843813,49.494093&z=9&l=LANDUSE.AGRICULTURE.LATEST$GEOPORTAIL:OGC:WMTS(2;1;1;0),ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=MeasureArea,MeasureLength,ReverseGeocode,ElevationPath&permalink=yes",
+            url: "/explorer-les-cartes/?c=1.176301,47.897594&z=11&l=GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=&permalink=yes",
             data: {
                 title: "Carte de l'état-major",
                 description: "Une carte historique pour plonger dans la France du XIXe siècle",
@@ -111,7 +111,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
             }
         },
         {
-            url: "/explorer-les-cartes/?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=Isocurve,MeasureLength,MeasureArea,MeasureAzimuth,MousePosition,ElevationPath,Drawing,Route,ReverseGeocode&permalink=yes",
+            url: "/explorer-les-cartes/?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS.1950-1965$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=&permalink=yes",
             data: {
                 title: "Photographies aériennes historiques",
                 description: "Pour remonter le temps et observer les paysages tels qu’ils étaient réellement",
