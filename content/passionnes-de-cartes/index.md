@@ -1,21 +1,21 @@
 ---
-title: "Passionnés de cartes : explorez les territoires et leur histoire I cartes.gouv.frr"
+title: "Passionnés de cartes : explorez les territoires et leur histoire"
 effectiveTitle: "Des cartes à contempler, pour le plaisir des yeux"
-description: "Cartes IGN, Cassini, État-Major, vues aériennes et reliefs LiDAR : découvrez plus de 1 000 cartes en accès libre pour explorer les paysages, comparer les époques et révéler les secrets du territoire français."
+description: "Cartes IGN, Cassini, État-Major, vues aériennes et reliefs LiDAR : découvrez plus de 1 000 cartes en accès libre pour explorer les paysages, comparer les époques et révéler les secrets du territoire français."
 hideNewsletterBanner: true
 layout: layouts/page_usage_no_summary.njk
 ---
 
 {% from "components/component.njk" import component with context %}
 
-Certaines cartes servent à se repérer. D'autres donnent envie de s'attarder.  
-Observer les méandres d'une rivière, admirer le relief d'un territoire, comparer les paysages d'hier et d'aujourd'hui, ou deviner l’histoire d’un village à travers ses noms de lieux : pour les passionnés, chaque carte raconte une histoire.  
+Certaines cartes servent à se repérer. D’autres donnent envie de s’attarder.  
+Observer les méandres d’une rivière, admirer le relief d’un territoire, comparer les paysages d’hier et d’aujourd’hui, ou deviner l’histoire d’un village à travers ses noms de lieux : pour les passionnés, chaque carte raconte une histoire.  
 
 Grâce à cartes.gouv.fr, vous ne consultez plus seulement des cartes, vous prenez le temps d’explorer, de vous étonner, de voyager sans bouger.
 
 <figure role="group" class="fr-content-media" aria-label="© Halfpoint - stock.adobe.com">
     <div class="fr-content-media__img content-bleed">
-        <img src="/img/page-usage/passionnes-de-cartes/6S_AIGUILLE-VERTE.png" alt="Aiguille verte, extrait d’une série de cartes au 1 :10 000 de la région du Mont Blanc (IGN, 1940-1950)" eleventy:ignore/>
+        <img src="/img/page-usage/passionnes-de-cartes/6S_AIGUILLE-VERTE.png" alt="Aiguille verte, extrait d’une série de cartes au 1:10 000 de la région du Mont Blanc (IGN, 1940-1950)" eleventy:ignore/>
         <figcaption class="fr-content-media__caption fr-ml-4v">© IGN</figcaption>
     </div>
 </figure>
@@ -24,13 +24,13 @@ Grâce à cartes.gouv.fr, vous ne consultez plus seulement des cartes, vous pren
 
 Un vallon caché, un ancien chemin, un hameau oublié, une curiosité toponymique… La carte devient un récit où chaque détail vous raconte une histoire.
 
-Avec plus de 1 000 cartes et données en accès libre, cartes.gouv.fr vous ouvre un terrain d'exploration unique. Superposez les cartes, les époques et variez les échelles pour révéler tous les secrets du paysage : 
+Avec plus de 1 000 cartes et données en accès libre, cartes.gouv.fr vous ouvre un terrain d’exploration unique. Superposez les cartes, les époques et variez les échelles pour révéler tous les secrets du paysage : 
 - La richesse de Plan IGN.
 - La poésie des cartes de Cassini (XVIIIe siècle) ou des cartes d’État-Major.
-- La réalité des vues aériennes d'aujourd'hui et d'autrefois.
+- La réalité des vues aériennes d’aujourd’hui et d’autrefois.
 - Les reliefs sculptés en haute définition grâce aux données LiDAR.
 
-Que vous soyez amateur d'histoire, de géographie, d’architecture, de randonnée ou simplement curieux, posez un nouveau regard sur les paysages de France.
+Que vous soyez amateur d’histoire, de géographie, d’architecture, de randonnée ou simplement curieux, posez un nouveau regard sur les paysages de France.
 
 <a href="/aide/fr/guides-utilisateur/visualiseur-cartographique/choisir-un-fond-de-carte/" class="fr-link">Guide : comment choisir un fond de carte</a>
 
@@ -38,13 +38,13 @@ Que vous soyez amateur d'histoire, de géographie, d’architecture, de ra
 
 ## Remontez le temps
 
-Et si vous compariez le même lieu… à des siècles d’écart depuis un même écran ? Sur cartes.gouv.fr, glissez d'une époque à l'autre grâce aux cartes anciennes et aux photographies histo
+Et si vous compariez le même lieu… à des siècles d’écart depuis un même écran ? Sur cartes.gouv.fr, glissez d’une époque à l’autre grâce aux cartes anciennes et aux photographies historiques et observez l’évolution des villages, des forêts, des routes ou des cours d’eau.
 
 <br>
 
 ## Créez et partagez vos coups de cœur
 
-Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personnalisez votre vue, ajoutez vos propres repères ou vos annotations textuelles en toute simplicité. Vous pouvez ensuite partager vos plus belles découvertes et vos cartes personnalisées avec d’autres passionnés.
+Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personnalisez votre vue, ajoutez vos propres repères ou vos annotations textuelles en toute simplicité. Vous pouvez ensuite partager vos plus belles découvertes et vos cartes personnalisées avec d’autres passionnés.
 
 <p><a href="/aide/fr/guides-utilisateur/visualiseur-cartographique/annoter-la-carte/" class="fr-link">Guide : comment annoter la carte</a></p>
 <p><a href="/aide/fr/guides-utilisateur/visualiseur-cartographique/partager-une-carte/" class="fr-link">Guide : comment partager votre carte</a></p>
@@ -91,7 +91,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
         {
             url: "/explorer-les-cartes/?c=1.176301,47.897594&z=11&l=GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=&permalink=yes",
             data: {
-                title: "Carte de l'état-major",
+                title: "Carte de l’état-major",
                 description: "Une carte historique pour plonger dans la France du XIXe siècle",
                 image: {
                     src: "/img/page-usage/passionnes-de-cartes/vignette_etat-major_passionne-cartes.png",
