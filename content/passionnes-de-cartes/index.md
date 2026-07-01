@@ -113,7 +113,7 @@ Vous avez déniché une curiosité géographique ? Un tracé insolite ? Personna
         {
             url: "/explorer-les-cartes/?c=-2.333382,47.699966&z=14&l=ORTHOIMAGERY.ORTHOPHOTOS.1950-1965$GEOPORTAIL:OGC:WMTS(1;1;1;0)&w=&permalink=yes",
             data: {
-                title: "Photographies aériennes historiques",
+                title: "Photographies aériennes historiques",
                 description: "Pour remonter le temps et observer les paysages tels qu’ils étaient réellement",
                 image: {
                     src: "/img/page-usage/passionnes-de-cartes/vignette_scan-historique.png",
