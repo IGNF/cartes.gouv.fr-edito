@@ -4,6 +4,8 @@ effectiveTitle: "Gérez votre exploitation agricole avec précision grâce à ca
 description: "Optimisez la gestion de votre exploitation agricole grâce à des cartes précises : parcelles, cultures, relief et données utiles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk
+summary:
+    visible: true
 ---
 
 {% from "components/component.njk" import component with context %}
