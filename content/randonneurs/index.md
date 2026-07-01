@@ -4,6 +4,8 @@ effectiveTitle: "Prêts pour l’aventure ? Votre prochaine randonnée commence
 description: "Trouvez, explorez et préparez vos itinéraires de randonnée grâce aux cartes et données du territoire disponibles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk
+summary:
+    visible: true
 ---
 
 {% from "components/component.njk" import component with context %}

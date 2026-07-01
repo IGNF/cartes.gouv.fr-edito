@@ -4,6 +4,8 @@ effectiveTitle: "Préparez votre projet immobilier simplement avec cartes.gouv.f
 description: "Préparez votre projet immobilier en consultant les cartes, le cadastre et les données utiles sur cartes.gouv.fr."
 hideNewsletterBanner: true
 layout: layouts/page_usage.njk
+summary:
+    visible: true
 ---
 
 {% from "components/component.njk" import component with context %}

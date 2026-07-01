@@ -19,16 +19,18 @@ layout: layouts/base.njk
 
 <div class="fr-mb-6w">
   <div class="fr-container">
-    <div class="fr-grid-row">
-      <div class="fr-hidden fr-unhidden-lg fr-col-3 fr-mt-6v" style="border-right: 1px solid var(--border-default-grey);">
-        <div class="usage_summary">
-          {% set summaryNoMargin = true %}
-          {% set depth = summary.depth | default(2) %}
-          {% set summaryItems = content | getSummaryItems(depth) %}
-          {% include "components/summary.njk" %}
+    <div class="fr-grid-row" {% if not summary.visible %}style="justify-content: center;"{% endif %}>
+      {% if summary.visible %}
+        <div class="fr-hidden fr-unhidden-lg fr-col-3 fr-mt-6v" style="border-right: 1px solid var(--border-default-grey);">
+          <div class="usage_summary">
+              {% set summaryNoMargin = true %}
+              {% set depth = summary.depth | default(2) %}
+              {% set summaryItems = content | getSummaryItems(depth) %}
+              {% include "components/summary.njk" %}
+          </div>
         </div>
-      </div>
-      <div class="fr-col-12 fr-col-lg-9 fr-pl-16v fr-mt-10v usage_content">
+      {% endif %}
+      <div class="fr-col-12 fr-col-lg-9 fr-pl-16v fr-mt-10v usage_content" {% if not summary.visible %}style="border-left: 1px solid var(--border-default-grey);"{% endif %}>
         {% if showBreadcrumb %}
           {% include "components/breadcrumb.njk" %}
         {% endif %}
