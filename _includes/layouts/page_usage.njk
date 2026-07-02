@@ -39,11 +39,6 @@ layout: layouts/base.njk
         {% else %}
           <h1>{{ effectiveTitle if effectiveTitle else title }}</h1>
         {% endif %}
-        {% if description %}
-          <p class="fr-text--lead">
-            {{ description }}
-          </p>
-        {% endif %}
         {{ content | safe }}
       </div>
     </div>
