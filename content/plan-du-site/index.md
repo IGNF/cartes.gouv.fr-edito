@@ -2,6 +2,7 @@
 title: "Plan du site"
 layout: layouts/page.njk
 showBreadcrumb: true
+showTitle: true
 ---
 
 <div class="fr-my-2w">

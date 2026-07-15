@@ -2,6 +2,7 @@
 title: "Conditions générales d’utilisation"
 layout: layouts/page.njk
 showBreadcrumb: true
+showTitle: true
 slugOverride: cgu
 summary:
     visible: true

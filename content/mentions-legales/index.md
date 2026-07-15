@@ -2,6 +2,7 @@
 title: "Mentions légales"
 layout: layouts/page.njk
 showBreadcrumb: true
+showTitle: true
 slugOverride: mentions-legales
 ---
 

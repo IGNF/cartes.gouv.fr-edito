@@ -72,9 +72,6 @@ function fetchAndInsert(path) {
                 }
             });
 
-            // Retire le h1 Actualités (qui ferait doublon avec le titre réel de la page)
-            result = tmp.innerHTML.replace("<h1>Actualités</h1>", "");
-
             // Insère le contenu
             document.getElementById("actualites-container").innerHTML = result;
 

@@ -3,6 +3,7 @@ title: "Accessibilité"
 effectiveTitle: "Accessibilité : partiellement conforme"
 layout: layouts/page.njk
 showBreadcrumb: true
+showTitle: true
 slugOverride: accessibilite
 ---
 
