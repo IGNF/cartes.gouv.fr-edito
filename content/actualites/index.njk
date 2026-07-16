@@ -2,6 +2,7 @@
 title: Actualités
 layout: layouts/page.njk
 showBreadcrumb: true
+showTitle: false
 eleventyNavigation:
     key: Actualités
     order: 4
@@ -9,7 +10,9 @@ eleventyNavigation:
     nav: main
 ---
 
-<div id="actualites-container"></div>
+<div class="fr-container">
+    <div id="actualites-container" class="fr-container"></div>
+</div>
 
 {% js "body" %}
 <script type="text/javascript" src="/js/actualites.js"></script>

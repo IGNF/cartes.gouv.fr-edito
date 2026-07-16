@@ -2,6 +2,7 @@
 title: Offres
 layout: layouts/page.njk
 showBreadcrumb: true
+showTitle: true
 ---
 
 <div class="fr-col-12 fr-col-lg-8">

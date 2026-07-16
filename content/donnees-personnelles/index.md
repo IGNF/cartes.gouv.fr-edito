@@ -2,6 +2,7 @@
 title: "Données à caractère personnel"
 layout: layouts/page.njk
 showBreadcrumb: true
+showTitle: true
 slugOverride: donnees-personnelles
 summary:
   visible: true
