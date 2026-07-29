@@ -25,205 +25,36 @@ eleventyNavigation:
             <h2>Feuille de route</h2>
             <div class="calendar">
                 <div class="trimester_tab">
-                    <button onclick="setTabView(this)" data-tab_id="tab_1">Mars 2026</button>
-                    <button class="selected" onclick="setTabView(this)" data-tab_id="tab_2">Juin 2026</button>
-                    <button onclick="setTabView(this)" data-tab_id="tab_3">Septembre 2026</button>
-                    <button onclick="setTabView(this)" data-tab_id="tab_4">Décembre 2026</button>
+                    <button onclick="setTabView(this)" data-tab_id="tab_1">Trimestre 2 2026</button>
+                    <button class="selected" onclick="setTabView(this)" data-tab_id="tab_2">Trimestre 3 2026</button>
+                    <button onclick="setTabView(this)" data-tab_id="tab_3">Trimestre 4 2026</button>
+                    <button onclick="setTabView(this)" data-tab_id="tab_4">Trimestre 1 2027</button>
                 </div>
                 <div id="tab_1" class="tab_content">
                     <div class="trimester_infos">
-                        <p class="title">Trimestre 1 2026 :</p>
                         <p class="fr-badge fr-badge--md fr-badge--success fr-badge--no-icon">Livré</p>
                     </div>
-                    <div class="month_container">
-                        <p class="month">Janvier</p>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
-                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Explorer
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Sélecteur de territoire</p>
-                                <p>Ajout d’un outil pour accéder rapidement à des territoires définis (par défaut Métropole et Outre-mer).</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
-                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Explorer
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Vignettes</p>
-                                <p>Correction d’un nombre important de vignettes de données.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--green-archipel">
-                                <span class="fr-icon-database-line fr-ml-n1v" style="scale:0.5;"></span>
-                                Publier
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Formulaire de demande d’accès</p>
-                                <p>Ajout d’une page formulaire pour demander l’accès à une donnée restreinte (la mise à disposition de cette page reste à la charge de chaque producteur de données).</p>
-                            </div>                            
-                        </div>
-                    </div>
-                    <div class="month_separator"></div>
-                    <div class="month_container">
-                        <p class="month">Février</p>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
-                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Explorer
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Barre de recherche</p>
-                                <p>Amélioration des recherches avancées et affichage de résultats sous forme de surface lorsque disponible.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
-                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Explorer
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Choisir son format d’impression</p>
-                                <p>Possibilité de choisir un format (jpg, png, pdf) lors de l’impression de la carte. Et correction de l’impression (toutes les couches de la carte sont bien présentes dans l’export).</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
-                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Explorer
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Activation du zoom client</p>
-                                <p>Ne pas cacher la couche aux zoom importants pour les couches ayant défini une plage de visibilité suffisante.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
-                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Explorer
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Enregistrement du croquis en cours</p>
-                                <p>Si un croquis est en cours au moment de la connexion il n’est pas perdu.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
-                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Rechercher
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Réduction des mots-clés</p>
-                                <p>Mise à jour du datahub et réduction des mots-clés s’ils sont nombreux.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
-                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Rechercher
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Ajouter un flux depuis l’aperçu à Explorer les cartes</p>
-                                <p>Ajout d’un bouton dans l’aperçu pour ajouter le flux en cours à votre carte dans le service Explorer les cartes (attention : seuls les flux valides peuvent être ainsi ajoutés, les flux WFS et les flux WMS ayant un WMTS avec le même nom ne sont pas affichés dans Explorer les cartes).</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
-                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Rechercher
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Zipper les résultats de l’interface de téléchargement</p>
-                                <p>Les dalles sélectionnées dans l’interface cartographique de téléchargement peuvent être zippées en un seul fichier.</p>
-                            </div>                            
-                        </div>
-                    </div>
-                    <div class="month_separator"></div>
-                    <div class="month_container last_month">
-                        <p class="month">Mars</p>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
-                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Rechercher
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">En-tête connectée</p>
-                                <p>Le catalogue reconnait si l’utilisateur est connecté, il peut donc accéder à son tableau de bord depuis le service directement et sa connexion est partagée avec les autres services de cartes.gouv.fr.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
-                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Rechercher
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Correction des téléchargements en doublon</p>
-                                <p>Les fichiers à télécharger n’apparaissent plus en doublon.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--green-archipel">
-                                <span class="fr-icon-database-line fr-ml-n1v" style="scale:0.5;"></span>
-                                Publier
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Diversification des formats en entrée</p>
-                                <p>Le dépôt de données sur la Géoplateforme accepte des geojson, shape, csv et sql en plus des gpkg.</p>
-                            </div>                            
-                        </div>
-                    </div>
-                </div>
-                <div id="tab_2" class="tab_content selected">
-                    <div class="trimester_infos">
-                        <p class="title">Trimestre 2 2026 :</p>
-                        <p class="fr-badge fr-badge--md fr-badge--info fr-badge--no-icon">En cours</p>
-                    </div>
-                    <div class="month_container">
+					<div class="month_container">
                         <p class="month">Avril</p>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
-                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5"></span>
-                                Explorer
-                            </p>
-                            <div class="text_zone"></div>
-                            <div class="text_zone">
-                                <p class="title">Cartes de référence mises à jour</p>
-                                <p>Changement des cartes de référence pour faciliter l’accès aux cartes les plus utilisées.</p>
-                            </div>
-                        </div>
                     </div>
                     <div class="month_separator"></div>
                     <div class="month_container">
                         <p class="month">Mai</p>
                         <div class="evo_elem">
-                            <div class="text_zone">
-                                <p class="title">Inscription à la lettre d’information</p>
-                                <p>Accès depuis le pied de page vers la page d’inscription à la lettre d’information cartes.gouv.fr.</p>
-                            </div>
-                        </div>
-                        <div class="evo_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
                                 <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
                                 Explorer
                             </p>
                             <div class="text_zone">
-                                <p class="title">Nouvel outil de croquis</p>
-                                <p>Mise en place d’un outil de dessin complètement retravaillé pour le rendre plus simple d’utilisation.</p>
-                            </div>                            
+                                <p class="title">Cartes de référence mises à jour</p>
+                                <p>Changement des cartes de référence pour faciliter l’accès aux cartes les plus utilisées.</p>
+                            </div>
                         </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
-                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Rechercher
-                            </p>
+						<div class="evo_elem">
                             <div class="text_zone">
-                                <p class="title">Autres types de sélection dans l’interface de téléchargement</p>
-                                <p>Dans l’interface cartographique de téléchargement, il est possible de sélectionner des dalles en important un fichier geojson ou en recherchant une limite administrative dans une liste.</p>
-                            </div>                            
+                                <p class="title">Inscription à la lettre d’information</p>
+                                <p>Accès depuis le pied de page vers la page d’inscription à la lettre d’information cartes.gouv.fr.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="month_separator"></div>
@@ -237,7 +68,7 @@ eleventyNavigation:
                             <div class="text_zone">
                                 <p class="title">Refonte de la gestion des outils</p>
                                 <p>Tous les outils seront affichés par défaut au lieu d’utiliser un catalogue d’outils pour cocher ceux que l’on souhaite afficher.</p>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="evo_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
@@ -247,17 +78,83 @@ eleventyNavigation:
                             <div class="text_zone">
                                 <p class="title">Visionneuse photo</p>
                                 <p>Pouvoir consulter les photos de son environnement (rue, chemin, cours d’eau, bâtiment, etc.).</p>
-                            </div>                            
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div id="tab_2" class="tab_content selected">
+                    <div class="trimester_infos">
+                        <p class="fr-badge fr-badge--md fr-badge--info fr-badge--no-icon">En cours</p>
+                    </div>
+                    <div class="month_container">
+                        <p class="month">Juillet</p>
                         <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
+                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5"></span>
+                                Explorer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Amélioration des documents personnels</p>
+                                <p>Ajout de la recherche et du tri des données enregistrées et de la possibilité d’exporter sous plusieurs formats.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="month_separator"></div>
+                    <div class="month_container">
+                        <p class="month">Août</p>
+                        <div class="evo_elem">
+							<p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
+                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Rechercher
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Autres types de sélection dans l’interface de téléchargement</p>
+                                <p>Dans l’interface cartographique de téléchargement, il est possible de sélectionner des dalles en important un fichier geojson ou en recherchant une limite administrative dans une liste.</p>
+                            </div>
+                        </div>
+						<div class="evo_elem">
+							<p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
                                 <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
                                 Rechercher
                             </p>
                             <div class="text_zone">
                                 <p class="title">Connecter le compte utilisateur Géoplateforme avec Géonetwork</p>
-                                <p>Cela permet de donner accès à des fonctionnalités du catalogue accessibles en mode connecté.</p>
-                            </div>                            
+                                <p>Cela permettra de donner accès à des fonctionnalités du catalogue accessibles en mode connecté.</p>
+                            </div>
+                        </div>
+                        <div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--yellow-tournesol">
+                                <span class="fr-icon-brush-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Créer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Service « Créer une carte »</p>
+                                <p>Mise en ligne d’un nouveau service « Créer une carte personnalisée ». Ce service reprendra au fur et à mesure le fonctionnel de MaCarte.ign.fr. Le service sera en bêta le temps que le périmètre complet soit développé.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="month_separator"></div>
+                    <div class="month_container last_month">
+                        <p class="month">Septembre</p>
+                        <div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Explorer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Nouvel outil de croquis</p>
+                                <p>Mise en place d’un outil de dessin complètement retravaillé pour le rendre plus simple d’utilisation.</p>
+                            </div>
+                        </div>
+                        <div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Explorer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Informations au clic</p>
+                                <p>Simplification de l’accès aux informations d’un endroit, maintenant avec un simple clic gauche.</p>
+                            </div>
                         </div>
                         <div class="evo_elem last_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--green-bourgeon">
@@ -267,56 +164,27 @@ eleventyNavigation:
                             <div class="text_zone">
                                 <p class="title">Service « Collaborer aux données »</p>
                                 <p>Mise en ligne d’un nouveau service : « Collaborer aux données ». Ce service reprend le fonctionnel de l’espace collaboratif IGN et permet de mettre à disposition une base de données pour la visualiser et faire des signalements ou des contributions directes. Le service sera en bêta le temps que le périmètre complet soit développé.</p>
-                            </div>                            
+                            </div>
+                        </div>
+						<div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Explorer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Redirections Géoportail</p>
+                                <p>À la fermeture effective du Géoportail, les liens existants seront redirigés automatiquement.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div id="tab_3" class="tab_content">
                     <div class="trimester_infos">
-                        <p class="title">Trimestre 3 2026 :</p>
                         <p class="fr-badge fr-badge--md fr-badge--yellow-tournesol">À venir</p>
                     </div>
                     <div class="month_container">
-                        <p class="month">Juillet</p>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--yellow-tournesol">
-                                <span class="fr-icon-brush-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Créer
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Service « Créer une carte »</p>
-                                <p>Mise en ligne d’un nouveau service « Créer une carte personnalisée ». Ce service reprendra au fur et à mesure le fonctionnel de MaCarte.ign.fr. Le service sera en bêta le temps que le périmètre complet soit développé.</p>
-                            </div>                            
-                        </div>
-                    </div>
-                    <div class="month_separator"></div>
-                    <div class="month_container">
-                        <p class="month">Août</p>
-                    </div>
-                    <div class="month_separator"></div>
-                    <div class="month_container last_month">
-                        <p class="month">Septembre</p>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
-                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
-                                Rechercher
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Pouvoir noter une fiche produit et tri par popularité</p>
-                                <p>L’utilisateur peut noter une fiche produit, ce qui permet de trier les résultats de recherche par popularité des fiches.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
-                            <p class="fr-badge fr-badge--sm fr-badge--green-archipel">
-                                <span class="fr-icon-database-line fr-ml-n1v" style="scale:0.5;"></span>
-                                Publier
-                            </p>
-                            <div class="text_zone">
-                                <p class="title">Refonte des parcours de publication et de mise à jour</p>
-                                <p>Rendre plus intuitif le dépôt de données, la génération de flux et la mise à jour avec une refonte globale du parcours.</p>
-                            </div>                            
-                        </div>
-                        <div class="evo_elem">
+                        <p class="month">Octobre</p>
+						<div class="evo_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">
                                 <span class="fr-icon-contacts-book-upload-line fr-ml-n1v" style="scale:0.5;"></span>
                                 Extraire
@@ -324,32 +192,53 @@ eleventyNavigation:
                             <div class="text_zone">
                                 <p class="title">Service « Extraire une donnée »</p>
                                 <p>Mise en ligne d’un nouveau service sur cartes.gouv.fr : « Extraire une donnée ». Ce service est une interface cartographique pour créer une requête d’extraction sur une base de données de la Géoplateforme et ainsi limiter le résultat à une emprise et des attributs.</p>
-                            </div>                            
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div id="tab_4" class="tab_content">
-                    <div class="trimester_infos">
-                        <p class="title">Trimestre 4 2026 :</p>
-                        <p class="fr-badge fr-badge--md fr-badge--yellow-tournesol">À venir</p>
-                    </div>
-                    <div class="month_container">
-                        <p class="month">Octobre</p>
-                    </div>
-                    <div class="month_separator"></div>
-                    <div class="month_container">
-                        <p class="month">Novembre</p>
-                        <div class="evo_elem">
+						<div class="evo_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
                                 <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
                                 Rechercher
                             </p>
                             <div class="text_zone">
-                                <p class="title">Moissonnage d’autres plateformes</p>
-                                <p>Étudier la possibilité de recenser des métadonnées stockées sur d’autres plateformes et gérer les effets de doublons.</p>
-                            </div>                            
+                                <p class="title">Pouvoir noter une fiche produit et tri par popularité</p>
+                                <p>L’utilisateur peut noter une fiche produit, ce qui permet de trier les résultats de recherche par popularité des fiches.</p>
+                            </div>
                         </div>
-                        <div class="evo_elem">
+						<div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--green-archipel">
+                                <span class="fr-icon-database-line fr-ml-n1v" style="scale:0.5;"></span>
+                                Publier
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Refonte des parcours de publication et de mise à jour</p>
+                                <p>Rendre plus intuitif le dépôt de données, la génération de flux et la mise à jour avec une refonte globale du parcours.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="month_separator"></div>
+                    <div class="month_container">
+                        <p class="month">Novembre</p>
+						<div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Explorer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Sélectionner des cartes favorites</p>
+                                <p>Pour retrouver les cartes utilisées régulièrement, le catalogue de cartes permettra de sélectionner des favoris.</p>
+                            </div>
+                        </div>
+						<div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Explorer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Ajout de la saisie guidée d'itinéraire</p>
+                                <p>Cela permettra de saisir son itinéraire sur la carte en suivant routes et chemins, sans limite d’étapes.</p>
+                            </div>
+                        </div>
+						<div class="evo_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
                                 <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
                                 Rechercher
@@ -359,6 +248,10 @@ eleventyNavigation:
                                 <p>Filtrer les résultats pour n’afficher que ceux qui intersectent une emprise géographique renseignée.</p>
                             </div>
                         </div>
+                    </div>
+                    <div class="month_separator"></div>
+                    <div class="month_container last_month">
+                        <p class="month">Décembre</p>
                         <div class="evo_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--green-archipel">
                                 <span class="fr-icon-database-line fr-ml-n1v" style="scale:0.5;"></span>
@@ -367,9 +260,25 @@ eleventyNavigation:
                             <div class="text_zone">
                                 <p class="title">Publier des fiches de réutilisation</p>
                                 <p>Permettre de rédiger et de mettre à jour des fiches de réutilisation qui seront visibles dans le catalogue.</p>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div id="tab_4" class="tab_content">
+                    <div class="trimester_infos">
+                        <p class="fr-badge fr-badge--md fr-badge--yellow-tournesol">À venir</p>
+                    </div>
+                    <div class="month_container">
+                        <p class="month">Janvier</p>
+                    </div>
+                    <div class="month_separator"></div>
+                    <div class="month_container">
+                        <p class="month">Février</p>
+					</div>
+                    <div class="month_separator"></div>
+					<div class="month_container">
+                        <p class="month">Mars</p>
+					</div>
                     <div class="month_separator"></div>
                     <div class="month_container last_month">
                         <p class="month">À étudier</p>
@@ -383,6 +292,56 @@ eleventyNavigation:
                                 <p>Pouvoir visualiser des données en trois dimensions. Étude de la technologie à choisir.</p>
                             </div>
                         </div>
+						<div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Explorer
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Comparer des cartes</p>
+                                <p>Étudier la possibilité de comparer des cartes côte à côte, pour visualiser une évolution d’un phénomène.</p>
+                            </div>
+                        </div>
+						<div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
+                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Rechercher
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Moissonnage d’autres plateformes</p>
+                                <p>Étudier la possibilité de recenser des métadonnées stockées sur d’autres plateformes et gérer les effets de doublons.</p>
+                            </div>
+                        </div>
+						<div class="evo_elem">
+                            <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
+                                <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                Rechercher
+                            </p>
+                            <div class="text_zone">
+                                <p class="title">Accès facilité au téléchargement de données</p>
+                                <p>L’accès aux données à télécharger est peu intuitif pour des nouveaux utilisateurs, nous étudions un moyen différent de les rechercher.</p>
+                            </div>
+                        </div>
+						<div class="evo_elem">
+                            <div class="fr-badges-group">
+                                <li>
+                                    <p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">
+                                        <span class="fr-icon-search-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                        Rechercher
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="fr-badge fr-badge--sm fr-badge--purple-glycine">
+                                        <span class="fr-icon-road-map-fill fr-ml-n1v" style="scale:0.5;"></span>
+                                        Explorer
+                                    </p>
+                                </li>
+                                <div class="text_zone">
+                                    <p class="title">Visualiser des données restreintes</p>
+                                    <p>Étudier comment afficher un flux en accès restreint dans l’aperçu d’une fiche produit (et dans Explorer les cartes) si l’utilisateur en a les droits.</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="evo_elem">
                             <p class="fr-badge fr-badge--sm fr-badge--green-archipel">
                                 <span class="fr-icon-database-line fr-ml-n1v" style="scale:0.5;"></span>
@@ -391,12 +350,11 @@ eleventyNavigation:
                             <div class="text_zone">
                                 <p class="title">Déposer de la donnée raster</p>
                                 <p>Étudier la possibilité de déposer de la donnée raster sur la Géoplateforme directement via cartes.gouv.fr.</p>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </section>
     </div>
 </div>
