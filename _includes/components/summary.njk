@@ -1,7 +1,7 @@
 {% macro itemList(subItems) %}
     {% for item in subItems %}
         <li>
-            <a class="fr-summary__link {% if item.name.startsWith("Annexe") %}frx-nonumber{% endif %}" id="summary-link-{{ item.id }}" href="#{{ item.id }}">{{ item.name | replace(r/#$/,"")}}</a>
+            <a class="fr-summary__link {% if item.name.startsWith("Annexe") %}frx-nonumber{% endif %}" id="summary-link-{{ item.id }}" href="#{{ item.id }}">{{ item.name }}</a>
             {% if item.children.length > 0 and not item.name.startsWith("Annexe") %}
                 <ol>
                     {{ itemList(item.children) }}
