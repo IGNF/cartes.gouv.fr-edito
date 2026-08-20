@@ -97,7 +97,7 @@ a[href].header-anchor:hover {
 
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
-    color: #737373;
+    color: var(--text-mention-grey)
 }
 
 h2 + .header-anchor {
