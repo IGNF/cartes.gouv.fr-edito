@@ -158,11 +158,14 @@ module.exports = function (eleventyConfig) {
     // Customize Markdown library settings:
     eleventyConfig.amendLibrary("md", mdLib => {
         mdLib.use(markdownItAnchor, {
-            permalink: markdownItAnchor.permalink.ariaHidden({
+            permalink: markdownItAnchor.permalink.linkAfterHeader({
                 placement: "after",
                 class: "header-anchor",
                 symbol: "#",
-                ariaHidden: false,
+                ariaHidden: true,
+                style: "aria-label",
+                assistiveText: title => `Ancre vers la section ${title}`,
+                wrapper: ['<div class="anchor-wrapper">', '</div>']
             }),
             level: [1, 2, 3, 4],
             slugify: eleventyConfig.getFilter("slugify")

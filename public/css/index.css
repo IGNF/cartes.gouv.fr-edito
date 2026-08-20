@@ -84,6 +84,10 @@ code {
 a[href].header-anchor,
 a[href].header-anchor:visited {
     color: transparent;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin-left: 0.4em;
 }
 
 a[href].header-anchor:focus,
@@ -93,11 +97,16 @@ a[href].header-anchor:hover {
 
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
-    color: #aaa;
+    color: #737373;
 }
 
 h2 + .header-anchor {
     font-size: 1.5em;
+}
+
+.anchor-wrapper {
+    display: flex;
+    justify-content: left;
 }
 
 /* Custom DSFR */

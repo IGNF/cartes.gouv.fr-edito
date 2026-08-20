@@ -66,13 +66,13 @@
 
 {% include "templates/header.njk" %}
 
-<main id="content">
+<main id="content" role="main">
   {{ content | safe }}
+  {% if hideNewsletterBanner != true %}
+    {% include "templates/newsletter.njk" %}
+  {% endif %}
 </main>
 
-{% if hideNewsletterBanner != true %}
-    {% include "templates/newsletter.njk" %}
-{% endif %}
 
 {% include "templates/footer.njk" %}
 
