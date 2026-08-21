@@ -105,8 +105,11 @@ h2 + .header-anchor {
 }
 
 .anchor-wrapper {
-    display: flex;
-    justify-content: left;
+    margin: var(--title-spacing);
+}
+
+.anchor-wrapper > h2, .anchor-wrapper > h3, .anchor-wrapper > h4 {
+    display: inline;
 }
 
 /* Custom DSFR */

@@ -155,7 +155,8 @@ module.exports = function (eleventyConfig) {
     // Get summary items (headers) from a content string
     eleventyConfig.addFilter("getSummaryItems", getSummaryItems);
 
-    // Customize Markdown library settings:
+    // Customize Markdown library settings
+    // See: https://github.com/valeriangalliat/markdown-it-anchor/
     eleventyConfig.amendLibrary("md", mdLib => {
         mdLib.use(markdownItAnchor, {
             permalink: markdownItAnchor.permalink.linkAfterHeader({
