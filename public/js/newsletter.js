@@ -23,6 +23,9 @@ let sendSubscribeForm = function() {
     }
     if(isFormValid) {
         document.getElementById("subscription-form").submit();
+        document.title = "S’inscrire à notre lettre d’information | cartes.gouv.fr"
+    } else {
+        document.title = "Erreur - S’inscrire à notre lettre d’information | cartes.gouv.fr"
     }
 };
 
@@ -35,6 +38,9 @@ let sendUnsubscribeForm = function() {
     }
     if(isFormValid) {
         document.getElementById("unsubscription-form").submit();
+        document.title = "Se désinscrire de notre lettre d’information | cartes.gouv.fr"
+    } else {
+         document.title = "Erreur - Se désinscrire de notre lettre d’information | cartes.gouv.fr"
     }
 };
 

@@ -19,18 +19,16 @@ hideNewsletterBanner: true
         <div class="newsletterForm">
             <h2 class="fr-h6 fr-mb-5w">Formulaire de désinscription</h2>
             <form id="unsubscription-form" action="https://analytics-eu.clickdimensions.com/forms/h/agy23ImqvZ0uGZK4anXJmm" method="post">
-                <fieldset class="fr-fieldset fr-mb-5w" aria-labelledby="text-legend text-messages">
-                    <div class="fr-fieldset__element fr-mb-0">
-                        <div id="mail-input-group" class="fr-input-group">
-                            <label class="fr-label" for="text-1">
-                                Adresse électronique
-                                <span class="fr-hint-text">Format attendu : nom@domaine.fr</span>
-                            </label>
-                            <input class="fr-input" name="contact_email" type="email" autocomplete="email">
-                        </div>
+                <div class="fr-mb-5w">
+                    <div id="mail-input-group" class="fr-input-group">
+                        <label class="fr-label" for="text-1">
+                            Adresse électronique
+                            <span class="fr-hint-text">Format attendu : nom@domaine.fr</span>
+                        </label>
+                        <input class="fr-input" name="contact_email" type="email" autocomplete="email" aria-describedby="input-mail-messages-group">
                     </div>
-                    <div id="input-mail-messages-group" class="fr-messages-group" id="text-messages" aria-live="polite"></div>
-                </fieldset>
+                </div>
+                <div id="input-mail-messages-group" class="fr-messages-group" id="text-messages" aria-live="polite"></div>
 
                 <button id="newsletter-unsubscription-submit-btn" class="fr-btn hidden" type="submit">Me désinscrire</button>
             </form>
