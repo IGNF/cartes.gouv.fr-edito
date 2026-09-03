@@ -13,7 +13,7 @@
   'use strict';
 
   // Utilise le même cookie que react-dsfr utilisé dans d'autres composants du site
-  const KEY = "@codegouvfr/react-dsfr finalityConsent eulerianAnalytics";
+  const KEY = "@codegouvfr/react-dsfr finalityConsent eulerianAnalytics matomoAnalytics";
 
   /**
    * Récupère le consentement du localStorage.
@@ -112,6 +112,7 @@
         const states = collectConsentStates();
         writeConsent(states);
         window.dsfr(modal).modal.conceal();
+        enableMatomoTracking();
       });
     }
 
@@ -121,6 +122,7 @@
         const states = collectConsentStates();
         writeConsent(states);
         window.dsfr(modal).modal.conceal();
+        disableMatomoTracking();
       });
     }
 
@@ -128,6 +130,11 @@
       confirmBtn.addEventListener('click', function () {
         const states = collectConsentStates();
         writeConsent(states);
+        if(states.matomoAnalytics) {
+          enableMatomoTracking();
+        } else {
+          disableMatomoTracking();
+        }
         window.dsfr(modal).modal.conceal();
       });
     }

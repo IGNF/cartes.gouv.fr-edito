@@ -55,6 +55,40 @@
     };
 </script>
 
+<!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    // _paq.push(["setDocumentTitle", "[Explorer]" + document.title]);
+    _paq.push(["setDoNotTrack", true]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="https://matomo.ign.fr/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '11']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+<!-- End Matomo Code -->
+
+<!-- Matomo Functions -->
+  <script>
+    // Désactivation du suivi
+    function disableMatomoTracking() {
+      var _paq = window._paq = window._paq || [];
+      // 13 mois ≈ 396 jours (durée recommandée par la CNIL) = 396 × 24 = 9504 heures
+      _paq.push(['optUserOut', 9504]);
+    }
+
+    // Réactivation du suivi
+    function enableMatomoTracking() {
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['forgetUserOptOut']);
+    }
+  </script>
+<!-- End Matomo Functions -->
+
   <script type="module" src="/js/header-auth.js"></script>
   <script src="/js/header-logo.js" defer></script>
   <script src="/js/env.js"></script>
