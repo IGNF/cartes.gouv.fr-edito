@@ -185,30 +185,55 @@ Leur blocage dans les paramètres de votre navigateur pourrait empêcher les fon
 
 Étant indispensables, leur dépôt ne nécessite pas votre consentement préalable, conformément à l’article 82 de la loi "Informatique et Libertés". Leur durée de vie est généralement limitée à la session en cours.
 
-### Le cookie de mesure d’audience
+### Les cookies de mesure d’audience
 
-Les sites édités par l’IGN utilisent l’outil de mesure d’audience fourni par la société Eulerian.
+Les sites édités par l’IGN utilisent deux outils de mesure d’audience : Eulerian et Matomo.
 
-Cet outil permet de recueillir des données statistiques sur la fréquentation et l’utilisation de nos sites, dans le but de mieux comprendre les attentes des visiteurs et d’améliorer continuellement nos services.
+Ces outils permettent de recueillir des données statistiques relatives à la fréquentation et à l’utilisation des sites, afin de mieux comprendre les usages des visiteurs et d’améliorer la qualité des services proposés.
 
-Le cookie de mesure d’audience déposé est le suivant :
+Les cookies de mesure d’audience déposés sont les suivants :
+
+#### Eulerian
 
 - Nom : etuix
 - Service fourni : Mesure d’audience (Eulerian).
 - Finalités : Ce cookie permet de mesurer les performances, de détecter les problèmes de navigation, d'analyser les contenus consultés et de réaliser des statistiques.
 - Durée de conservation : 13 mois.
 
-### L’exemption du recueil de consentement et l’option d’opt-out
+#### Matomo
 
-Conformément à l’article 5 des lignes directrices de la CNIL et à sa délibération du 17 septembre 2020 relative aux "cookies et autres traceurs", certains cookies peuvent être dispensés du recueil du consentement.
+- Cookie n°1 :
+  - Nom : _pk_id
+  - Service fourni : Mesure d’audience (Matomo).
+  - Finalités : Ce cookie permet de distinguer les visiteurs afin d’établir des statistiques de fréquentation et d’utilisation du site.
+  - Durée de conservation : 13 mois.
+- Cookie n° 2 :
+  - Nom : _pk_ses
+  - Service fourni : Mesure d’audience (Matomo).
+  - Finalités : Ce cookie permet de conserver temporairement les informations relatives à la visite en cours et de regrouper les différentes actions effectuées au cours d’une même session.
+  - Durée de conservation : 30 minutes.
+- Cookie n°3 :
+  - Nom : _pk_ref
+  - Service fourni : Mesure d’audience (Matomo).
+  - Finalités : Ce cookie permet de conserver des informations relatives à l’origine de la visite, notamment le site ou le lien ayant conduit le visiteur vers le site. Les données recueillies ne permettent pas de vous identifier, votre adresse IP est anonymisée.
+  - Durée de conservation : 6 mois.
+- Cookie n°4 :
+  - Nom : mtm_consent_removed
+  - Service fourni : Gestion de la désactivation de la mesure d’audience (Matomo).
+  - Finalités : Ce cookie mémorise le choix de l’utilisateur de ne pas être suivi par Matomo. Il permet de reconnaître ce choix lors des visites ultérieures et d’empêcher la collecte de données de mesure d’audience par Matomo. C'est un cookie fonctionnel technique strictement nécessaire.
+  - Durée de conservation : 13 mois. Cette durée peut être réduite par les paramètres du navigateur de l’utilisateur.
 
-Cette exemption s’applique lorsque ces cookies sont utilisés exclusivement à des fins compatibles avec les exceptions prévues à l’article 82 de la Loi Informatique et Libertés du 6 janvier 1978. Cela concerne notamment les cookies nécessaires pour permettre ou faciliter la communication par voie électronique, ou ceux strictement indispensables à la fourniture d’un service en ligne demandé explicitement par l’utilisateur. Ainsi, le cookie de mesure d’audience déposé par l’IGN ne requiert pas votre consentement préalable.
+### Votre droit d’opposition (opt-out)
 
-cartes.gouv.fr vous laisse tout de même la possibilité de ne plus être suivi par Eulerian à partir du <button id="fr-consent-modal-control-button-2"
+Bien que ces cookies Matomo et Eulerian soient exemptés de consentement, vous disposez d'un droit d'opposition total à leur utilisation. Si vous choisissez de vous opposer, un cookie technique anonyme sera déposé sur votre navigateur pour mémoriser votre choix de manière à ce qu'aucune donnée de navigation ne soit collectée lors de vos prochaines visites.
+
+Vous pouvez désactiver le suivi à partir du <button id="fr-consent-modal-control-button-2"
                             aria-controls="fr-consent-modal"
                             class="fr-link"
                             data-fr-js-modal-button="true"
                             data-fr-opened="false">panneau de gestion des cookies</button>.
+
+_Note : Ce choix est lié au navigateur et à l'appareil que vous utilisez actuellement. Si vous effacez vos cookies, changez de navigateur ou utilisez un autre appareil, vous devrez renouveler votre opposition._
 
 ---
 
