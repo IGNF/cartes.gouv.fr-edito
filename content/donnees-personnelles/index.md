@@ -227,11 +227,29 @@ Les cookies de mesure d’audience déposés sont les suivants :
 
 Bien que ces cookies Matomo et Eulerian soient exemptés de consentement, vous disposez d'un droit d'opposition total à leur utilisation. Si vous choisissez de vous opposer, un cookie technique anonyme sera déposé sur votre navigateur pour mémoriser votre choix de manière à ce qu'aucune donnée de navigation ne soit collectée lors de vos prochaines visites.
 
-Vous pouvez désactiver le suivi à partir du <button id="fr-consent-modal-control-button-2"
-                            aria-controls="fr-consent-modal"
-                            class="fr-link"
-                            data-fr-js-modal-button="true"
-                            data-fr-opened="false">panneau de gestion des cookies</button>.
+**S'opposer au suivi Matomo :**
+
+Veuillez utiliser le module ci-dessous pour activer votre option de refus :
+
+<div id="matomo-opt-out">
+</div>
+<script src="https://matomo.ign.fr/?module=CoreAdminHome&action=optOutJS&language=auto&div=matomo-opt-out">
+</script>
+
+</br>
+
+**S'opposer au suivi Eulerian :**
+
+Veuillez utiliser le module ci-dessous pour activer votre option de refus :
+
+<p>Vous pouvez vous opposer au suivi de votre navigation sur ce site web. Cela protégera votre vie privée, mais empêchera également le propriétaire d'apprendre de vos actions et de créer une meilleure expérience pour vous et les autres utilisateurs.</p>
+<div class="fr-checkbox-group">
+  <input id="trackVisits-eulerian" type="checkbox" aria-describedby="checkbox-messages">
+  <label class="fr-label" for="trackVisits-eulerian"><strong><span>Vous n'êtes pas exclu(e). Décochez cette case pour vous exclure.</span></strong></label>
+  <div class="fr-messages-group" id="checkbox-messages" aria-live="polite">
+</div>
+
+</br>
 
 _Note : Ce choix est lié au navigateur et à l'appareil que vous utilisez actuellement. Si vous effacez vos cookies, changez de navigateur ou utilisez un autre appareil, vous devrez renouveler votre opposition._
 
