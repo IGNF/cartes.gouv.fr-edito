@@ -187,41 +187,41 @@ Leur blocage dans les paramètres de votre navigateur pourrait empêcher les fon
 
 ### Les cookies de mesure d’audience
 
-Les sites édités par l’IGN utilisent deux outils de mesure d’audience : Eulerian et Matomo.
+Les sites édités par l’IGN utilisent deux outils de mesure d’audience : Eulerian et Matomo.
 
 Ces outils permettent de recueillir des données statistiques relatives à la fréquentation et à l’utilisation des sites, afin de mieux comprendre les usages des visiteurs et d’améliorer la qualité des services proposés.
 
-Les cookies de mesure d’audience déposés sont les suivants :
+Les cookies de mesure d’audience déposés sont les suivants :
 
 #### Eulerian
 
-- Nom : etuix
-- Service fourni : Mesure d’audience (Eulerian).
-- Finalités : Ce cookie permet de mesurer les performances, de détecter les problèmes de navigation, d'analyser les contenus consultés et de réaliser des statistiques.
-- Durée de conservation : 13 mois.
+- Nom : etuix
+- Service fourni : Mesure d’audience (Eulerian).
+- Finalités : Ce cookie permet de mesurer les performances, de détecter les problèmes de navigation, d'analyser les contenus consultés et de réaliser des statistiques.
+- Durée de conservation : 13 mois.
 
 #### Matomo
 
-- Cookie n°1 :
-  - Nom : _pk_id
-  - Service fourni : Mesure d’audience (Matomo).
-  - Finalités : Ce cookie permet de distinguer les visiteurs afin d’établir des statistiques de fréquentation et d’utilisation du site.
-  - Durée de conservation : 13 mois.
-- Cookie n° 2 :
-  - Nom : _pk_ses
-  - Service fourni : Mesure d’audience (Matomo).
-  - Finalités : Ce cookie permet de conserver temporairement les informations relatives à la visite en cours et de regrouper les différentes actions effectuées au cours d’une même session.
-  - Durée de conservation : 30 minutes.
-- Cookie n°3 :
-  - Nom : _pk_ref
-  - Service fourni : Mesure d’audience (Matomo).
-  - Finalités : Ce cookie permet de conserver des informations relatives à l’origine de la visite, notamment le site ou le lien ayant conduit le visiteur vers le site. Les données recueillies ne permettent pas de vous identifier, votre adresse IP est anonymisée.
-  - Durée de conservation : 6 mois.
-- Cookie n°4 :
-  - Nom : mtm_consent_removed
-  - Service fourni : Gestion de la désactivation de la mesure d’audience (Matomo).
-  - Finalités : Ce cookie mémorise le choix de l’utilisateur de ne pas être suivi par Matomo. Il permet de reconnaître ce choix lors des visites ultérieures et d’empêcher la collecte de données de mesure d’audience par Matomo. C'est un cookie fonctionnel technique strictement nécessaire.
-  - Durée de conservation : 13 mois. Cette durée peut être réduite par les paramètres du navigateur de l’utilisateur.
+- Cookie n°1 :
+  - Nom : _pk_id
+  - Service fourni : Mesure d’audience (Matomo).
+  - Finalités : Ce cookie permet de distinguer les visiteurs afin d’établir des statistiques de fréquentation et d’utilisation du site.
+  - Durée de conservation : 13 mois.
+- Cookie n° 2 :
+  - Nom : _pk_ses
+  - Service fourni : Mesure d’audience (Matomo).
+  - Finalités : Ce cookie permet de conserver temporairement les informations relatives à la visite en cours et de regrouper les différentes actions effectuées au cours d’une même session.
+  - Durée de conservation : 30 minutes.
+- Cookie n°3 :
+  - Nom : _pk_ref
+  - Service fourni : Mesure d’audience (Matomo).
+  - Finalités : Ce cookie permet de conserver des informations relatives à l’origine de la visite, notamment le site ou le lien ayant conduit le visiteur vers le site. Les données recueillies ne permettent pas de vous identifier, votre adresse IP est anonymisée.
+  - Durée de conservation : 6 mois.
+- Cookie n°4 :
+  - Nom : mtm_consent_removed
+  - Service fourni : Gestion de la désactivation de la mesure d’audience (Matomo).
+  - Finalités : Ce cookie mémorise le choix de l’utilisateur de ne pas être suivi par Matomo. Il permet de reconnaître ce choix lors des visites ultérieures et d’empêcher la collecte de données de mesure d’audience par Matomo. C'est un cookie fonctionnel technique strictement nécessaire.
+  - Durée de conservation : 13 mois. Cette durée peut être réduite par les paramètres du navigateur de l’utilisateur.
 
 ### Votre droit d’opposition (opt-out)
 
@@ -235,7 +235,7 @@ Bien que ces cookies Matomo et Eulerian soient exemptés de consentement, vous d
 
 </br>
 
-_Note : Ce choix est lié au navigateur et à l'appareil que vous utilisez actuellement. Si vous effacez vos cookies, changez de navigateur ou utilisez un autre appareil, vous devrez renouveler votre opposition._
+_Note : Ce choix est lié au navigateur et à l'appareil que vous utilisez actuellement. Si vous effacez vos cookies, changez de navigateur ou utilisez un autre appareil, vous devrez renouveler votre opposition._
 
 ---
 
