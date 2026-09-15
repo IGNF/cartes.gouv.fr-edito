@@ -1,14 +1,21 @@
-let setCardsView = function() {
-    
+let setCardsView = function () {
     let secondRowCards = document.getElementsByName("second-row-cards");
 
-    for(let i = 0; i < secondRowCards.length; i++) {
+    for (let i = 0; i < secondRowCards.length; i++) {
         secondRowCards[i].classList.toggle("hidden");
+    }
+
+    // Focus on first newly visible card link
+    const firstNewlyVisibleCard = Array.from(secondRowCards).find((card) => !card.classList.contains("hidden"));
+
+    if (firstNewlyVisibleCard) {
+        const firstLink = firstNewlyVisibleCard.querySelector("a");
+        firstLink?.focus();
     }
 
     let btn = document.getElementById("fr-button-:r29:");
 
-    if(btn.classList.contains("fr-icon-add-line")) {
+    if (btn.classList.contains("fr-icon-add-line")) {
         btn.classList.remove("fr-icon-add-line");
         btn.classList.add("fr-icon-subtract-line");
 
