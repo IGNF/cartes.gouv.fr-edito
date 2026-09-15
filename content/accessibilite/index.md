@@ -97,8 +97,8 @@ menu.
   - Wave
   - Stylus
   - WCAG color contrast checker
-  - Headings maps
-  - web développer toolbar
+  - HeadingsMap
+  - Web Developer Toolbar
 
   ### Pages du site ayant fait l’objet de la vérification de conformité
 
