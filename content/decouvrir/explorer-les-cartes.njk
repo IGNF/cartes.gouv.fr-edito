@@ -14,7 +14,7 @@ eleventyNavigation:
     <div class="fr-container _container_v3pbz_48">
         <div class="fr-grid-row fr-grid-row--gutters">
             <div class="fr-col-12 fr-col-md-6 fr-col--middle">
-                <span class="fr-icon-map-2-line _icon_v3pbz_65 _iconLg_v3pbz_73"></span>
+                <span class="fr-icon-map-2-line _icon_v3pbz_65 _iconLg_v3pbz_73" aria-hidden="true"></span>
                 <h1 class="fr-mt-4v fr-mb-2v">Explorer les cartes</h1>
                 <p class="fr-text--lead fr-mb-6v">Affichez, analysez et partagez des cartes</p>
                 <a href="/explorer-les-cartes" id="fr-button-:r7d:" class="fr-btn fr-icon-arrow-right-s-line fr-btn--icon-right" data-fr-js-button-actionee="true">Accédez au service</a>
@@ -83,7 +83,7 @@ eleventyNavigation:
     <div class="fr-container _container_v3pbz_48">
         <div class="fr-grid-row fr-grid-row--gutters">
             <div class="fr-col-12 fr-col-md-10 fr-col-offset-md-1">
-                <img eleventy:widths="400, 800, 1200" srcset="/img/explorer-les-cartes/illustration-service-explorer.webp, /img/explorer-les-cartes/illustration-service-explorer.png" alt="illustration" class="_illustrationImg_v3pbz_79">
+                <img eleventy:widths="400, 800, 1200" srcset="/img/explorer-les-cartes/illustration-service-explorer.webp, /img/explorer-les-cartes/illustration-service-explorer.png" alt="" class="_illustrationImg_v3pbz_79">
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@ eleventyNavigation:
                 {{ component("tile", {
                         addTitleClass: "_tileNoBorder_v3pbz_84",
                         title: "Des cartes fiables et actualisées",
-                        description: "Accédez aux cartes de référence produites par les organismes publics, mises à jour régulièrement et garanties par l’État."
+                        description: "<p>Accédez aux cartes de référence produites par les organismes publics, mises à jour régulièrement et garanties par l’État.</p>"
                     }) 
                 }}
             </div>
@@ -105,7 +105,7 @@ eleventyNavigation:
                 {{ component("tile", {
                         addTitleClass: "_tileNoBorder_v3pbz_84",
                         title: "Une prise en main immédiate",
-                        description: "Explorez le territoire en quelques clics, sans créer de compte ni installer de logiciel."
+                        description: "<p>Explorez le territoire en quelques clics, sans créer de compte ni installer de logiciel.</p>"
                     }) 
                 }}
             </div>
@@ -113,7 +113,7 @@ eleventyNavigation:
                 {{ component("tile", {
                         addTitleClass: "_tileNoBorder_v3pbz_84",
                         title: "Un service gratuit et ouvert à tous",
-                        description: "L’ensemble des cartes et des outils est accessible gratuitement, pour les citoyens comme pour les professionnels."
+                        description: "<p>L’ensemble des cartes et des outils est accessible gratuitement, pour les citoyens comme pour les professionnels.</p>"
                     }) 
                 }}
             </div>
@@ -121,7 +121,7 @@ eleventyNavigation:
                 {{ component("tile", {
                         addTitleClass: "_tileNoBorder_v3pbz_84",
                         title: "Une boîte à outils pour vos premières analyses",
-                        description: "Mesurez des distances, calculez un itinéraire, ou analysez un profil altimétrique directement sur la carte."
+                        description: "<p>Mesurez des distances, calculez un itinéraire, ou analysez un profil altimétrique directement sur la carte.</p>"
                     }) 
                 }}
             </div>
