@@ -171,6 +171,14 @@ div.fr-callout__text p {
 }
 
 /* Custom */
+#header-auth-mobile .login-btn {
+    padding-left: 0.5rem;
+}
+
+.fr-header .fr-header__menu-links .fr-translate {
+    margin-right: 0;
+}
+
 .fr-translate__btn::before {
     content: none !important;
 }
