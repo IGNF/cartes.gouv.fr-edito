@@ -39,6 +39,17 @@ function updateTitle(pageTitle) {
     }
 }
 
+function getMatomoDocumentTitle() {
+    let documentTitle = "[Edito] Actualites";
+    let slugElements = window.location.pathname.split("/");
+    for(let i in slugElements) {
+        if(slugElements[i] && slugElements[i] !="actualites") {
+            documentTitle += "-" + slugElements[i];
+        }
+    }
+    return documentTitle;
+}
+
 // Récupération et insertion du contenu
 function fetchAndInsert(path) {
     fetch(path, {
@@ -84,6 +95,7 @@ function fetchAndInsert(path) {
                 updateBreadcrumb(label);
                 updateTitle(label);
             }
+
         } else {
             // Redirige vers la page d'accueil des actualités si le contenu n'est pas trouvé
             // => Jamais de 404 sur les actus
@@ -99,6 +111,12 @@ function fetchAndInsert(path) {
                 window.location.replace(window.origin + "/actualites");
             }
         }
+
+         //event matomo
+            window._paq.push(["setDocumentTitle", getMatomoDocumentTitle()]);
+            window._paq.push(["setDoNotTrack", true]);
+            window._paq.push(['trackPageView']);
+            window._paq.push(['enableLinkTracking']);
     });
 }
 
