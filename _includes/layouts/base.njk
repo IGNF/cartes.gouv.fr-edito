@@ -58,10 +58,12 @@
 <!-- Matomo -->
   <script>
     var _paq = window._paq = window._paq || [];
-    _paq.push(["setDocumentTitle", "[Edito] {{title}}"]);
-    _paq.push(["setDoNotTrack", true]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
+    if(!window.location.href.match("actualites") && !window.location.search) {
+      _paq.push(["setDocumentTitle", "[Edito]{{title}}"]);
+      _paq.push(["setDoNotTrack", true]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+    }
     (function() {
         var u="https://matomo.ign.fr/";
         _paq.push(['setTrackerUrl', u+'matomo.php']);
