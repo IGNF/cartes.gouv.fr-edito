@@ -49,9 +49,8 @@ function getDocumentTitle() {
             let tag = document.getElementsByClassName("fr-tag--dismiss")[0].innerText;
             documentTitle += " (thématique " + tag + ")"; 
         }
-        if(window.location.search.match(/page=\d+/)) {
-            let numPage = window.location.search.match(/page=\d+/)[0].replace("page=","");
-            documentTitle += " - Page " + numPage;
+        if(document.querySelector(".fr-pagination__link[aria-current^='page']")) {
+            documentTitle += " - " + document.querySelector(".fr-pagination__link[aria-current^='page']").title;
         }
     }
     return documentTitle;
