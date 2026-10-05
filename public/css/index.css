@@ -183,7 +183,7 @@ div.fr-callout__text p {
     content: none !important;
 }
 
-.fr-header__tools-links .fr-btn.primary {
+.fr-menu__list .fr-btn.primary {
     background-color: var(--background-action-high-blue-france);
     color: var(--text-inverted-blue-france);
 }
