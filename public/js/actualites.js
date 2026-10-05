@@ -34,17 +34,24 @@ function updateBreadcrumb(newLabel) {
 
 function updateTitle(pageTitle) {
     const titleElement = document.querySelector("title");
-    if (titleElement) {
-        titleElement.textContent = pageTitle + " | " + titleElement.textContent;
-    }
+    titleElement.textContent = pageTitle + " | cartes.gouv.fr";
 }
 
-function getMatomoDocumentTitle() {
-    let documentTitle = "[Edito] Actualites";
-    let slugElements = window.location.pathname.split("/");
-    for(let i in slugElements) {
-        if(slugElements[i] && slugElements[i] !="actualites") {
-            documentTitle += "-" + slugElements[i];
+function getDocumentTitle() {
+    let documentTitle = "Actualités";
+
+    let titre = document.getElementsByTagName("h1")[0].innerText;
+
+    if(titre != "Actualités") {
+        documentTitle = titre + " | Actualités";
+    } else {
+        if(document.getElementsByClassName("fr-tag--dismiss").length) {
+            let tag = document.getElementsByClassName("fr-tag--dismiss")[0].innerText;
+            documentTitle += " (thématique " + tag + ")"; 
+        }
+        if(window.location.search.match(/page=\d+/)) {
+            let numPage = window.location.search.match(/page=\d+/)[0].replace("page=","");
+            documentTitle += " - Page " + numPage;
         }
     }
     return documentTitle;
@@ -93,8 +100,8 @@ function fetchAndInsert(path) {
 
             if (label && label !== "Actualités") {
                 updateBreadcrumb(label);
-                updateTitle(label);
             }
+            updateTitle(getDocumentTitle());
 
         } else {
             // Redirige vers la page d'accueil des actualités si le contenu n'est pas trouvé
@@ -113,7 +120,7 @@ function fetchAndInsert(path) {
         }
 
          //event matomo
-            window._paq.push(["setDocumentTitle", getMatomoDocumentTitle()]);
+            window._paq.push(["setDocumentTitle", "[Edito] " + getDocumentTitle()]);
             window._paq.push(["setDoNotTrack", true]);
             window._paq.push(['trackPageView']);
             window._paq.push(['enableLinkTracking']);
@@ -122,12 +129,15 @@ function fetchAndInsert(path) {
 
 if (slug === "" || slug === null) {
     // liste des actualités
-    fetchAndInsert(window.origin + "/files/articles/list/" + page + ".html");
+    //fetchAndInsert(window.origin + "/files/articles/list/" + page + ".html");
+    fetchAndInsert("https://cartes.gouv.fr/files/articles/list/" + page + ".html");
 } else if (slug.startsWith("liste/")) {
     // page tag
     let tag = slug.replace("liste/", "");
-    fetchAndInsert(window.origin + "/files/articles/list/tags/" + tag + "/" + page + ".html");
+    //fetchAndInsert(window.origin + "/files/articles/list/tags/" + tag + "/" + page + ".html");
+    fetchAndInsert("https://cartes.gouv.fr/files/articles/list/tags/" + tag + "/" + page + ".html");
 } else {
     // page article
-    fetchAndInsert(window.origin + "/files/articles/" + slug + ".html");
+    //fetchAndInsert(window.origin + "/files/articles/" + slug + ".html");
+    fetchAndInsert("https://cartes.gouv.fr/files/articles/" + slug + ".html");
 }
