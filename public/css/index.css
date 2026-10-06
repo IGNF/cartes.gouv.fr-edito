@@ -171,11 +171,19 @@ div.fr-callout__text p {
 }
 
 /* Custom */
+#header-auth-mobile .login-btn {
+    padding-left: 0.5rem;
+}
+
+.fr-header .fr-header__menu-links .fr-translate {
+    margin-right: 0;
+}
+
 .fr-translate__btn::before {
     content: none !important;
 }
 
-.fr-header__tools-links .fr-btn.primary {
+.fr-menu__list .fr-btn.primary {
     background-color: var(--background-action-high-blue-france);
     color: var(--text-inverted-blue-france);
 }
