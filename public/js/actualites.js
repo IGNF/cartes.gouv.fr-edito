@@ -128,15 +128,12 @@ function fetchAndInsert(path) {
 
 if (slug === "" || slug === null) {
     // liste des actualités
-    //fetchAndInsert(window.origin + "/files/articles/list/" + page + ".html");
-    fetchAndInsert("https://cartes.gouv.fr/files/articles/list/" + page + ".html");
+    fetchAndInsert(window.origin + "/files/articles/list/" + page + ".html");
 } else if (slug.startsWith("liste/")) {
     // page tag
     let tag = slug.replace("liste/", "");
-    //fetchAndInsert(window.origin + "/files/articles/list/tags/" + tag + "/" + page + ".html");
-    fetchAndInsert("https://cartes.gouv.fr/files/articles/list/tags/" + tag + "/" + page + ".html");
+    fetchAndInsert(window.origin + "/files/articles/list/tags/" + tag + "/" + page + ".html");
 } else {
     // page article
-    //fetchAndInsert(window.origin + "/files/articles/" + slug + ".html");
-    fetchAndInsert("https://cartes.gouv.fr/files/articles/" + slug + ".html");
+    fetchAndInsert(window.origin + "/files/articles/" + slug + ".html");
 }
