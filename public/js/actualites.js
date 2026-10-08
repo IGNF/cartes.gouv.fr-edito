@@ -34,9 +34,26 @@ function updateBreadcrumb(newLabel) {
 
 function updateTitle(pageTitle) {
     const titleElement = document.querySelector("title");
-    if (titleElement) {
-        titleElement.textContent = pageTitle + " | " + titleElement.textContent;
+    titleElement.textContent = pageTitle + " | cartes.gouv.fr";
+}
+
+function getDocumentTitle() {
+    let documentTitle = "Actualités";
+
+    let titre = document.getElementsByTagName("h1")[0].innerText;
+
+    if(titre != "Actualités") {
+        documentTitle = titre + " | Actualités";
+    } else {
+        if(document.getElementsByClassName("fr-tag--dismiss").length) {
+            let tag = document.getElementsByClassName("fr-tag--dismiss")[0].innerText;
+            documentTitle += " (thématique " + tag + ")"; 
+        }
+        if(document.querySelector(".fr-pagination__link[aria-current^='page']")) {
+            documentTitle += " - " + document.querySelector(".fr-pagination__link[aria-current^='page']").title;
+        }
     }
+    return documentTitle;
 }
 
 // Récupération et insertion du contenu
@@ -82,8 +99,9 @@ function fetchAndInsert(path) {
 
             if (label && label !== "Actualités") {
                 updateBreadcrumb(label);
-                updateTitle(label);
             }
+            updateTitle(getDocumentTitle());
+
         } else {
             // Redirige vers la page d'accueil des actualités si le contenu n'est pas trouvé
             // => Jamais de 404 sur les actus
@@ -99,6 +117,12 @@ function fetchAndInsert(path) {
                 window.location.replace(window.origin + "/actualites");
             }
         }
+
+         //event matomo
+            window._paq.push(["setDocumentTitle", "[Edito] " + getDocumentTitle()]);
+            window._paq.push(["setDoNotTrack", true]);
+            window._paq.push(['trackPageView']);
+            window._paq.push(['enableLinkTracking']);
     });
 }
 
