@@ -29,8 +29,18 @@ let setConsentCheckbox = function () {
 
     if (window.dsfr.analytics.opt.isDisabled && !tracker.hasConsent()) {
         document.getElementById("trackVisits").checked = false;
+        setCheckboxText(false);
     } else {
         document.getElementById("trackVisits").checked = true;
+        setCheckboxText(true);
+    }
+};
+
+let setCheckboxText = function(checked) {
+    if (!checked) {
+        document.getElementById("trackVisitsText").innerText = "Vous n'êtes actuellement pas suivi(e). Cochez cette case si vous acceptez d'être suivi.";
+    } else {
+        document.getElementById("trackVisitsText").innerText = "Vous n'êtes pas exclu(e). Décochez cette case pour vous exclure.";
     }
 };
 
@@ -53,9 +63,11 @@ if (document.getElementById("trackVisits")) {
         if (document.getElementById("trackVisits").checked == false) {
             window.dsfr.analytics.opt.disable();
             disableMatomoTracking();
+            setCheckboxText(false);
         } else {
             window.dsfr.analytics.opt.enable();
             enableMatomoTracking();
+            setCheckboxText(true);
         }
     });
 }
