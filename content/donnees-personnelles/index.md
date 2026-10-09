@@ -229,7 +229,7 @@ Bien que ces cookies Matomo et Eulerian soient exemptés de consentement, vous d
 
 <div class="fr-checkbox-group">
   <input id="trackVisits" type="checkbox" aria-describedby="checkbox-messages">
-  <label class="fr-label" for="trackVisits"><strong><span>Vous n'êtes pas exclu(e). Décochez cette case pour vous exclure.</span></strong></label>
+  <label class="fr-label" for="trackVisits"><strong><span id="trackVisitsText" ></span></strong></label>
   <div class="fr-messages-group" id="checkbox-messages" aria-live="polite">
 </div>
 
