@@ -38,7 +38,7 @@ let setConsentCheckbox = function () {
 
 let setCheckboxText = function(checked) {
     if (!checked) {
-        document.getElementById("trackVisitsText").innerText = "Vous n'êtes actuellement pas suivi(e). Cochez cette case si vous acceptez d'être suivi.";
+        document.getElementById("trackVisitsText").innerText = "Vous n'êtes actuellement pas suivi(e). Cochez cette case si vous acceptez d'être suivi(e).";
     } else {
         document.getElementById("trackVisitsText").innerText = "Vous n'êtes pas exclu(e). Décochez cette case pour vous exclure.";
     }
