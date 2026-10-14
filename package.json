@@ -21,27 +21,30 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=22.14.0"
+    "node": ">=22.23.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-img": "^6.0.4",
-    "@11ty/eleventy-navigation": "^1.0.4",
-    "@11ty/eleventy-plugin-bundle": "^3.0.7",
-    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-img": "^7.0.0",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-bundle": "^4.0.3",
+    "@11ty/eleventy-plugin-rss": "^3.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "@codegouvfr/eleventy-plugin-calendar": "^3.0.5",
-    "@gouvfr/dsfr": "^1.14.0",
-    "ics": "^3.8.1",
-    "keycloak-js": "^26.2.2",
+    "@codegouvfr/eleventy-plugin-calendar": "^3.0.6",
+    "@gouvfr/dsfr": "^1.15.4",
+    "ics": "^3.12.1",
+    "keycloak-js": "^26.2.4",
     "luxon": "^3.7.2",
-    "markdown-it-anchor": "^9.0.0",
-    "markdown-it-attrs": "^4.2.0",
+    "markdown-it-anchor": "^10.0.0",
+    "markdown-it-attrs": "^5.0.1",
     "markdown-it-container": "^4.0.0",
-    "pagefind": "^1.4.0"
+    "pagefind": "^1.5.2"
   },
   "dependencies": {
-    "jsdom": "^27.0.0",
-    "markdown-it": "^14.1.1"
+    "jsdom": "^30.1.2",
+    "markdown-it": "^15.0.2"
+  },
+  "allowScripts": {
+    "@gouvfr/dsfr@1.15.4": true
   }
 }
