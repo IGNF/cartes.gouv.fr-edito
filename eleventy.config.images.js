@@ -63,8 +63,7 @@ module.exports = eleventyConfig => {
         eleventyImage(file, options);
 
         // get metadata even if the images are not fully generated yet
-        //let metadata = eleventyImage.statsSync(file, options);
-        let metadata = eleventyImage(file, { statsOnly: true, options });
+        let metadata = eleventyImage.statsSync(file, options);
         return eleventyImage.generateHTML(metadata, getImageAttributes(cls, alt, sizes));
     });
 
