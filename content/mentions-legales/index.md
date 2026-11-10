@@ -18,7 +18,7 @@ slugOverride: mentions-legales
 
   ## Hébergeur
 
-  Le site cartes.gouv.fr est hébergé par OVH SAS, 2 rue Kellermann, 59100 Roubaix, Fance.
+  Le site cartes.gouv.fr est hébergé par OVH SAS, 2 rue Kellermann, 59100 Roubaix, France.
   
   ## Traitement des données à caractère personnel
 
